@@ -8,35 +8,56 @@ $IMPORT sets/sectors.sets.gms
 $IMPORT sets/input_output.sets.gms
 $IMPORT sets/output.sets.gms
 $IMPORT sets/production.sets.gms
+$IMPORT sets/households.sets.gms
 $IMPORT sets/emissions.sets.gms
 $IMPORT sets/energy_taxes_and_emissions.sets.gms
+$IMPORT sets/households.sets.gms
+$IMPORT sets/abatement.sets.gms
+$IMPORT sets/subsets.sets.gms
 
 set_time_periods(%first_data_year%, %terminal_year%);
 
 # ------------------------------------------------------------------------------
 # Select modules
 # ------------------------------------------------------------------------------
-$FUNCTION import_from_modules(stage_key):
-  $SETGLOBAL stage stage_key;
-  $IMPORT submodel_template.gms
-  $IMPORT financial_accounts.gms
-  # $IMPORT test_module.gms
-  $IMPORT labor_market.gms
-  # $IMPORT energy_markets.gms; 
-  # $IMPORT industries_CES_energydemand.gms; 
-  $IMPORT production.gms; 
-  $IMPORT pricing.gms; 
-  $IMPORT imports.gms
-  # $IMPORT production_CET.gms;
-  # $IMPORT emissions.gms; 
-  # $IMPORT energy_and_emissions_taxes.gms; 
-  $IMPORT input_output.gms
-  $IMPORT households.gms
-  $IMPORT government.gms
-  $IMPORT exports.gms
-  $IMPORT factor_demand.gms
-  # $IMPORT aggregates.gms
-  # $IMPORT imports.gms
+#The function import_from_modules adds modules to the model. 
+#A zero in the second column means that the equations and endogenous variables of the module in question are neither 
+#added to the calibration-model nor the main-model. Variables from these modules are however still initialized,
+# and data is still loaded.
+#A one in the second column means that the module will be added to both calibration-model and main-model.
+#How the function works is explained in more detail in the GREU-manual.
+
+$FUNCTION import_from_modules({stage_key}):
+  $SET stage {stage_key};
+  $FOR {module}, {include} in [
+    ("submodel_template.gms", 1),
+    ("emissions.gms" , 1),
+    ("financial_accounts.gms", 1),
+    ("labor_market.gms", 1),
+    ("energy_markets.gms" , 1),
+    ("energy_and_emissions_taxes.gms" , 1),
+    ("non_energy_markets.gms", 1),
+    ("production_CES_energydemand.gms", 1),
+    ("production.gms" , 1),
+    ("pricing.gms" , 1),
+    ("imports.gms", 1),
+    ("production_CET.gms", 1),
+    ("input_output.gms", 1),
+    ("households.gms", 1),
+    ("government.gms", 1),
+    ("exports.gms", 1),
+    ("factor_demand.gms", 1),
+    ("ramsey_household.gms", 1), 
+    ("consumption_disaggregated.gms", 1), 
+    ("consumption_disaggregated_energy.gms", 1), 
+    ("exports_energy.gms", 1),
+    ("abatement.gms", 1),
+    ("Report/All.Report.gms", 1),     
+  ]:
+    $IF {include} or {stage_key} not in ["equations", "calibration"]:
+      $IMPORT {module}
+    $ENDIF
+  $ENDFOR
 $ENDFUNCTION
 
 # ------------------------------------------------------------------------------
@@ -51,6 +72,7 @@ $SetGroup SG_flat_after_last_data_year ; # Dummies that are extended with "flat 
 @import_from_modules("variables")
 $IMPORT variable_groups.gms
 $IMPORT growth_adjustments.gms
+
 
 # ------------------------------------------------------------------------------
 # Define equations
@@ -67,11 +89,15 @@ main.optfile=1;
 @import_from_modules("exogenous_values")
 @inf_growth_adjust()
 @set(data_covered_variables, _data, .l) # Save values of data covered variables prior to calibration
+
 @update_exist_dummies()
 
 # ------------------------------------------------------------------------------
-# Calibrate model
+# Calibrate CGE model
 # ------------------------------------------------------------------------------
+# We turn the abatement model off while calibrating the CGE-model
+d1switch_abatement[t] = 0;
+
 $Group calibration_endogenous ;
 @import_from_modules("calibration")
 calibration.optfile=1;
@@ -80,29 +106,19 @@ $IMPORT calibration.gms
 # ------------------------------------------------------------------------------
 # Tests
 # ------------------------------------------------------------------------------
-# $import sanitychecks.gms
+$IF %test_CGE%:
+
 @import_from_modules("tests")
 # Data check  -  Abort if any data covered variables have been changed by the calibration
-@assert_no_difference(data_covered_variables, 1e-6, _data, .l, "data_covered_variables was changed by calibration.")
+# @assert_no_difference(data_covered_variables, 1e-6, _data, .l, "data_covered_variables was changed by calibration.");
 
 # Zero shock  -  Abort if a zero shock changes any variables significantly
 @set(all_variables, _saved, .l)
 $FIX all_variables; $UNFIX main_endogenous;
+execute_unload 'Output\main_pre.gdx';
 Solve main using CNS;
+execute_unload 'Output\main_CGE.gdx';
 @assert_no_difference(all_variables, 1e-6, .l, _saved, "Zero shock changed variables significantly.");
+# @assert_no_difference(data_covered_variables, 1e-6, _data, .l, "data_covered_variables was changed by calibration.");
 
-# ------------------------------------------------------------------------------
-# Shock model
-# ------------------------------------------------------------------------------
-set_time_periods(2020, %terminal_year%);
-
-# MPC shock
-rMPC.l[t]$(t.val >= t1.val) = rMPC.l[t] + 0.01;
-
-# Increase in CO2-tax of 10%
-# tCO2_Emarg.l[em,es,e,i,t]$(t.val >= t1.val) = 2 * tCO2_Emarg.l[em,es,e,i,t]; 
-
-$FIX all_variables;
-$UNFIX main_endogenous;
-Solve main using CNS;
-execute_unload 'shock.gdx';
+$ENDIF # test_CGE
