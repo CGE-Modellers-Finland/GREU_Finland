@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finnish Economy IO Matrix Visualization</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            color: #2c3e50;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            background: linear-gradient(135deg, #003580 0%, #0053a0 100%);
+            color: white;
+            padding: 30px 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.8rem;
+            font-weight: 700;
+        }
+        .subtitle {
+            font-size: 1.3rem;
+            opacity: 0.9;
+            margin-top: 15px;
+            font-weight: 300;
+        }
+        .controls {
+            background-color: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            margin-bottom: 25px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            align-items: center;
+        }
+        .control-group {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            flex: 1;
+            min-width: 200px;
+        }
+        label {
+            font-weight: 600;
+            font-size: 0.95rem;
+            color: #2c3e50;
+        }
+        select, input {
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            background-color: #f9f9f9;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+        }
+        select:focus, input:focus {
+            outline: none;
+            border-color: #3498db;
+            box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2);
+        }
+        input[type="range"] {
+            padding: 0;
+            height: 6px;
+            background: #ddd;
+            -webkit-appearance: none;
+        }
+        input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: #3498db;
+            cursor: pointer;
+        }
+        button {
+            background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
+            color: white;
+            border: none;
+            padding: 14px 28px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 3px 10px rgba(52, 152, 219, 0.3);
+        }
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(52, 152, 219, 0.4);
+        }
+        .visualization {
+            background-color: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            margin-bottom: 25px;
+            overflow: hidden;
+        }
+        #network-graph {
+            width: 100%;
+            height: 650px;
+            border: 1px solid #e0e0e0;
+            border-radius: 6px;
+            background-color: #fafafa;
+        }
+        .legend {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 20px;
+            justify-content: center;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 15px;
+            border-radius: 20px;
+            background-color: #f8f9fa;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+        }
+        .legend-color {
+            width: 18px;
+            height: 18px;
+            border-radius: 4px;
+        }
+        .tooltip {
+            position: absolute;
+            padding: 15px;
+            background-color: rgba(255, 255, 255, 0.97);
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            pointer-events: none;
+            font-size: 0.95rem;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            max-width: 300px;
+            backdrop-filter: blur(5px);
+            z-index: 100;
+        }
+        .tooltip h3 {
+            margin: 0 0 8px 0;
+            font-size: 1.1rem;
+            color: #003580;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+        }
+        .tooltip p {
+            margin: 6px 0;
+            color: #555;
+        }
+        .tooltip .value {
+            font-weight: 600;
+            color: #2c3e50;
+        }
+        .sector-info {
+            background-color: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        .sector-info h2 {
+            margin-top: 0;
+            color: #003580;
+            font-size: 1.8rem;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #7f8c8d;
+            font-size: 0.95rem;
+        }
+        .instructions {
+            background-color: #e8f4fc;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 4px solid #3498db;
+        }
+        .instructions h3 {
+            margin-top: 0;
+            color: #2c3e50;
+        }
+        .instructions ul {
+            padding-left: 20px;
+        }
+        .instructions li {
+            margin-bottom: 8px;
+        }
+        .node {
+            stroke: #fff;
+            stroke-width: 2px;
+            transition: r 0.3s ease;
+        }
+        .node:hover {
+            r: 25;
+        }
+        .link {
+            stroke-opacity: 0.6;
+            transition: stroke-opacity 0.3s ease;
+        }
+        .link:hover {
+            stroke-opacity: 1;
+            stroke-width: 3;
+        }
+        .loading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            font-size: 1.2rem;
+            color: #7f8c8d;
+        }
+        .link-label {
+            font-size: 10px;
+            fill: #333;
+            text-anchor: middle;
+            pointer-events: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Finnish Economic Structure</h1>
+            <div class="subtitle">Input-Output Matrix Visualization (2022)</div>
+        </header>
+
+        <div class="instructions">
+            <h3>How to Use This Visualization</h3>
+            <ul>
+                <li><strong>Hover</strong> over nodes to see sector details</li>
+                <li><strong>Hover</strong> over edges to see transaction values</li>
+                <li><strong>Click</strong> on nodes to see detailed economic relationships</li>
+                <li><strong>Drag</strong> nodes to rearrange the network - they'll stay where you place them</li>
+                <li>Use the <strong>filters</strong> to focus on specific sectors or flow values</li>
+                <li>Click <strong>Reset View</strong> to return to the original layout</li>
+            </ul>
+        </div>
+
+        <div class="controls">
+            <div class="control-group">
+                <label for="sector-filter">Filter by Sector:</label>
+                <select id="sector-filter">
+                    <option value="all">All Sectors</option>
+                    <option value="primary">Primary Production</option>
+                    <option value="manufacturing">Manufacturing</option>
+                    <option value="services">Services</option>
+                    <option value="energy">Energy</option>
+                </select>
+            </div>
+            <div class="control-group">
+                <label for="flow-threshold">Minimum Flow Value: <span id="threshold-value">10%</span></label>
+                <input type="range" id="flow-threshold" min="0" max="100" value="10">
+            </div>
+            <button id="reset-view">Reset View</button>
+        </div>
+
+        <div class="visualization">
+            <div id="network-graph">
+                <div class="loading">Loading economic data...</div>
+            </div>
+            <div class="legend">
+                <div class="legend-item">
+                    <div class="legend-color" style="background-color: #4c72b0;"></div>
+                    <span>Primary Production</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background-color: #55a868;"></div>
+                    <span>Manufacturing</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background-color: #c44e52;"></div>
+                    <span>Services</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background-color: #8172b3;"></div>
+                    <span>Energy</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="sector-info">
+            <h2>Sector Interactions</h2>
+            <p>Select a sector node in the visualization to see detailed information about its economic relationships.</p>
+            <div id="sector-details"></div>
+        </div>
+
+        <footer>
+            <p>Data Source: Statistics Finland - Input-Output Matrix 2022</p>
+            <p>Visualization created for economic analysis purposes</p>
+        </footer>
+    </div>
+
+    <script>
+        
+        // Variables to hold our data
+        let sectors = [];
+        let transactions = [];
+        
+        // Set up the visualization
+        const width = document.getElementById('network-graph').clientWidth;
+        const height = document.getElementById('network-graph').clientHeight;
+
+        const svg = d3.select('#network-graph')
+            .html('') // Clear loading message
+            .append('svg')
+            .attr('width', width)
+            .attr('height', height);
+
+        // Define arrow marker for directed edges (smaller size)
+        svg.append('defs').selectAll('marker')
+            .data(['arrow'])
+            .enter().append('marker')
+            .attr('id', d => d)
+            .attr('viewBox', '0 -3 6 6')  // Reduced viewBox
+            .attr('refX', 10)              // Reduced reference point
+            .attr('refY', 0)
+            .attr('markerWidth', 1.5)       // Smaller width
+            .attr('markerHeight', 1.5)      // Smaller height
+            .attr('orient', 'auto')
+            .append('path')
+            .attr('d', 'M0,-3L6,0L0,3')   // Smaller path
+            .attr('fill', '#999');
+
+        const tooltip = d3.select('body')
+            .append('div')
+            .attr('class', 'tooltip')
+            .style('opacity', 0);
+
+        // Create the force simulation with less movement
+        const simulation = d3.forceSimulation()
+            .force('link', d3.forceLink().id(d => d.id).distance(150).strength(0.5))
+            .force('charge', d3.forceManyBody().strength(-800))
+            .force('center', d3.forceCenter(width / 2, height / 2))
+            .force('collide', d3.forceCollide().radius(d => Math.sqrt(d.value) * 0.2 + 15).iterations(5))
+            .alphaDecay(0.05); // Slower decay for less movement
+
+        // Load the data
+        Promise.all([
+            d3.json('sectors.json'),
+            d3.json('transactions.json')
+        ]).then(function(data) {
+            sectors = data[0];
+            transactions = data[1];
+            
+            // Initialize the visualization
+            initVisualization();
+        }).catch(function(error) {
+            console.error('Error loading data:', error);
+            d3.select('#network-graph')
+                .html('<div class="loading">Error loading data. Please check if sectors.json and transactions.json are available.</div>');
+        });
+        
+
+        function initVisualization() {
+            const emissionsValues = Array.isArray(sectors)
+                ? sectors
+                    .map(d => Number(d.value_created_per_emissions))
+                    .filter(v => Number.isFinite(v))
+                : [];
+
+            const minEmissions = emissionsValues.length ? d3.min(emissionsValues) : 0;
+            const maxEmissions = emissionsValues.length ? d3.max(emissionsValues) : 1;
+
+            const colorScale = d3.scaleLinear()
+                .domain([minEmissions, maxEmissions])
+                .range(['#000000', '#00ff00']); // Black to green
+
+            // Draw the network with directed arrows
+            const gradient = svg.append('defs')
+                .append('linearGradient')
+                .attr('id', 'legend-gradient')
+                .attr('x1', '0%')
+                .attr('x2', '100%');
+
+            gradient.append('stop').attr('offset', '0%').attr('stop-color', '#000000');
+            gradient.append('stop').attr('offset', '100%').attr('stop-color', '#00ff00');
+        
+            // Draw a rectangle as legend bar
+            svg.append('rect')
+            .attr('x', 20)
+            .attr('y', 40)
+            .attr('width', 200)
+            .attr('height', 15)
+            .style('fill', 'url(#legend-gradient)');
+
+            svg.append('text')
+            .attr('x', 20)
+            .attr('y', 70)
+            .text(() => {
+                const v = Number(minEmissions);
+                return Number.isFinite(v) ? v.toFixed(2) : 'N/A';
+            })
+            .style('font-size', '12px');
+
+            svg.append('text')
+            .attr('x', 220)
+            .attr('y', 70)
+            .text(() => {
+                const v = Number(maxEmissions);
+                return Number.isFinite(v) ? v.toFixed(2) : 'N/A';
+            })
+            .style('font-size', '12px')
+            .style('text-anchor', 'end');
+            
+            svg.append('text')
+            .attr('x', 20)
+            .attr('y', 20)
+            .text("Minimum and maximum value created per ton of emissions [EUR / ton-CO2-eq]")
+            .style('font-size', '12px')
+            .style('text-anchor', 'start');
+
+            let link = svg.append('g')
+                .attr('class', 'links')
+                .selectAll('line')
+                .data(transactions)
+                .enter()
+                .append('line')
+                .attr('class', 'link')
+                .attr('stroke-width', d => Math.sqrt(d.value) * 0.2)
+                .attr('stroke', '#999')
+                .attr('stroke-opacity', 0.6)
+                .attr('marker-end', 'url(#arrow)') // Add arrow marker
+                .on('mouseover', showLinkTooltip)
+                .on('mouseout', hideTooltip);
+
+            // Add labels to links (initially hidden)
+            let linkLabels = svg.append('g')
+                .attr('class', 'link-labels')
+                .selectAll('text')
+                .data(transactions)
+                .enter()
+                .append('text')
+                .attr('class', 'link-label')
+                .attr('dy', -5)
+                .style('opacity', 0)
+                .text(d => d.value.toLocaleString() + 'M €'); // Show transaction value
+
+            let node = svg.append('g')
+                .attr('class', 'nodes')
+                .selectAll('circle')
+                .data(sectors)
+                .enter()
+                .append('circle')
+                .attr('class', 'node')
+                .attr('r', d => Math.sqrt(d.value) * 0.2 + 2)
+                // .attr('fill', d => colorScale(d.group))
+                .attr('fill', d => d.value_created_per_emissions != null ? colorScale(d.value_created_per_emissions) : '#cccccc')
+                .call(d3.drag()
+                    .on('start', dragStarted)
+                    .on('drag', dragged)
+                    .on('end', dragEnded))
+                .on('mouseover', showTooltip)
+                .on('mouseout', hideTooltip)
+                .on('click', showSectorDetails);
+
+            // Add labels to nodes
+            const text = svg.append('g')
+                .attr('class', 'labels')
+                .selectAll('text')
+                .data(sectors)
+                .enter()
+                .append('text')
+                .text(d => d.name)
+                .attr('font-size', 10)
+                .attr('dx', 12)
+                .attr('dy', 4);
+
+            simulation.nodes(sectors).on('tick', ticked);
+            simulation.force('link').links(transactions);
+
+            // Stop the simulation after initial layout to reduce movement
+            setTimeout(() => {
+                simulation.alphaTarget(0);
+                simulation.velocityDecay(0.8); // Higher decay to reduce movement
+            }, 1000);
+
+            function ticked() {
+                // Update link positions
+                link
+                    .attr('x1', d => d.source.x)
+                    .attr('y1', d => d.source.y)
+                    .attr('x2', d => d.target.x)
+                    .attr('y2', d => d.target.y);
+
+                // Update link label positions
+                linkLabels
+                    .attr('x', d => (d.source.x + d.target.x) / 2)
+                    .attr('y', d => (d.source.y + d.target.y) / 2);
+
+                // Update node positions
+                node
+                    .attr('cx', d => d.x)
+                    .attr('cy', d => d.y);
+
+                // Update text positions
+                text
+                    .attr('x', d => d.x)
+                    .attr('y', d => d.y);
+            }
+
+            function dragStarted(event, d) {
+                // Only restart simulation if it's not already running
+                if (!event.active) simulation.alphaTarget(0.1).restart();
+                d.fx = d.x;
+                d.fy = d.y;
+            }
+
+            function dragged(event, d) {
+                d.fx = event.x;
+                d.fy = event.y;
+            }
+
+            function dragEnded(event, d) {
+                // Keep the node where the user dropped it
+                if (!event.active) simulation.alphaTarget(0);
+                // Don't set fx and fy to null - this keeps the node in place
+            }
+
+            // function showTooltip(event, d) {
+            //     tooltip
+            //         .style('opacity', 1)
+            //         .html(`
+            //             <h3>${d.name}</h3>
+            //             <p><span class="value">Group:</span> ${d.group.charAt(0).toUpperCase() + d.group.slice(1)}</p>
+            //             <p><span class="value">Economic value:</span> ${d.value.toLocaleString()} million €</p>
+            //         `)
+            //         .style('left', (event.pageX + 10) + 'px')
+            //         .style('top', (event.pageY - 28) + 'px');
+            // }
+
+            function showTooltip(event, d) {
+                let emissionsHtml = '';
+                if (d.emissions !== undefined && d.emissions !== 0) {
+                    emissionsHtml = `<p><span class="value">Emissions:</span> ${d.emissions.toLocaleString()} tons CO2</p>`;
+                }
+                if (d['relative_emissions'] !== undefined) {
+                    emissionsHtml += `<p><span class="value">Relative emissions:</span> ${d['relative_emissions'].toFixed(2)}%</p>`;
+                }
+                if (d['value_created_per_emissions'] !== undefined) {
+                    emissionsHtml += `<p><span class="value">Value created per emissions:</span> ${d['value_created_per_emissions'].toFixed(2)} EUR/ton CO2-eq</p>`;
+                }
+                
+                tooltip
+                    .style('opacity', 1)
+                    .html(`
+                        <h3>${d.name}</h3>
+                        <p><span class="value">Group:</span> ${d.group.charAt(0).toUpperCase() + d.group.slice(1)}</p>
+                        <p><span class="value">Economic value:</span> ${d.value.toLocaleString()} million €</p>
+                        ${emissionsHtml}
+                    `)
+                    .style('left', (event.pageX + 10) + 'px')
+                    .style('top', (event.pageY - 28) + 'px');
+            }
+
+            ///
+
+            function showLinkTooltip(event, d) {
+                const sourceSector = typeof d.source === 'object' ? d.source : sectors.find(s => s.id === d.source);
+                const targetSector = typeof d.target === 'object' ? d.target : sectors.find(s => s.id === d.target);
+                
+                tooltip
+                    .style('opacity', 1)
+                    .html(`
+                        <h3>Economic Flow</h3>
+                        <p><span class="value">From:</span> ${sourceSector.name}</p>
+                        <p><span class="value">To:</span> ${targetSector.name}</p>
+                        <p><span class="value">Value:</span> ${d.value.toLocaleString()} million €</p>
+                    `)
+                    .style('left', (event.pageX + 10) + 'px')
+                    .style('top', (event.pageY - 28) + 'px');
+                    
+                // Highlight this link and show its value
+                d3.select(event.target)
+                    .attr('stroke-width', Math.sqrt(d.value) * 0.2 + 1)
+                    .attr('stroke', '#e74c3c');
+                    
+                // Show the label for this link
+                linkLabels.filter(ld => ld === d)
+                    .style('opacity', 1);
+            }
+
+            function hideTooltip() {
+                tooltip.style('opacity', 0);
+                
+                // Reset all links to default style
+                link
+                    .attr('stroke-width', d => Math.sqrt(d.value) * 0.2)
+                    .attr('stroke', '#999');
+                    
+                // Hide all link labels
+                linkLabels.style('opacity', 0);
+            }
+
+            function showSectorDetails(event, d) {
+                const details = d3.select('#sector-details');
+                
+                // Find transactions where this sector is involved
+                const relatedTransactions = transactions.filter(t => 
+                    t.source === d.id || t.target === d.id
+                );
+                
+                let html = `<h3>${d.name}</h3>`;
+                html += `<p>This sector represents <strong>${d.value.toLocaleString()} million €</strong> of Finland's economy.</p>`;
+                
+                if (d.emissions) {
+                    html += `<p><strong>Emissions:</strong> ${d.emissions.toLocaleString()} tons</p>`;
+                }
+                
+                if (d.relative_emissions) {
+                    html += `<p><strong>Relative emissions:</strong> ${d.relative_emissions}%</p>`;
+                }
+                
+                html += `<h4>Economic Relationships:</h4>`;
+                html += `<div style="display: flex; gap: 30px; flex-wrap: wrap;">`;
+                
+                // Add inputs (sectors that supply to this sector)
+                const inputs = relatedTransactions.filter(t => t.target === d.id);
+                if (inputs.length > 0) {
+                    html += `<div><strong>Inputs from (paying to this sector):</strong>`;
+                    html += `<ul>`;
+                    inputs.forEach(t => {
+                        const sourceSector = sectors.find(s => s.id === t.source);
+                        html += `<li>${sourceSector.name}: ${t.value.toLocaleString()} million €</li>`;
+                    });
+                    html += `</ul></div>`;
+                }
+                
+                // Add outputs (sectors that this sector supplies to)
+                const outputs = relatedTransactions.filter(t => t.source === d.id);
+                if (outputs.length > 0) {
+                    html += `<div><strong>Outputs to (receiving from this sector):</strong>`;
+                    html += `<ul>`;
+                    outputs.forEach(t => {
+                        const targetSector = sectors.find(s => s.id === t.target);
+                        html += `<li>${targetSector.name}: ${t.value.toLocaleString()} million €</li>`;
+                    });
+                    html += `</ul></div>`;
+                }
+                
+                html += `</div>`;
+                
+                details.html(html);
+            }
+
+            // Add event listeners for controls
+            document.getElementById('sector-filter').addEventListener('change', function() {
+                const filterValue = this.value;
+                
+                node.style('opacity', d => {
+                    return filterValue === 'all' ? 1 : d.group === filterValue ? 1 : 0.1;
+                });
+                
+                link.style('opacity', d => {
+                    return filterValue === 'all' ? 0.6 : 
+                        (d.source.group === filterValue || d.target.group === filterValue) ? 0.6 : 0.1;
+                });
+                
+                text.style('opacity', d => {
+                    return filterValue === 'all' ? 1 : d.group === filterValue ? 1 : 0.1;
+                });
+            });
+
+            document.getElementById('flow-threshold').addEventListener('input', function() {
+                const threshold = this.value;
+                document.getElementById('threshold-value').textContent = threshold + '%';
+                
+                // Calculate threshold value based on max transaction value
+                const maxTransaction = d3.max(transactions, d => d.value);
+                const thresholdValue = maxTransaction * threshold / 100;
+                
+                link.style('opacity', d => d.value >= thresholdValue ? 0.6 : 0.1);
+            });
+
+            document.getElementById('reset-view').addEventListener('click', function() {
+                simulation.alphaTarget(0.3).restart();
+                
+                // Reset all nodes positions
+                sectors.forEach(node => {
+                    node.fx = null;
+                    node.fy = null;
+                });
+                
+                // Reset filters
+                document.getElementById('sector-filter').value = 'all';
+                document.getElementById('flow-threshold').value = 10;
+                document.getElementById('threshold-value').textContent = '10%';
+                
+                node.style('opacity', 1);
+                link.style('opacity', 0.6);
+                text.style('opacity', 1);
+                
+                // Clear sector details
+                d3.select('#sector-details').html('');
+                
+                // Stop the simulation after reset
+                setTimeout(() => {
+                    simulation.alphaTarget(0);
+                }, 1000);
+            });
+        }
+    </script>
+</body>
+</html>

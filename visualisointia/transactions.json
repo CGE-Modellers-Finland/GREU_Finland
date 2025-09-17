@@ -1,0 +1,4502 @@
+[
+  {
+    "source": "01 Kasvinviljely ja kotiel\u00e4intalous, riistatalous ja niihin liittyv\u00e4t palvelut",
+    "target": "01 Kasvinviljely ja kotiel\u00e4intalous, riistatalous ja niihin liittyv\u00e4t palvelut",
+    "value": 1134.107
+  },
+  {
+    "source": "01 Kasvinviljely ja kotiel\u00e4intalous, riistatalous ja niihin liittyv\u00e4t palvelut",
+    "target": "02 Mets\u00e4talous ja puunkorjuu",
+    "value": 91.274
+  },
+  {
+    "source": "01 Kasvinviljely ja kotiel\u00e4intalous, riistatalous ja niihin liittyv\u00e4t palvelut",
+    "target": "03 Kalastus ja vesiviljely",
+    "value": 0.0
+  },
+  {
+    "source": "01 Kasvinviljely ja kotiel\u00e4intalous, riistatalous ja niihin liittyv\u00e4t palvelut",
+    "target": "B Kaivostoiminta ja louhinta (05-09)",
+    "value": 0.0
+  },
+  {
+    "source": "01 Kasvinviljely ja kotiel\u00e4intalous, riistatalous ja niihin liittyv\u00e4t palvelut",
+    "target": "10-12 Elintarviketeollisuus ym.",
+    "value": 3058.053
+  },
+  {
+    "source": "01 Kasvinviljely ja kotiel\u00e4intalous, riistatalous ja niihin liittyv\u00e4t palvelut",
+    "target": "13-15 Tekstiiliteollisuus",
+    "value": 1.723
+  },
+  {
+    "source": "01 Kasvinviljely ja kotiel\u00e4intalous, riistatalous ja niihin liittyv\u00e4t palvelut",
+    "target": "16 Sahatavaran sek\u00e4 puu- ja korkkituotteiden valmistus (pl. huonekalut); olki- ja punontatuotteiden valmistus",
+    "value": 2.96
+  },
+  {
+    "source": "01 Kasvinviljely ja kotiel\u00e4intalous, riistatalous ja niihin liittyv\u00e4t palvelut",
+    "target": "17 Paperin, paperi- ja kartonkituotteiden valmistus",
+    "value": 0.031
+  },
+  {
+    "source": "01 Kasvinviljely ja kotiel\u00e4intalous, riistatalous ja niihin liittyv\u00e4t palvelut",
+    "target": "18 Painaminen ja tallenteiden j\u00e4ljent\u00e4minen",
+    "value": 0.0
+  },
+  {
+    "source": "01 Kasvinviljely ja kotiel\u00e4intalous, riistatalous ja niihin liittyv\u00e4t palvelut",
+    "target": "19 Koksin ja jalostettujen \u00f6ljytuotteiden valmistus",
+    "value": 0.0
+  },
+  {
+    "source": "01 Kasvinviljely ja kotiel\u00e4intalous, riistatalous ja niihin liittyv\u00e4t palvelut",
+    "target": "20 Kemikaalien ja kemiallisten tuotteiden valmistus",
+    "value": 5.824
+  },
+  {
+    "source": "01 Kasvinviljely ja kotiel\u00e4intalous, riistatalous ja niihin liittyv\u00e4t palvelut",
+    "target": "21 L\u00e4\u00e4keaineiden ja l\u00e4\u00e4kkeiden valmistus",
+    "value": 0.0
+  },
+  {
+    "source": "01 Kasvinviljely ja kotiel\u00e4intalous, riistatalous ja niihin liittyv\u00e4t palvelut",
+    "target": "22 Kumi- ja muovituotteiden valmistus",
+    "value": 0.004
+  },
+  {
+    "source": "01 Kasvinviljely ja kotiel\u00e4intalous, riistatalous ja niihin liittyv\u00e4t palvelut",
+    "target": "23 Muiden ei-metallisten mineraalituotteiden valmistus",
+    "value": 0.024
+  },
+  {
+    "source": "01 Kasvinviljely ja kotiel\u00e4intalous, riistatalous ja niihin liittyv\u00e4t palvelut",
+    "target": "24 Metallien jalostus",
+    "value": 0.0
+  },
+  {
+    "source": "01 Kasvinviljely ja kotiel\u00e4intalous, riistatalous ja niihin liittyv\u00e4t palvelut",
+    "target": "25 Metallituotteiden valmistus (pl. koneet ja laitteet)",
+    "value": 0.017
+  },
+  {
+    "source": "01 Kasvinviljely ja kotiel\u00e4intalous, riistatalous ja niihin liittyv\u00e4t palvelut",
+    "target": "26 Tietokoneiden sek\u00e4 elektronisten ja optisten tuotteiden valmistus",
+    "value": 0.0
+  },
+  {
+    "source": "01 Kasvinviljely ja kotiel\u00e4intalous, riistatalous ja niihin liittyv\u00e4t palvelut",
+    "target": "27 S\u00e4hk\u00f6laitteiden valmistus",
+    "value": 0.0
+  },
+  {
+    "source": "01 Kasvinviljely ja kotiel\u00e4intalous, riistatalous ja niihin liittyv\u00e4t palvelut",
+    "target": "28 Muiden koneiden ja laitteiden valmistus",
+    "value": 0.0
+  },
+  {
+    "source": "01 Kasvinviljely ja kotiel\u00e4intalous, riistatalous ja niihin liittyv\u00e4t palvelut",
+    "target": "29 Moottoriajoneuvojen, per\u00e4vaunujen ja puoliper\u00e4vaunujen valmistus",
+    "value": 0.0
+  },
+  {
+    "source": "01 Kasvinviljely ja kotiel\u00e4intalous, riistatalous ja niihin liittyv\u00e4t palvelut",
+    "target": "30 Muiden kulkuneuvojen valmistus",
+    "value": 0.026
+  },
+  {
+    "source": "01 Kasvinviljely ja kotiel\u00e4intalous, riistatalous ja niihin liittyv\u00e4t palvelut",
+    "target": "31, 32 Muu valmistus ml. huonekalut",
+    "value": 0.072
+  },
+  {
+    "source": "01 Kasvinviljely ja kotiel\u00e4intalous, riistatalous ja niihin liittyv\u00e4t palvelut",
+    "target": "33 Koneiden ja laitteiden korjaus, huolto ja asennus",
+    "value": 5.656
+  },
+  {
+    "source": "01 Kasvinviljely ja kotiel\u00e4intalous, riistatalous ja niihin liittyv\u00e4t palvelut",
+    "target": "35 S\u00e4hk\u00f6-, kaasu- ja l\u00e4mp\u00f6huolto, j\u00e4\u00e4hdytysliiketoiminta",
+    "value": 0.078
+  },
+  {
+    "source": "01 Kasvinviljely ja kotiel\u00e4intalous, riistatalous ja niihin liittyv\u00e4t palvelut",
+    "target": "36 Veden otto, puhdistus ja jakelu",
+    "value": 0.002
+  },
+  {
+    "source": "01 Kasvinviljely ja kotiel\u00e4intalous, riistatalous ja niihin liittyv\u00e4t palvelut",
+    "target": "37-39 J\u00e4te- ja j\u00e4tevesihuolto",
+    "value": 0.02
+  },
+  {
+    "source": "01 Kasvinviljely ja kotiel\u00e4intalous, riistatalous ja niihin liittyv\u00e4t palvelut",
+    "target": "F Rakentaminen (41-43)",
+    "value": 4.83
+  },
+  {
+    "source": "01 Kasvinviljely ja kotiel\u00e4intalous, riistatalous ja niihin liittyv\u00e4t palvelut",
+    "target": "45 Moottoriajoneuvojen ja moottoripy\u00f6rien tukku- ja v\u00e4hitt\u00e4iskauppa sek\u00e4 korjaus",
+    "value": 1.288
+  },
+  {
+    "source": "01 Kasvinviljely ja kotiel\u00e4intalous, riistatalous ja niihin liittyv\u00e4t palvelut",
+    "target": "46 Tukkukauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "value": 4.739
+  },
+  {
+    "source": "01 Kasvinviljely ja kotiel\u00e4intalous, riistatalous ja niihin liittyv\u00e4t palvelut",
+    "target": "47 V\u00e4hitt\u00e4iskauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "value": 0.014
+  },
+  {
+    "source": "02 Mets\u00e4talous ja puunkorjuu",
+    "target": "01 Kasvinviljely ja kotiel\u00e4intalous, riistatalous ja niihin liittyv\u00e4t palvelut",
+    "value": 6.001
+  },
+  {
+    "source": "02 Mets\u00e4talous ja puunkorjuu",
+    "target": "02 Mets\u00e4talous ja puunkorjuu",
+    "value": 1094.282
+  },
+  {
+    "source": "02 Mets\u00e4talous ja puunkorjuu",
+    "target": "03 Kalastus ja vesiviljely",
+    "value": 0.001
+  },
+  {
+    "source": "02 Mets\u00e4talous ja puunkorjuu",
+    "target": "B Kaivostoiminta ja louhinta (05-09)",
+    "value": 6.167
+  },
+  {
+    "source": "02 Mets\u00e4talous ja puunkorjuu",
+    "target": "10-12 Elintarviketeollisuus ym.",
+    "value": 2.917
+  },
+  {
+    "source": "02 Mets\u00e4talous ja puunkorjuu",
+    "target": "13-15 Tekstiiliteollisuus",
+    "value": 0.03
+  },
+  {
+    "source": "02 Mets\u00e4talous ja puunkorjuu",
+    "target": "16 Sahatavaran sek\u00e4 puu- ja korkkituotteiden valmistus (pl. huonekalut); olki- ja punontatuotteiden valmistus",
+    "value": 1919.966
+  },
+  {
+    "source": "02 Mets\u00e4talous ja puunkorjuu",
+    "target": "17 Paperin, paperi- ja kartonkituotteiden valmistus",
+    "value": 1799.942
+  },
+  {
+    "source": "02 Mets\u00e4talous ja puunkorjuu",
+    "target": "18 Painaminen ja tallenteiden j\u00e4ljent\u00e4minen",
+    "value": 0.08
+  },
+  {
+    "source": "02 Mets\u00e4talous ja puunkorjuu",
+    "target": "19 Koksin ja jalostettujen \u00f6ljytuotteiden valmistus",
+    "value": 0.0
+  },
+  {
+    "source": "02 Mets\u00e4talous ja puunkorjuu",
+    "target": "20 Kemikaalien ja kemiallisten tuotteiden valmistus",
+    "value": 0.077
+  },
+  {
+    "source": "02 Mets\u00e4talous ja puunkorjuu",
+    "target": "21 L\u00e4\u00e4keaineiden ja l\u00e4\u00e4kkeiden valmistus",
+    "value": 0.006
+  },
+  {
+    "source": "02 Mets\u00e4talous ja puunkorjuu",
+    "target": "22 Kumi- ja muovituotteiden valmistus",
+    "value": 0.106
+  },
+  {
+    "source": "02 Mets\u00e4talous ja puunkorjuu",
+    "target": "23 Muiden ei-metallisten mineraalituotteiden valmistus",
+    "value": 0.207
+  },
+  {
+    "source": "02 Mets\u00e4talous ja puunkorjuu",
+    "target": "24 Metallien jalostus",
+    "value": 0.051
+  },
+  {
+    "source": "02 Mets\u00e4talous ja puunkorjuu",
+    "target": "25 Metallituotteiden valmistus (pl. koneet ja laitteet)",
+    "value": 0.221
+  },
+  {
+    "source": "02 Mets\u00e4talous ja puunkorjuu",
+    "target": "26 Tietokoneiden sek\u00e4 elektronisten ja optisten tuotteiden valmistus",
+    "value": 0.08
+  },
+  {
+    "source": "02 Mets\u00e4talous ja puunkorjuu",
+    "target": "27 S\u00e4hk\u00f6laitteiden valmistus",
+    "value": 0.044
+  },
+  {
+    "source": "02 Mets\u00e4talous ja puunkorjuu",
+    "target": "28 Muiden koneiden ja laitteiden valmistus",
+    "value": 0.244
+  },
+  {
+    "source": "02 Mets\u00e4talous ja puunkorjuu",
+    "target": "29 Moottoriajoneuvojen, per\u00e4vaunujen ja puoliper\u00e4vaunujen valmistus",
+    "value": 0.13
+  },
+  {
+    "source": "02 Mets\u00e4talous ja puunkorjuu",
+    "target": "30 Muiden kulkuneuvojen valmistus",
+    "value": 0.089
+  },
+  {
+    "source": "02 Mets\u00e4talous ja puunkorjuu",
+    "target": "31, 32 Muu valmistus ml. huonekalut",
+    "value": 0.105
+  },
+  {
+    "source": "02 Mets\u00e4talous ja puunkorjuu",
+    "target": "33 Koneiden ja laitteiden korjaus, huolto ja asennus",
+    "value": 0.166
+  },
+  {
+    "source": "02 Mets\u00e4talous ja puunkorjuu",
+    "target": "35 S\u00e4hk\u00f6-, kaasu- ja l\u00e4mp\u00f6huolto, j\u00e4\u00e4hdytysliiketoiminta",
+    "value": 89.846
+  },
+  {
+    "source": "02 Mets\u00e4talous ja puunkorjuu",
+    "target": "36 Veden otto, puhdistus ja jakelu",
+    "value": 0.024
+  },
+  {
+    "source": "02 Mets\u00e4talous ja puunkorjuu",
+    "target": "37-39 J\u00e4te- ja j\u00e4tevesihuolto",
+    "value": 0.165
+  },
+  {
+    "source": "02 Mets\u00e4talous ja puunkorjuu",
+    "target": "F Rakentaminen (41-43)",
+    "value": 2.151
+  },
+  {
+    "source": "02 Mets\u00e4talous ja puunkorjuu",
+    "target": "45 Moottoriajoneuvojen ja moottoripy\u00f6rien tukku- ja v\u00e4hitt\u00e4iskauppa sek\u00e4 korjaus",
+    "value": 0.55
+  },
+  {
+    "source": "02 Mets\u00e4talous ja puunkorjuu",
+    "target": "46 Tukkukauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "value": 5.123
+  },
+  {
+    "source": "02 Mets\u00e4talous ja puunkorjuu",
+    "target": "47 V\u00e4hitt\u00e4iskauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "value": 2.459
+  },
+  {
+    "source": "03 Kalastus ja vesiviljely",
+    "target": "01 Kasvinviljely ja kotiel\u00e4intalous, riistatalous ja niihin liittyv\u00e4t palvelut",
+    "value": 0.053
+  },
+  {
+    "source": "03 Kalastus ja vesiviljely",
+    "target": "02 Mets\u00e4talous ja puunkorjuu",
+    "value": 0.089
+  },
+  {
+    "source": "03 Kalastus ja vesiviljely",
+    "target": "03 Kalastus ja vesiviljely",
+    "value": 55.393
+  },
+  {
+    "source": "03 Kalastus ja vesiviljely",
+    "target": "B Kaivostoiminta ja louhinta (05-09)",
+    "value": 0.0
+  },
+  {
+    "source": "03 Kalastus ja vesiviljely",
+    "target": "10-12 Elintarviketeollisuus ym.",
+    "value": 37.562
+  },
+  {
+    "source": "03 Kalastus ja vesiviljely",
+    "target": "13-15 Tekstiiliteollisuus",
+    "value": 0.0
+  },
+  {
+    "source": "03 Kalastus ja vesiviljely",
+    "target": "16 Sahatavaran sek\u00e4 puu- ja korkkituotteiden valmistus (pl. huonekalut); olki- ja punontatuotteiden valmistus",
+    "value": 0.0
+  },
+  {
+    "source": "03 Kalastus ja vesiviljely",
+    "target": "17 Paperin, paperi- ja kartonkituotteiden valmistus",
+    "value": 0.0
+  },
+  {
+    "source": "03 Kalastus ja vesiviljely",
+    "target": "18 Painaminen ja tallenteiden j\u00e4ljent\u00e4minen",
+    "value": 0.0
+  },
+  {
+    "source": "03 Kalastus ja vesiviljely",
+    "target": "19 Koksin ja jalostettujen \u00f6ljytuotteiden valmistus",
+    "value": 0.0
+  },
+  {
+    "source": "03 Kalastus ja vesiviljely",
+    "target": "20 Kemikaalien ja kemiallisten tuotteiden valmistus",
+    "value": 2.99
+  },
+  {
+    "source": "03 Kalastus ja vesiviljely",
+    "target": "21 L\u00e4\u00e4keaineiden ja l\u00e4\u00e4kkeiden valmistus",
+    "value": 0.0
+  },
+  {
+    "source": "03 Kalastus ja vesiviljely",
+    "target": "22 Kumi- ja muovituotteiden valmistus",
+    "value": 0.0
+  },
+  {
+    "source": "03 Kalastus ja vesiviljely",
+    "target": "23 Muiden ei-metallisten mineraalituotteiden valmistus",
+    "value": 0.0
+  },
+  {
+    "source": "03 Kalastus ja vesiviljely",
+    "target": "24 Metallien jalostus",
+    "value": 0.0
+  },
+  {
+    "source": "03 Kalastus ja vesiviljely",
+    "target": "25 Metallituotteiden valmistus (pl. koneet ja laitteet)",
+    "value": 0.0
+  },
+  {
+    "source": "03 Kalastus ja vesiviljely",
+    "target": "26 Tietokoneiden sek\u00e4 elektronisten ja optisten tuotteiden valmistus",
+    "value": 0.0
+  },
+  {
+    "source": "03 Kalastus ja vesiviljely",
+    "target": "27 S\u00e4hk\u00f6laitteiden valmistus",
+    "value": 0.0
+  },
+  {
+    "source": "03 Kalastus ja vesiviljely",
+    "target": "28 Muiden koneiden ja laitteiden valmistus",
+    "value": 0.0
+  },
+  {
+    "source": "03 Kalastus ja vesiviljely",
+    "target": "29 Moottoriajoneuvojen, per\u00e4vaunujen ja puoliper\u00e4vaunujen valmistus",
+    "value": 0.0
+  },
+  {
+    "source": "03 Kalastus ja vesiviljely",
+    "target": "30 Muiden kulkuneuvojen valmistus",
+    "value": 0.0
+  },
+  {
+    "source": "03 Kalastus ja vesiviljely",
+    "target": "31, 32 Muu valmistus ml. huonekalut",
+    "value": 0.0
+  },
+  {
+    "source": "03 Kalastus ja vesiviljely",
+    "target": "33 Koneiden ja laitteiden korjaus, huolto ja asennus",
+    "value": 0.0
+  },
+  {
+    "source": "03 Kalastus ja vesiviljely",
+    "target": "35 S\u00e4hk\u00f6-, kaasu- ja l\u00e4mp\u00f6huolto, j\u00e4\u00e4hdytysliiketoiminta",
+    "value": 0.008
+  },
+  {
+    "source": "03 Kalastus ja vesiviljely",
+    "target": "36 Veden otto, puhdistus ja jakelu",
+    "value": 0.001
+  },
+  {
+    "source": "03 Kalastus ja vesiviljely",
+    "target": "37-39 J\u00e4te- ja j\u00e4tevesihuolto",
+    "value": 0.047
+  },
+  {
+    "source": "03 Kalastus ja vesiviljely",
+    "target": "F Rakentaminen (41-43)",
+    "value": 0.956
+  },
+  {
+    "source": "03 Kalastus ja vesiviljely",
+    "target": "45 Moottoriajoneuvojen ja moottoripy\u00f6rien tukku- ja v\u00e4hitt\u00e4iskauppa sek\u00e4 korjaus",
+    "value": 0.095
+  },
+  {
+    "source": "03 Kalastus ja vesiviljely",
+    "target": "46 Tukkukauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "value": 0.001
+  },
+  {
+    "source": "03 Kalastus ja vesiviljely",
+    "target": "47 V\u00e4hitt\u00e4iskauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "value": 0.0
+  },
+  {
+    "source": "B Kaivostoiminta ja louhinta (05-09)",
+    "target": "01 Kasvinviljely ja kotiel\u00e4intalous, riistatalous ja niihin liittyv\u00e4t palvelut",
+    "value": 4.074
+  },
+  {
+    "source": "B Kaivostoiminta ja louhinta (05-09)",
+    "target": "02 Mets\u00e4talous ja puunkorjuu",
+    "value": 3.523
+  },
+  {
+    "source": "B Kaivostoiminta ja louhinta (05-09)",
+    "target": "03 Kalastus ja vesiviljely",
+    "value": 0.002
+  },
+  {
+    "source": "B Kaivostoiminta ja louhinta (05-09)",
+    "target": "B Kaivostoiminta ja louhinta (05-09)",
+    "value": 390.582
+  },
+  {
+    "source": "B Kaivostoiminta ja louhinta (05-09)",
+    "target": "10-12 Elintarviketeollisuus ym.",
+    "value": 2.221
+  },
+  {
+    "source": "B Kaivostoiminta ja louhinta (05-09)",
+    "target": "13-15 Tekstiiliteollisuus",
+    "value": 0.132
+  },
+  {
+    "source": "B Kaivostoiminta ja louhinta (05-09)",
+    "target": "16 Sahatavaran sek\u00e4 puu- ja korkkituotteiden valmistus (pl. huonekalut); olki- ja punontatuotteiden valmistus",
+    "value": 16.415
+  },
+  {
+    "source": "B Kaivostoiminta ja louhinta (05-09)",
+    "target": "17 Paperin, paperi- ja kartonkituotteiden valmistus",
+    "value": 32.92
+  },
+  {
+    "source": "B Kaivostoiminta ja louhinta (05-09)",
+    "target": "18 Painaminen ja tallenteiden j\u00e4ljent\u00e4minen",
+    "value": 0.409
+  },
+  {
+    "source": "B Kaivostoiminta ja louhinta (05-09)",
+    "target": "19 Koksin ja jalostettujen \u00f6ljytuotteiden valmistus",
+    "value": 0.272
+  },
+  {
+    "source": "B Kaivostoiminta ja louhinta (05-09)",
+    "target": "20 Kemikaalien ja kemiallisten tuotteiden valmistus",
+    "value": 143.918
+  },
+  {
+    "source": "B Kaivostoiminta ja louhinta (05-09)",
+    "target": "21 L\u00e4\u00e4keaineiden ja l\u00e4\u00e4kkeiden valmistus",
+    "value": 0.263
+  },
+  {
+    "source": "B Kaivostoiminta ja louhinta (05-09)",
+    "target": "22 Kumi- ja muovituotteiden valmistus",
+    "value": 1.833
+  },
+  {
+    "source": "B Kaivostoiminta ja louhinta (05-09)",
+    "target": "23 Muiden ei-metallisten mineraalituotteiden valmistus",
+    "value": 127.85
+  },
+  {
+    "source": "B Kaivostoiminta ja louhinta (05-09)",
+    "target": "24 Metallien jalostus",
+    "value": 264.115
+  },
+  {
+    "source": "B Kaivostoiminta ja louhinta (05-09)",
+    "target": "25 Metallituotteiden valmistus (pl. koneet ja laitteet)",
+    "value": 5.243
+  },
+  {
+    "source": "B Kaivostoiminta ja louhinta (05-09)",
+    "target": "26 Tietokoneiden sek\u00e4 elektronisten ja optisten tuotteiden valmistus",
+    "value": 3.972
+  },
+  {
+    "source": "B Kaivostoiminta ja louhinta (05-09)",
+    "target": "27 S\u00e4hk\u00f6laitteiden valmistus",
+    "value": 0.665
+  },
+  {
+    "source": "B Kaivostoiminta ja louhinta (05-09)",
+    "target": "28 Muiden koneiden ja laitteiden valmistus",
+    "value": 2.399
+  },
+  {
+    "source": "B Kaivostoiminta ja louhinta (05-09)",
+    "target": "29 Moottoriajoneuvojen, per\u00e4vaunujen ja puoliper\u00e4vaunujen valmistus",
+    "value": 2.321
+  },
+  {
+    "source": "B Kaivostoiminta ja louhinta (05-09)",
+    "target": "30 Muiden kulkuneuvojen valmistus",
+    "value": 1.154
+  },
+  {
+    "source": "B Kaivostoiminta ja louhinta (05-09)",
+    "target": "31, 32 Muu valmistus ml. huonekalut",
+    "value": 2.014
+  },
+  {
+    "source": "B Kaivostoiminta ja louhinta (05-09)",
+    "target": "33 Koneiden ja laitteiden korjaus, huolto ja asennus",
+    "value": 1.412
+  },
+  {
+    "source": "B Kaivostoiminta ja louhinta (05-09)",
+    "target": "35 S\u00e4hk\u00f6-, kaasu- ja l\u00e4mp\u00f6huolto, j\u00e4\u00e4hdytysliiketoiminta",
+    "value": 147.021
+  },
+  {
+    "source": "B Kaivostoiminta ja louhinta (05-09)",
+    "target": "36 Veden otto, puhdistus ja jakelu",
+    "value": 1.113
+  },
+  {
+    "source": "B Kaivostoiminta ja louhinta (05-09)",
+    "target": "37-39 J\u00e4te- ja j\u00e4tevesihuolto",
+    "value": 11.743
+  },
+  {
+    "source": "B Kaivostoiminta ja louhinta (05-09)",
+    "target": "F Rakentaminen (41-43)",
+    "value": 144.605
+  },
+  {
+    "source": "B Kaivostoiminta ja louhinta (05-09)",
+    "target": "45 Moottoriajoneuvojen ja moottoripy\u00f6rien tukku- ja v\u00e4hitt\u00e4iskauppa sek\u00e4 korjaus",
+    "value": 1.603
+  },
+  {
+    "source": "B Kaivostoiminta ja louhinta (05-09)",
+    "target": "46 Tukkukauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "value": 3.326
+  },
+  {
+    "source": "B Kaivostoiminta ja louhinta (05-09)",
+    "target": "47 V\u00e4hitt\u00e4iskauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "value": 8.055
+  },
+  {
+    "source": "10-12 Elintarviketeollisuus ym.",
+    "target": "01 Kasvinviljely ja kotiel\u00e4intalous, riistatalous ja niihin liittyv\u00e4t palvelut",
+    "value": 848.316
+  },
+  {
+    "source": "10-12 Elintarviketeollisuus ym.",
+    "target": "02 Mets\u00e4talous ja puunkorjuu",
+    "value": 9.085
+  },
+  {
+    "source": "10-12 Elintarviketeollisuus ym.",
+    "target": "03 Kalastus ja vesiviljely",
+    "value": 19.083
+  },
+  {
+    "source": "10-12 Elintarviketeollisuus ym.",
+    "target": "B Kaivostoiminta ja louhinta (05-09)",
+    "value": 6.986
+  },
+  {
+    "source": "10-12 Elintarviketeollisuus ym.",
+    "target": "10-12 Elintarviketeollisuus ym.",
+    "value": 2022.997
+  },
+  {
+    "source": "10-12 Elintarviketeollisuus ym.",
+    "target": "13-15 Tekstiiliteollisuus",
+    "value": 1.642
+  },
+  {
+    "source": "10-12 Elintarviketeollisuus ym.",
+    "target": "16 Sahatavaran sek\u00e4 puu- ja korkkituotteiden valmistus (pl. huonekalut); olki- ja punontatuotteiden valmistus",
+    "value": 16.719
+  },
+  {
+    "source": "10-12 Elintarviketeollisuus ym.",
+    "target": "17 Paperin, paperi- ja kartonkituotteiden valmistus",
+    "value": 81.662
+  },
+  {
+    "source": "10-12 Elintarviketeollisuus ym.",
+    "target": "18 Painaminen ja tallenteiden j\u00e4ljent\u00e4minen",
+    "value": 1.285
+  },
+  {
+    "source": "10-12 Elintarviketeollisuus ym.",
+    "target": "19 Koksin ja jalostettujen \u00f6ljytuotteiden valmistus",
+    "value": 11.252
+  },
+  {
+    "source": "10-12 Elintarviketeollisuus ym.",
+    "target": "20 Kemikaalien ja kemiallisten tuotteiden valmistus",
+    "value": 130.524
+  },
+  {
+    "source": "10-12 Elintarviketeollisuus ym.",
+    "target": "21 L\u00e4\u00e4keaineiden ja l\u00e4\u00e4kkeiden valmistus",
+    "value": 5.184
+  },
+  {
+    "source": "10-12 Elintarviketeollisuus ym.",
+    "target": "22 Kumi- ja muovituotteiden valmistus",
+    "value": 3.361
+  },
+  {
+    "source": "10-12 Elintarviketeollisuus ym.",
+    "target": "23 Muiden ei-metallisten mineraalituotteiden valmistus",
+    "value": 5.074
+  },
+  {
+    "source": "10-12 Elintarviketeollisuus ym.",
+    "target": "24 Metallien jalostus",
+    "value": 25.87
+  },
+  {
+    "source": "10-12 Elintarviketeollisuus ym.",
+    "target": "25 Metallituotteiden valmistus (pl. koneet ja laitteet)",
+    "value": 10.022
+  },
+  {
+    "source": "10-12 Elintarviketeollisuus ym.",
+    "target": "26 Tietokoneiden sek\u00e4 elektronisten ja optisten tuotteiden valmistus",
+    "value": 42.191
+  },
+  {
+    "source": "10-12 Elintarviketeollisuus ym.",
+    "target": "27 S\u00e4hk\u00f6laitteiden valmistus",
+    "value": 7.577
+  },
+  {
+    "source": "10-12 Elintarviketeollisuus ym.",
+    "target": "28 Muiden koneiden ja laitteiden valmistus",
+    "value": 27.733
+  },
+  {
+    "source": "10-12 Elintarviketeollisuus ym.",
+    "target": "29 Moottoriajoneuvojen, per\u00e4vaunujen ja puoliper\u00e4vaunujen valmistus",
+    "value": 3.043
+  },
+  {
+    "source": "10-12 Elintarviketeollisuus ym.",
+    "target": "30 Muiden kulkuneuvojen valmistus",
+    "value": 4.541
+  },
+  {
+    "source": "10-12 Elintarviketeollisuus ym.",
+    "target": "31, 32 Muu valmistus ml. huonekalut",
+    "value": 3.133
+  },
+  {
+    "source": "10-12 Elintarviketeollisuus ym.",
+    "target": "33 Koneiden ja laitteiden korjaus, huolto ja asennus",
+    "value": 8.797
+  },
+  {
+    "source": "10-12 Elintarviketeollisuus ym.",
+    "target": "35 S\u00e4hk\u00f6-, kaasu- ja l\u00e4mp\u00f6huolto, j\u00e4\u00e4hdytysliiketoiminta",
+    "value": 14.943
+  },
+  {
+    "source": "10-12 Elintarviketeollisuus ym.",
+    "target": "36 Veden otto, puhdistus ja jakelu",
+    "value": 0.619
+  },
+  {
+    "source": "10-12 Elintarviketeollisuus ym.",
+    "target": "37-39 J\u00e4te- ja j\u00e4tevesihuolto",
+    "value": 6.584
+  },
+  {
+    "source": "10-12 Elintarviketeollisuus ym.",
+    "target": "F Rakentaminen (41-43)",
+    "value": 106.438
+  },
+  {
+    "source": "10-12 Elintarviketeollisuus ym.",
+    "target": "45 Moottoriajoneuvojen ja moottoripy\u00f6rien tukku- ja v\u00e4hitt\u00e4iskauppa sek\u00e4 korjaus",
+    "value": 16.992
+  },
+  {
+    "source": "10-12 Elintarviketeollisuus ym.",
+    "target": "46 Tukkukauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "value": 32.693
+  },
+  {
+    "source": "10-12 Elintarviketeollisuus ym.",
+    "target": "47 V\u00e4hitt\u00e4iskauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "value": 29.301
+  },
+  {
+    "source": "13-15 Tekstiiliteollisuus",
+    "target": "01 Kasvinviljely ja kotiel\u00e4intalous, riistatalous ja niihin liittyv\u00e4t palvelut",
+    "value": 0.205
+  },
+  {
+    "source": "13-15 Tekstiiliteollisuus",
+    "target": "02 Mets\u00e4talous ja puunkorjuu",
+    "value": 0.199
+  },
+  {
+    "source": "13-15 Tekstiiliteollisuus",
+    "target": "03 Kalastus ja vesiviljely",
+    "value": 0.004
+  },
+  {
+    "source": "13-15 Tekstiiliteollisuus",
+    "target": "B Kaivostoiminta ja louhinta (05-09)",
+    "value": 2.626
+  },
+  {
+    "source": "13-15 Tekstiiliteollisuus",
+    "target": "10-12 Elintarviketeollisuus ym.",
+    "value": 3.509
+  },
+  {
+    "source": "13-15 Tekstiiliteollisuus",
+    "target": "13-15 Tekstiiliteollisuus",
+    "value": 35.167
+  },
+  {
+    "source": "13-15 Tekstiiliteollisuus",
+    "target": "16 Sahatavaran sek\u00e4 puu- ja korkkituotteiden valmistus (pl. huonekalut); olki- ja punontatuotteiden valmistus",
+    "value": 2.28
+  },
+  {
+    "source": "13-15 Tekstiiliteollisuus",
+    "target": "17 Paperin, paperi- ja kartonkituotteiden valmistus",
+    "value": 21.359
+  },
+  {
+    "source": "13-15 Tekstiiliteollisuus",
+    "target": "18 Painaminen ja tallenteiden j\u00e4ljent\u00e4minen",
+    "value": 0.905
+  },
+  {
+    "source": "13-15 Tekstiiliteollisuus",
+    "target": "19 Koksin ja jalostettujen \u00f6ljytuotteiden valmistus",
+    "value": 0.396
+  },
+  {
+    "source": "13-15 Tekstiiliteollisuus",
+    "target": "20 Kemikaalien ja kemiallisten tuotteiden valmistus",
+    "value": 3.639
+  },
+  {
+    "source": "13-15 Tekstiiliteollisuus",
+    "target": "21 L\u00e4\u00e4keaineiden ja l\u00e4\u00e4kkeiden valmistus",
+    "value": 2.38
+  },
+  {
+    "source": "13-15 Tekstiiliteollisuus",
+    "target": "22 Kumi- ja muovituotteiden valmistus",
+    "value": 11.005
+  },
+  {
+    "source": "13-15 Tekstiiliteollisuus",
+    "target": "23 Muiden ei-metallisten mineraalituotteiden valmistus",
+    "value": 10.314
+  },
+  {
+    "source": "13-15 Tekstiiliteollisuus",
+    "target": "24 Metallien jalostus",
+    "value": 3.485
+  },
+  {
+    "source": "13-15 Tekstiiliteollisuus",
+    "target": "25 Metallituotteiden valmistus (pl. koneet ja laitteet)",
+    "value": 4.132
+  },
+  {
+    "source": "13-15 Tekstiiliteollisuus",
+    "target": "26 Tietokoneiden sek\u00e4 elektronisten ja optisten tuotteiden valmistus",
+    "value": 10.969
+  },
+  {
+    "source": "13-15 Tekstiiliteollisuus",
+    "target": "27 S\u00e4hk\u00f6laitteiden valmistus",
+    "value": 3.313
+  },
+  {
+    "source": "13-15 Tekstiiliteollisuus",
+    "target": "28 Muiden koneiden ja laitteiden valmistus",
+    "value": 22.772
+  },
+  {
+    "source": "13-15 Tekstiiliteollisuus",
+    "target": "29 Moottoriajoneuvojen, per\u00e4vaunujen ja puoliper\u00e4vaunujen valmistus",
+    "value": 1.058
+  },
+  {
+    "source": "13-15 Tekstiiliteollisuus",
+    "target": "30 Muiden kulkuneuvojen valmistus",
+    "value": 4.756
+  },
+  {
+    "source": "13-15 Tekstiiliteollisuus",
+    "target": "31, 32 Muu valmistus ml. huonekalut",
+    "value": 3.819
+  },
+  {
+    "source": "13-15 Tekstiiliteollisuus",
+    "target": "33 Koneiden ja laitteiden korjaus, huolto ja asennus",
+    "value": 1.672
+  },
+  {
+    "source": "13-15 Tekstiiliteollisuus",
+    "target": "35 S\u00e4hk\u00f6-, kaasu- ja l\u00e4mp\u00f6huolto, j\u00e4\u00e4hdytysliiketoiminta",
+    "value": 6.306
+  },
+  {
+    "source": "13-15 Tekstiiliteollisuus",
+    "target": "36 Veden otto, puhdistus ja jakelu",
+    "value": 0.131
+  },
+  {
+    "source": "13-15 Tekstiiliteollisuus",
+    "target": "37-39 J\u00e4te- ja j\u00e4tevesihuolto",
+    "value": 12.852
+  },
+  {
+    "source": "13-15 Tekstiiliteollisuus",
+    "target": "F Rakentaminen (41-43)",
+    "value": 44.076
+  },
+  {
+    "source": "13-15 Tekstiiliteollisuus",
+    "target": "45 Moottoriajoneuvojen ja moottoripy\u00f6rien tukku- ja v\u00e4hitt\u00e4iskauppa sek\u00e4 korjaus",
+    "value": 1.774
+  },
+  {
+    "source": "13-15 Tekstiiliteollisuus",
+    "target": "46 Tukkukauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "value": 10.998
+  },
+  {
+    "source": "13-15 Tekstiiliteollisuus",
+    "target": "47 V\u00e4hitt\u00e4iskauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "value": 5.735
+  },
+  {
+    "source": "16 Sahatavaran sek\u00e4 puu- ja korkkituotteiden valmistus (pl. huonekalut); olki- ja punontatuotteiden valmistus",
+    "target": "01 Kasvinviljely ja kotiel\u00e4intalous, riistatalous ja niihin liittyv\u00e4t palvelut",
+    "value": 3.457
+  },
+  {
+    "source": "16 Sahatavaran sek\u00e4 puu- ja korkkituotteiden valmistus (pl. huonekalut); olki- ja punontatuotteiden valmistus",
+    "target": "02 Mets\u00e4talous ja puunkorjuu",
+    "value": 1.382
+  },
+  {
+    "source": "16 Sahatavaran sek\u00e4 puu- ja korkkituotteiden valmistus (pl. huonekalut); olki- ja punontatuotteiden valmistus",
+    "target": "03 Kalastus ja vesiviljely",
+    "value": 0.029
+  },
+  {
+    "source": "16 Sahatavaran sek\u00e4 puu- ja korkkituotteiden valmistus (pl. huonekalut); olki- ja punontatuotteiden valmistus",
+    "target": "B Kaivostoiminta ja louhinta (05-09)",
+    "value": 13.704
+  },
+  {
+    "source": "16 Sahatavaran sek\u00e4 puu- ja korkkituotteiden valmistus (pl. huonekalut); olki- ja punontatuotteiden valmistus",
+    "target": "10-12 Elintarviketeollisuus ym.",
+    "value": 18.82
+  },
+  {
+    "source": "16 Sahatavaran sek\u00e4 puu- ja korkkituotteiden valmistus (pl. huonekalut); olki- ja punontatuotteiden valmistus",
+    "target": "13-15 Tekstiiliteollisuus",
+    "value": 2.574
+  },
+  {
+    "source": "16 Sahatavaran sek\u00e4 puu- ja korkkituotteiden valmistus (pl. huonekalut); olki- ja punontatuotteiden valmistus",
+    "target": "16 Sahatavaran sek\u00e4 puu- ja korkkituotteiden valmistus (pl. huonekalut); olki- ja punontatuotteiden valmistus",
+    "value": 1123.608
+  },
+  {
+    "source": "16 Sahatavaran sek\u00e4 puu- ja korkkituotteiden valmistus (pl. huonekalut); olki- ja punontatuotteiden valmistus",
+    "target": "17 Paperin, paperi- ja kartonkituotteiden valmistus",
+    "value": 531.408
+  },
+  {
+    "source": "16 Sahatavaran sek\u00e4 puu- ja korkkituotteiden valmistus (pl. huonekalut); olki- ja punontatuotteiden valmistus",
+    "target": "18 Painaminen ja tallenteiden j\u00e4ljent\u00e4minen",
+    "value": 1.234
+  },
+  {
+    "source": "16 Sahatavaran sek\u00e4 puu- ja korkkituotteiden valmistus (pl. huonekalut); olki- ja punontatuotteiden valmistus",
+    "target": "19 Koksin ja jalostettujen \u00f6ljytuotteiden valmistus",
+    "value": 2.733
+  },
+  {
+    "source": "16 Sahatavaran sek\u00e4 puu- ja korkkituotteiden valmistus (pl. huonekalut); olki- ja punontatuotteiden valmistus",
+    "target": "20 Kemikaalien ja kemiallisten tuotteiden valmistus",
+    "value": 20.473
+  },
+  {
+    "source": "16 Sahatavaran sek\u00e4 puu- ja korkkituotteiden valmistus (pl. huonekalut); olki- ja punontatuotteiden valmistus",
+    "target": "21 L\u00e4\u00e4keaineiden ja l\u00e4\u00e4kkeiden valmistus",
+    "value": 1.352
+  },
+  {
+    "source": "16 Sahatavaran sek\u00e4 puu- ja korkkituotteiden valmistus (pl. huonekalut); olki- ja punontatuotteiden valmistus",
+    "target": "22 Kumi- ja muovituotteiden valmistus",
+    "value": 20.438
+  },
+  {
+    "source": "16 Sahatavaran sek\u00e4 puu- ja korkkituotteiden valmistus (pl. huonekalut); olki- ja punontatuotteiden valmistus",
+    "target": "23 Muiden ei-metallisten mineraalituotteiden valmistus",
+    "value": 26.26
+  },
+  {
+    "source": "16 Sahatavaran sek\u00e4 puu- ja korkkituotteiden valmistus (pl. huonekalut); olki- ja punontatuotteiden valmistus",
+    "target": "24 Metallien jalostus",
+    "value": 136.058
+  },
+  {
+    "source": "16 Sahatavaran sek\u00e4 puu- ja korkkituotteiden valmistus (pl. huonekalut); olki- ja punontatuotteiden valmistus",
+    "target": "25 Metallituotteiden valmistus (pl. koneet ja laitteet)",
+    "value": 31.953
+  },
+  {
+    "source": "16 Sahatavaran sek\u00e4 puu- ja korkkituotteiden valmistus (pl. huonekalut); olki- ja punontatuotteiden valmistus",
+    "target": "26 Tietokoneiden sek\u00e4 elektronisten ja optisten tuotteiden valmistus",
+    "value": 21.039
+  },
+  {
+    "source": "16 Sahatavaran sek\u00e4 puu- ja korkkituotteiden valmistus (pl. huonekalut); olki- ja punontatuotteiden valmistus",
+    "target": "27 S\u00e4hk\u00f6laitteiden valmistus",
+    "value": 11.193
+  },
+  {
+    "source": "16 Sahatavaran sek\u00e4 puu- ja korkkituotteiden valmistus (pl. huonekalut); olki- ja punontatuotteiden valmistus",
+    "target": "28 Muiden koneiden ja laitteiden valmistus",
+    "value": 31.776
+  },
+  {
+    "source": "16 Sahatavaran sek\u00e4 puu- ja korkkituotteiden valmistus (pl. huonekalut); olki- ja punontatuotteiden valmistus",
+    "target": "29 Moottoriajoneuvojen, per\u00e4vaunujen ja puoliper\u00e4vaunujen valmistus",
+    "value": 5.522
+  },
+  {
+    "source": "16 Sahatavaran sek\u00e4 puu- ja korkkituotteiden valmistus (pl. huonekalut); olki- ja punontatuotteiden valmistus",
+    "target": "30 Muiden kulkuneuvojen valmistus",
+    "value": 16.618
+  },
+  {
+    "source": "16 Sahatavaran sek\u00e4 puu- ja korkkituotteiden valmistus (pl. huonekalut); olki- ja punontatuotteiden valmistus",
+    "target": "31, 32 Muu valmistus ml. huonekalut",
+    "value": 66.463
+  },
+  {
+    "source": "16 Sahatavaran sek\u00e4 puu- ja korkkituotteiden valmistus (pl. huonekalut); olki- ja punontatuotteiden valmistus",
+    "target": "33 Koneiden ja laitteiden korjaus, huolto ja asennus",
+    "value": 3.852
+  },
+  {
+    "source": "16 Sahatavaran sek\u00e4 puu- ja korkkituotteiden valmistus (pl. huonekalut); olki- ja punontatuotteiden valmistus",
+    "target": "35 S\u00e4hk\u00f6-, kaasu- ja l\u00e4mp\u00f6huolto, j\u00e4\u00e4hdytysliiketoiminta",
+    "value": 217.059
+  },
+  {
+    "source": "16 Sahatavaran sek\u00e4 puu- ja korkkituotteiden valmistus (pl. huonekalut); olki- ja punontatuotteiden valmistus",
+    "target": "36 Veden otto, puhdistus ja jakelu",
+    "value": 0.335
+  },
+  {
+    "source": "16 Sahatavaran sek\u00e4 puu- ja korkkituotteiden valmistus (pl. huonekalut); olki- ja punontatuotteiden valmistus",
+    "target": "37-39 J\u00e4te- ja j\u00e4tevesihuolto",
+    "value": 34.987
+  },
+  {
+    "source": "16 Sahatavaran sek\u00e4 puu- ja korkkituotteiden valmistus (pl. huonekalut); olki- ja punontatuotteiden valmistus",
+    "target": "F Rakentaminen (41-43)",
+    "value": 2431.462
+  },
+  {
+    "source": "16 Sahatavaran sek\u00e4 puu- ja korkkituotteiden valmistus (pl. huonekalut); olki- ja punontatuotteiden valmistus",
+    "target": "45 Moottoriajoneuvojen ja moottoripy\u00f6rien tukku- ja v\u00e4hitt\u00e4iskauppa sek\u00e4 korjaus",
+    "value": 4.775
+  },
+  {
+    "source": "16 Sahatavaran sek\u00e4 puu- ja korkkituotteiden valmistus (pl. huonekalut); olki- ja punontatuotteiden valmistus",
+    "target": "46 Tukkukauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "value": 37.598
+  },
+  {
+    "source": "16 Sahatavaran sek\u00e4 puu- ja korkkituotteiden valmistus (pl. huonekalut); olki- ja punontatuotteiden valmistus",
+    "target": "47 V\u00e4hitt\u00e4iskauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "value": 44.277
+  },
+  {
+    "source": "17 Paperin, paperi- ja kartonkituotteiden valmistus",
+    "target": "01 Kasvinviljely ja kotiel\u00e4intalous, riistatalous ja niihin liittyv\u00e4t palvelut",
+    "value": 10.023
+  },
+  {
+    "source": "17 Paperin, paperi- ja kartonkituotteiden valmistus",
+    "target": "02 Mets\u00e4talous ja puunkorjuu",
+    "value": 3.558
+  },
+  {
+    "source": "17 Paperin, paperi- ja kartonkituotteiden valmistus",
+    "target": "03 Kalastus ja vesiviljely",
+    "value": 0.157
+  },
+  {
+    "source": "17 Paperin, paperi- ja kartonkituotteiden valmistus",
+    "target": "B Kaivostoiminta ja louhinta (05-09)",
+    "value": 12.168
+  },
+  {
+    "source": "17 Paperin, paperi- ja kartonkituotteiden valmistus",
+    "target": "10-12 Elintarviketeollisuus ym.",
+    "value": 274.254
+  },
+  {
+    "source": "17 Paperin, paperi- ja kartonkituotteiden valmistus",
+    "target": "13-15 Tekstiiliteollisuus",
+    "value": 9.767
+  },
+  {
+    "source": "17 Paperin, paperi- ja kartonkituotteiden valmistus",
+    "target": "16 Sahatavaran sek\u00e4 puu- ja korkkituotteiden valmistus (pl. huonekalut); olki- ja punontatuotteiden valmistus",
+    "value": 64.256
+  },
+  {
+    "source": "17 Paperin, paperi- ja kartonkituotteiden valmistus",
+    "target": "17 Paperin, paperi- ja kartonkituotteiden valmistus",
+    "value": 2459.876
+  },
+  {
+    "source": "17 Paperin, paperi- ja kartonkituotteiden valmistus",
+    "target": "18 Painaminen ja tallenteiden j\u00e4ljent\u00e4minen",
+    "value": 69.194
+  },
+  {
+    "source": "17 Paperin, paperi- ja kartonkituotteiden valmistus",
+    "target": "19 Koksin ja jalostettujen \u00f6ljytuotteiden valmistus",
+    "value": 21.547
+  },
+  {
+    "source": "17 Paperin, paperi- ja kartonkituotteiden valmistus",
+    "target": "20 Kemikaalien ja kemiallisten tuotteiden valmistus",
+    "value": 124.789
+  },
+  {
+    "source": "17 Paperin, paperi- ja kartonkituotteiden valmistus",
+    "target": "21 L\u00e4\u00e4keaineiden ja l\u00e4\u00e4kkeiden valmistus",
+    "value": 22.292
+  },
+  {
+    "source": "17 Paperin, paperi- ja kartonkituotteiden valmistus",
+    "target": "22 Kumi- ja muovituotteiden valmistus",
+    "value": 47.735
+  },
+  {
+    "source": "17 Paperin, paperi- ja kartonkituotteiden valmistus",
+    "target": "23 Muiden ei-metallisten mineraalituotteiden valmistus",
+    "value": 26.505
+  },
+  {
+    "source": "17 Paperin, paperi- ja kartonkituotteiden valmistus",
+    "target": "24 Metallien jalostus",
+    "value": 102.039
+  },
+  {
+    "source": "17 Paperin, paperi- ja kartonkituotteiden valmistus",
+    "target": "25 Metallituotteiden valmistus (pl. koneet ja laitteet)",
+    "value": 40.654
+  },
+  {
+    "source": "17 Paperin, paperi- ja kartonkituotteiden valmistus",
+    "target": "26 Tietokoneiden sek\u00e4 elektronisten ja optisten tuotteiden valmistus",
+    "value": 79.057
+  },
+  {
+    "source": "17 Paperin, paperi- ja kartonkituotteiden valmistus",
+    "target": "27 S\u00e4hk\u00f6laitteiden valmistus",
+    "value": 51.676
+  },
+  {
+    "source": "17 Paperin, paperi- ja kartonkituotteiden valmistus",
+    "target": "28 Muiden koneiden ja laitteiden valmistus",
+    "value": 63.554
+  },
+  {
+    "source": "17 Paperin, paperi- ja kartonkituotteiden valmistus",
+    "target": "29 Moottoriajoneuvojen, per\u00e4vaunujen ja puoliper\u00e4vaunujen valmistus",
+    "value": 10.808
+  },
+  {
+    "source": "17 Paperin, paperi- ja kartonkituotteiden valmistus",
+    "target": "30 Muiden kulkuneuvojen valmistus",
+    "value": 13.871
+  },
+  {
+    "source": "17 Paperin, paperi- ja kartonkituotteiden valmistus",
+    "target": "31, 32 Muu valmistus ml. huonekalut",
+    "value": 20.762
+  },
+  {
+    "source": "17 Paperin, paperi- ja kartonkituotteiden valmistus",
+    "target": "33 Koneiden ja laitteiden korjaus, huolto ja asennus",
+    "value": 13.134
+  },
+  {
+    "source": "17 Paperin, paperi- ja kartonkituotteiden valmistus",
+    "target": "35 S\u00e4hk\u00f6-, kaasu- ja l\u00e4mp\u00f6huolto, j\u00e4\u00e4hdytysliiketoiminta",
+    "value": 53.785
+  },
+  {
+    "source": "17 Paperin, paperi- ja kartonkituotteiden valmistus",
+    "target": "36 Veden otto, puhdistus ja jakelu",
+    "value": 1.422
+  },
+  {
+    "source": "17 Paperin, paperi- ja kartonkituotteiden valmistus",
+    "target": "37-39 J\u00e4te- ja j\u00e4tevesihuolto",
+    "value": 24.22
+  },
+  {
+    "source": "17 Paperin, paperi- ja kartonkituotteiden valmistus",
+    "target": "F Rakentaminen (41-43)",
+    "value": 170.623
+  },
+  {
+    "source": "17 Paperin, paperi- ja kartonkituotteiden valmistus",
+    "target": "45 Moottoriajoneuvojen ja moottoripy\u00f6rien tukku- ja v\u00e4hitt\u00e4iskauppa sek\u00e4 korjaus",
+    "value": 41.885
+  },
+  {
+    "source": "17 Paperin, paperi- ja kartonkituotteiden valmistus",
+    "target": "46 Tukkukauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "value": 119.646
+  },
+  {
+    "source": "17 Paperin, paperi- ja kartonkituotteiden valmistus",
+    "target": "47 V\u00e4hitt\u00e4iskauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "value": 76.168
+  },
+  {
+    "source": "18 Painaminen ja tallenteiden j\u00e4ljent\u00e4minen",
+    "target": "01 Kasvinviljely ja kotiel\u00e4intalous, riistatalous ja niihin liittyv\u00e4t palvelut",
+    "value": 0.322
+  },
+  {
+    "source": "18 Painaminen ja tallenteiden j\u00e4ljent\u00e4minen",
+    "target": "02 Mets\u00e4talous ja puunkorjuu",
+    "value": 0.42
+  },
+  {
+    "source": "18 Painaminen ja tallenteiden j\u00e4ljent\u00e4minen",
+    "target": "03 Kalastus ja vesiviljely",
+    "value": 0.002
+  },
+  {
+    "source": "18 Painaminen ja tallenteiden j\u00e4ljent\u00e4minen",
+    "target": "B Kaivostoiminta ja louhinta (05-09)",
+    "value": 0.633
+  },
+  {
+    "source": "18 Painaminen ja tallenteiden j\u00e4ljent\u00e4minen",
+    "target": "10-12 Elintarviketeollisuus ym.",
+    "value": 24.285
+  },
+  {
+    "source": "18 Painaminen ja tallenteiden j\u00e4ljent\u00e4minen",
+    "target": "13-15 Tekstiiliteollisuus",
+    "value": 1.03
+  },
+  {
+    "source": "18 Painaminen ja tallenteiden j\u00e4ljent\u00e4minen",
+    "target": "16 Sahatavaran sek\u00e4 puu- ja korkkituotteiden valmistus (pl. huonekalut); olki- ja punontatuotteiden valmistus",
+    "value": 2.262
+  },
+  {
+    "source": "18 Painaminen ja tallenteiden j\u00e4ljent\u00e4minen",
+    "target": "17 Paperin, paperi- ja kartonkituotteiden valmistus",
+    "value": 6.106
+  },
+  {
+    "source": "18 Painaminen ja tallenteiden j\u00e4ljent\u00e4minen",
+    "target": "18 Painaminen ja tallenteiden j\u00e4ljent\u00e4minen",
+    "value": 80.939
+  },
+  {
+    "source": "18 Painaminen ja tallenteiden j\u00e4ljent\u00e4minen",
+    "target": "19 Koksin ja jalostettujen \u00f6ljytuotteiden valmistus",
+    "value": 0.782
+  },
+  {
+    "source": "18 Painaminen ja tallenteiden j\u00e4ljent\u00e4minen",
+    "target": "20 Kemikaalien ja kemiallisten tuotteiden valmistus",
+    "value": 4.423
+  },
+  {
+    "source": "18 Painaminen ja tallenteiden j\u00e4ljent\u00e4minen",
+    "target": "21 L\u00e4\u00e4keaineiden ja l\u00e4\u00e4kkeiden valmistus",
+    "value": 3.316
+  },
+  {
+    "source": "18 Painaminen ja tallenteiden j\u00e4ljent\u00e4minen",
+    "target": "22 Kumi- ja muovituotteiden valmistus",
+    "value": 4.914
+  },
+  {
+    "source": "18 Painaminen ja tallenteiden j\u00e4ljent\u00e4minen",
+    "target": "23 Muiden ei-metallisten mineraalituotteiden valmistus",
+    "value": 0.978
+  },
+  {
+    "source": "18 Painaminen ja tallenteiden j\u00e4ljent\u00e4minen",
+    "target": "24 Metallien jalostus",
+    "value": 3.184
+  },
+  {
+    "source": "18 Painaminen ja tallenteiden j\u00e4ljent\u00e4minen",
+    "target": "25 Metallituotteiden valmistus (pl. koneet ja laitteet)",
+    "value": 3.333
+  },
+  {
+    "source": "18 Painaminen ja tallenteiden j\u00e4ljent\u00e4minen",
+    "target": "26 Tietokoneiden sek\u00e4 elektronisten ja optisten tuotteiden valmistus",
+    "value": 10.252
+  },
+  {
+    "source": "18 Painaminen ja tallenteiden j\u00e4ljent\u00e4minen",
+    "target": "27 S\u00e4hk\u00f6laitteiden valmistus",
+    "value": 2.088
+  },
+  {
+    "source": "18 Painaminen ja tallenteiden j\u00e4ljent\u00e4minen",
+    "target": "28 Muiden koneiden ja laitteiden valmistus",
+    "value": 4.252
+  },
+  {
+    "source": "18 Painaminen ja tallenteiden j\u00e4ljent\u00e4minen",
+    "target": "29 Moottoriajoneuvojen, per\u00e4vaunujen ja puoliper\u00e4vaunujen valmistus",
+    "value": 0.319
+  },
+  {
+    "source": "18 Painaminen ja tallenteiden j\u00e4ljent\u00e4minen",
+    "target": "30 Muiden kulkuneuvojen valmistus",
+    "value": 0.831
+  },
+  {
+    "source": "18 Painaminen ja tallenteiden j\u00e4ljent\u00e4minen",
+    "target": "31, 32 Muu valmistus ml. huonekalut",
+    "value": 2.103
+  },
+  {
+    "source": "18 Painaminen ja tallenteiden j\u00e4ljent\u00e4minen",
+    "target": "33 Koneiden ja laitteiden korjaus, huolto ja asennus",
+    "value": 0.681
+  },
+  {
+    "source": "18 Painaminen ja tallenteiden j\u00e4ljent\u00e4minen",
+    "target": "35 S\u00e4hk\u00f6-, kaasu- ja l\u00e4mp\u00f6huolto, j\u00e4\u00e4hdytysliiketoiminta",
+    "value": 15.278
+  },
+  {
+    "source": "18 Painaminen ja tallenteiden j\u00e4ljent\u00e4minen",
+    "target": "36 Veden otto, puhdistus ja jakelu",
+    "value": 0.105
+  },
+  {
+    "source": "18 Painaminen ja tallenteiden j\u00e4ljent\u00e4minen",
+    "target": "37-39 J\u00e4te- ja j\u00e4tevesihuolto",
+    "value": 3.872
+  },
+  {
+    "source": "18 Painaminen ja tallenteiden j\u00e4ljent\u00e4minen",
+    "target": "F Rakentaminen (41-43)",
+    "value": 6.282
+  },
+  {
+    "source": "18 Painaminen ja tallenteiden j\u00e4ljent\u00e4minen",
+    "target": "45 Moottoriajoneuvojen ja moottoripy\u00f6rien tukku- ja v\u00e4hitt\u00e4iskauppa sek\u00e4 korjaus",
+    "value": 19.744
+  },
+  {
+    "source": "18 Painaminen ja tallenteiden j\u00e4ljent\u00e4minen",
+    "target": "46 Tukkukauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "value": 22.597
+  },
+  {
+    "source": "18 Painaminen ja tallenteiden j\u00e4ljent\u00e4minen",
+    "target": "47 V\u00e4hitt\u00e4iskauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "value": 12.426
+  },
+  {
+    "source": "19 Koksin ja jalostettujen \u00f6ljytuotteiden valmistus",
+    "target": "01 Kasvinviljely ja kotiel\u00e4intalous, riistatalous ja niihin liittyv\u00e4t palvelut",
+    "value": 109.902
+  },
+  {
+    "source": "19 Koksin ja jalostettujen \u00f6ljytuotteiden valmistus",
+    "target": "02 Mets\u00e4talous ja puunkorjuu",
+    "value": 172.348
+  },
+  {
+    "source": "19 Koksin ja jalostettujen \u00f6ljytuotteiden valmistus",
+    "target": "03 Kalastus ja vesiviljely",
+    "value": 8.157
+  },
+  {
+    "source": "19 Koksin ja jalostettujen \u00f6ljytuotteiden valmistus",
+    "target": "B Kaivostoiminta ja louhinta (05-09)",
+    "value": 143.99
+  },
+  {
+    "source": "19 Koksin ja jalostettujen \u00f6ljytuotteiden valmistus",
+    "target": "10-12 Elintarviketeollisuus ym.",
+    "value": 35.608
+  },
+  {
+    "source": "19 Koksin ja jalostettujen \u00f6ljytuotteiden valmistus",
+    "target": "13-15 Tekstiiliteollisuus",
+    "value": 1.176
+  },
+  {
+    "source": "19 Koksin ja jalostettujen \u00f6ljytuotteiden valmistus",
+    "target": "16 Sahatavaran sek\u00e4 puu- ja korkkituotteiden valmistus (pl. huonekalut); olki- ja punontatuotteiden valmistus",
+    "value": 3.143
+  },
+  {
+    "source": "19 Koksin ja jalostettujen \u00f6ljytuotteiden valmistus",
+    "target": "17 Paperin, paperi- ja kartonkituotteiden valmistus",
+    "value": 23.101
+  },
+  {
+    "source": "19 Koksin ja jalostettujen \u00f6ljytuotteiden valmistus",
+    "target": "18 Painaminen ja tallenteiden j\u00e4ljent\u00e4minen",
+    "value": 2.289
+  },
+  {
+    "source": "19 Koksin ja jalostettujen \u00f6ljytuotteiden valmistus",
+    "target": "19 Koksin ja jalostettujen \u00f6ljytuotteiden valmistus",
+    "value": 1068.486
+  },
+  {
+    "source": "19 Koksin ja jalostettujen \u00f6ljytuotteiden valmistus",
+    "target": "20 Kemikaalien ja kemiallisten tuotteiden valmistus",
+    "value": 225.016
+  },
+  {
+    "source": "19 Koksin ja jalostettujen \u00f6ljytuotteiden valmistus",
+    "target": "21 L\u00e4\u00e4keaineiden ja l\u00e4\u00e4kkeiden valmistus",
+    "value": 3.722
+  },
+  {
+    "source": "19 Koksin ja jalostettujen \u00f6ljytuotteiden valmistus",
+    "target": "22 Kumi- ja muovituotteiden valmistus",
+    "value": 7.048
+  },
+  {
+    "source": "19 Koksin ja jalostettujen \u00f6ljytuotteiden valmistus",
+    "target": "23 Muiden ei-metallisten mineraalituotteiden valmistus",
+    "value": 29.554
+  },
+  {
+    "source": "19 Koksin ja jalostettujen \u00f6ljytuotteiden valmistus",
+    "target": "24 Metallien jalostus",
+    "value": 49.727
+  },
+  {
+    "source": "19 Koksin ja jalostettujen \u00f6ljytuotteiden valmistus",
+    "target": "25 Metallituotteiden valmistus (pl. koneet ja laitteet)",
+    "value": 11.699
+  },
+  {
+    "source": "19 Koksin ja jalostettujen \u00f6ljytuotteiden valmistus",
+    "target": "26 Tietokoneiden sek\u00e4 elektronisten ja optisten tuotteiden valmistus",
+    "value": 20.041
+  },
+  {
+    "source": "19 Koksin ja jalostettujen \u00f6ljytuotteiden valmistus",
+    "target": "27 S\u00e4hk\u00f6laitteiden valmistus",
+    "value": 2.982
+  },
+  {
+    "source": "19 Koksin ja jalostettujen \u00f6ljytuotteiden valmistus",
+    "target": "28 Muiden koneiden ja laitteiden valmistus",
+    "value": 18.096
+  },
+  {
+    "source": "19 Koksin ja jalostettujen \u00f6ljytuotteiden valmistus",
+    "target": "29 Moottoriajoneuvojen, per\u00e4vaunujen ja puoliper\u00e4vaunujen valmistus",
+    "value": 2.239
+  },
+  {
+    "source": "19 Koksin ja jalostettujen \u00f6ljytuotteiden valmistus",
+    "target": "30 Muiden kulkuneuvojen valmistus",
+    "value": 21.895
+  },
+  {
+    "source": "19 Koksin ja jalostettujen \u00f6ljytuotteiden valmistus",
+    "target": "31, 32 Muu valmistus ml. huonekalut",
+    "value": 0.774
+  },
+  {
+    "source": "19 Koksin ja jalostettujen \u00f6ljytuotteiden valmistus",
+    "target": "33 Koneiden ja laitteiden korjaus, huolto ja asennus",
+    "value": 3.063
+  },
+  {
+    "source": "19 Koksin ja jalostettujen \u00f6ljytuotteiden valmistus",
+    "target": "35 S\u00e4hk\u00f6-, kaasu- ja l\u00e4mp\u00f6huolto, j\u00e4\u00e4hdytysliiketoiminta",
+    "value": 134.655
+  },
+  {
+    "source": "19 Koksin ja jalostettujen \u00f6ljytuotteiden valmistus",
+    "target": "36 Veden otto, puhdistus ja jakelu",
+    "value": 0.612
+  },
+  {
+    "source": "19 Koksin ja jalostettujen \u00f6ljytuotteiden valmistus",
+    "target": "37-39 J\u00e4te- ja j\u00e4tevesihuolto",
+    "value": 9.696
+  },
+  {
+    "source": "19 Koksin ja jalostettujen \u00f6ljytuotteiden valmistus",
+    "target": "F Rakentaminen (41-43)",
+    "value": 333.746
+  },
+  {
+    "source": "19 Koksin ja jalostettujen \u00f6ljytuotteiden valmistus",
+    "target": "45 Moottoriajoneuvojen ja moottoripy\u00f6rien tukku- ja v\u00e4hitt\u00e4iskauppa sek\u00e4 korjaus",
+    "value": 57.193
+  },
+  {
+    "source": "19 Koksin ja jalostettujen \u00f6ljytuotteiden valmistus",
+    "target": "46 Tukkukauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "value": 48.858
+  },
+  {
+    "source": "19 Koksin ja jalostettujen \u00f6ljytuotteiden valmistus",
+    "target": "47 V\u00e4hitt\u00e4iskauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "value": 11.247
+  },
+  {
+    "source": "20 Kemikaalien ja kemiallisten tuotteiden valmistus",
+    "target": "01 Kasvinviljely ja kotiel\u00e4intalous, riistatalous ja niihin liittyv\u00e4t palvelut",
+    "value": 121.839
+  },
+  {
+    "source": "20 Kemikaalien ja kemiallisten tuotteiden valmistus",
+    "target": "02 Mets\u00e4talous ja puunkorjuu",
+    "value": 37.773
+  },
+  {
+    "source": "20 Kemikaalien ja kemiallisten tuotteiden valmistus",
+    "target": "03 Kalastus ja vesiviljely",
+    "value": 0.025
+  },
+  {
+    "source": "20 Kemikaalien ja kemiallisten tuotteiden valmistus",
+    "target": "B Kaivostoiminta ja louhinta (05-09)",
+    "value": 35.033
+  },
+  {
+    "source": "20 Kemikaalien ja kemiallisten tuotteiden valmistus",
+    "target": "10-12 Elintarviketeollisuus ym.",
+    "value": 51.83
+  },
+  {
+    "source": "20 Kemikaalien ja kemiallisten tuotteiden valmistus",
+    "target": "13-15 Tekstiiliteollisuus",
+    "value": 6.329
+  },
+  {
+    "source": "20 Kemikaalien ja kemiallisten tuotteiden valmistus",
+    "target": "16 Sahatavaran sek\u00e4 puu- ja korkkituotteiden valmistus (pl. huonekalut); olki- ja punontatuotteiden valmistus",
+    "value": 86.168
+  },
+  {
+    "source": "20 Kemikaalien ja kemiallisten tuotteiden valmistus",
+    "target": "17 Paperin, paperi- ja kartonkituotteiden valmistus",
+    "value": 509.747
+  },
+  {
+    "source": "20 Kemikaalien ja kemiallisten tuotteiden valmistus",
+    "target": "18 Painaminen ja tallenteiden j\u00e4ljent\u00e4minen",
+    "value": 6.146
+  },
+  {
+    "source": "20 Kemikaalien ja kemiallisten tuotteiden valmistus",
+    "target": "19 Koksin ja jalostettujen \u00f6ljytuotteiden valmistus",
+    "value": 787.821
+  },
+  {
+    "source": "20 Kemikaalien ja kemiallisten tuotteiden valmistus",
+    "target": "20 Kemikaalien ja kemiallisten tuotteiden valmistus",
+    "value": 1185.342
+  },
+  {
+    "source": "20 Kemikaalien ja kemiallisten tuotteiden valmistus",
+    "target": "21 L\u00e4\u00e4keaineiden ja l\u00e4\u00e4kkeiden valmistus",
+    "value": 17.917
+  },
+  {
+    "source": "20 Kemikaalien ja kemiallisten tuotteiden valmistus",
+    "target": "22 Kumi- ja muovituotteiden valmistus",
+    "value": 146.257
+  },
+  {
+    "source": "20 Kemikaalien ja kemiallisten tuotteiden valmistus",
+    "target": "23 Muiden ei-metallisten mineraalituotteiden valmistus",
+    "value": 36.592
+  },
+  {
+    "source": "20 Kemikaalien ja kemiallisten tuotteiden valmistus",
+    "target": "24 Metallien jalostus",
+    "value": 197.706
+  },
+  {
+    "source": "20 Kemikaalien ja kemiallisten tuotteiden valmistus",
+    "target": "25 Metallituotteiden valmistus (pl. koneet ja laitteet)",
+    "value": 64.594
+  },
+  {
+    "source": "20 Kemikaalien ja kemiallisten tuotteiden valmistus",
+    "target": "26 Tietokoneiden sek\u00e4 elektronisten ja optisten tuotteiden valmistus",
+    "value": 28.039
+  },
+  {
+    "source": "20 Kemikaalien ja kemiallisten tuotteiden valmistus",
+    "target": "27 S\u00e4hk\u00f6laitteiden valmistus",
+    "value": 15.568
+  },
+  {
+    "source": "20 Kemikaalien ja kemiallisten tuotteiden valmistus",
+    "target": "28 Muiden koneiden ja laitteiden valmistus",
+    "value": 37.672
+  },
+  {
+    "source": "20 Kemikaalien ja kemiallisten tuotteiden valmistus",
+    "target": "29 Moottoriajoneuvojen, per\u00e4vaunujen ja puoliper\u00e4vaunujen valmistus",
+    "value": 19.99
+  },
+  {
+    "source": "20 Kemikaalien ja kemiallisten tuotteiden valmistus",
+    "target": "30 Muiden kulkuneuvojen valmistus",
+    "value": 20.867
+  },
+  {
+    "source": "20 Kemikaalien ja kemiallisten tuotteiden valmistus",
+    "target": "31, 32 Muu valmistus ml. huonekalut",
+    "value": 9.911
+  },
+  {
+    "source": "20 Kemikaalien ja kemiallisten tuotteiden valmistus",
+    "target": "33 Koneiden ja laitteiden korjaus, huolto ja asennus",
+    "value": 4.194
+  },
+  {
+    "source": "20 Kemikaalien ja kemiallisten tuotteiden valmistus",
+    "target": "35 S\u00e4hk\u00f6-, kaasu- ja l\u00e4mp\u00f6huolto, j\u00e4\u00e4hdytysliiketoiminta",
+    "value": 20.192
+  },
+  {
+    "source": "20 Kemikaalien ja kemiallisten tuotteiden valmistus",
+    "target": "36 Veden otto, puhdistus ja jakelu",
+    "value": 1.127
+  },
+  {
+    "source": "20 Kemikaalien ja kemiallisten tuotteiden valmistus",
+    "target": "37-39 J\u00e4te- ja j\u00e4tevesihuolto",
+    "value": 74.001
+  },
+  {
+    "source": "20 Kemikaalien ja kemiallisten tuotteiden valmistus",
+    "target": "F Rakentaminen (41-43)",
+    "value": 196.676
+  },
+  {
+    "source": "20 Kemikaalien ja kemiallisten tuotteiden valmistus",
+    "target": "45 Moottoriajoneuvojen ja moottoripy\u00f6rien tukku- ja v\u00e4hitt\u00e4iskauppa sek\u00e4 korjaus",
+    "value": 7.555
+  },
+  {
+    "source": "20 Kemikaalien ja kemiallisten tuotteiden valmistus",
+    "target": "46 Tukkukauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "value": 12.982
+  },
+  {
+    "source": "20 Kemikaalien ja kemiallisten tuotteiden valmistus",
+    "target": "47 V\u00e4hitt\u00e4iskauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "value": 12.028
+  },
+  {
+    "source": "21 L\u00e4\u00e4keaineiden ja l\u00e4\u00e4kkeiden valmistus",
+    "target": "01 Kasvinviljely ja kotiel\u00e4intalous, riistatalous ja niihin liittyv\u00e4t palvelut",
+    "value": 1.524
+  },
+  {
+    "source": "21 L\u00e4\u00e4keaineiden ja l\u00e4\u00e4kkeiden valmistus",
+    "target": "02 Mets\u00e4talous ja puunkorjuu",
+    "value": 0.189
+  },
+  {
+    "source": "21 L\u00e4\u00e4keaineiden ja l\u00e4\u00e4kkeiden valmistus",
+    "target": "03 Kalastus ja vesiviljely",
+    "value": 0.018
+  },
+  {
+    "source": "21 L\u00e4\u00e4keaineiden ja l\u00e4\u00e4kkeiden valmistus",
+    "target": "B Kaivostoiminta ja louhinta (05-09)",
+    "value": 0.334
+  },
+  {
+    "source": "21 L\u00e4\u00e4keaineiden ja l\u00e4\u00e4kkeiden valmistus",
+    "target": "10-12 Elintarviketeollisuus ym.",
+    "value": 5.776
+  },
+  {
+    "source": "21 L\u00e4\u00e4keaineiden ja l\u00e4\u00e4kkeiden valmistus",
+    "target": "13-15 Tekstiiliteollisuus",
+    "value": 0.366
+  },
+  {
+    "source": "21 L\u00e4\u00e4keaineiden ja l\u00e4\u00e4kkeiden valmistus",
+    "target": "16 Sahatavaran sek\u00e4 puu- ja korkkituotteiden valmistus (pl. huonekalut); olki- ja punontatuotteiden valmistus",
+    "value": 4.296
+  },
+  {
+    "source": "21 L\u00e4\u00e4keaineiden ja l\u00e4\u00e4kkeiden valmistus",
+    "target": "17 Paperin, paperi- ja kartonkituotteiden valmistus",
+    "value": 4.763
+  },
+  {
+    "source": "21 L\u00e4\u00e4keaineiden ja l\u00e4\u00e4kkeiden valmistus",
+    "target": "18 Painaminen ja tallenteiden j\u00e4ljent\u00e4minen",
+    "value": 0.257
+  },
+  {
+    "source": "21 L\u00e4\u00e4keaineiden ja l\u00e4\u00e4kkeiden valmistus",
+    "target": "19 Koksin ja jalostettujen \u00f6ljytuotteiden valmistus",
+    "value": 0.958
+  },
+  {
+    "source": "21 L\u00e4\u00e4keaineiden ja l\u00e4\u00e4kkeiden valmistus",
+    "target": "20 Kemikaalien ja kemiallisten tuotteiden valmistus",
+    "value": 3.398
+  },
+  {
+    "source": "21 L\u00e4\u00e4keaineiden ja l\u00e4\u00e4kkeiden valmistus",
+    "target": "21 L\u00e4\u00e4keaineiden ja l\u00e4\u00e4kkeiden valmistus",
+    "value": 19.369
+  },
+  {
+    "source": "21 L\u00e4\u00e4keaineiden ja l\u00e4\u00e4kkeiden valmistus",
+    "target": "22 Kumi- ja muovituotteiden valmistus",
+    "value": 0.587
+  },
+  {
+    "source": "21 L\u00e4\u00e4keaineiden ja l\u00e4\u00e4kkeiden valmistus",
+    "target": "23 Muiden ei-metallisten mineraalituotteiden valmistus",
+    "value": 0.738
+  },
+  {
+    "source": "21 L\u00e4\u00e4keaineiden ja l\u00e4\u00e4kkeiden valmistus",
+    "target": "24 Metallien jalostus",
+    "value": 4.487
+  },
+  {
+    "source": "21 L\u00e4\u00e4keaineiden ja l\u00e4\u00e4kkeiden valmistus",
+    "target": "25 Metallituotteiden valmistus (pl. koneet ja laitteet)",
+    "value": 1.243
+  },
+  {
+    "source": "21 L\u00e4\u00e4keaineiden ja l\u00e4\u00e4kkeiden valmistus",
+    "target": "26 Tietokoneiden sek\u00e4 elektronisten ja optisten tuotteiden valmistus",
+    "value": 3.527
+  },
+  {
+    "source": "21 L\u00e4\u00e4keaineiden ja l\u00e4\u00e4kkeiden valmistus",
+    "target": "27 S\u00e4hk\u00f6laitteiden valmistus",
+    "value": 1.814
+  },
+  {
+    "source": "21 L\u00e4\u00e4keaineiden ja l\u00e4\u00e4kkeiden valmistus",
+    "target": "28 Muiden koneiden ja laitteiden valmistus",
+    "value": 3.668
+  },
+  {
+    "source": "21 L\u00e4\u00e4keaineiden ja l\u00e4\u00e4kkeiden valmistus",
+    "target": "29 Moottoriajoneuvojen, per\u00e4vaunujen ja puoliper\u00e4vaunujen valmistus",
+    "value": 0.667
+  },
+  {
+    "source": "21 L\u00e4\u00e4keaineiden ja l\u00e4\u00e4kkeiden valmistus",
+    "target": "30 Muiden kulkuneuvojen valmistus",
+    "value": 0.863
+  },
+  {
+    "source": "21 L\u00e4\u00e4keaineiden ja l\u00e4\u00e4kkeiden valmistus",
+    "target": "31, 32 Muu valmistus ml. huonekalut",
+    "value": 0.568
+  },
+  {
+    "source": "21 L\u00e4\u00e4keaineiden ja l\u00e4\u00e4kkeiden valmistus",
+    "target": "33 Koneiden ja laitteiden korjaus, huolto ja asennus",
+    "value": 0.868
+  },
+  {
+    "source": "21 L\u00e4\u00e4keaineiden ja l\u00e4\u00e4kkeiden valmistus",
+    "target": "35 S\u00e4hk\u00f6-, kaasu- ja l\u00e4mp\u00f6huolto, j\u00e4\u00e4hdytysliiketoiminta",
+    "value": 2.488
+  },
+  {
+    "source": "21 L\u00e4\u00e4keaineiden ja l\u00e4\u00e4kkeiden valmistus",
+    "target": "36 Veden otto, puhdistus ja jakelu",
+    "value": 0.09
+  },
+  {
+    "source": "21 L\u00e4\u00e4keaineiden ja l\u00e4\u00e4kkeiden valmistus",
+    "target": "37-39 J\u00e4te- ja j\u00e4tevesihuolto",
+    "value": 0.675
+  },
+  {
+    "source": "21 L\u00e4\u00e4keaineiden ja l\u00e4\u00e4kkeiden valmistus",
+    "target": "F Rakentaminen (41-43)",
+    "value": 11.229
+  },
+  {
+    "source": "21 L\u00e4\u00e4keaineiden ja l\u00e4\u00e4kkeiden valmistus",
+    "target": "45 Moottoriajoneuvojen ja moottoripy\u00f6rien tukku- ja v\u00e4hitt\u00e4iskauppa sek\u00e4 korjaus",
+    "value": 0.914
+  },
+  {
+    "source": "21 L\u00e4\u00e4keaineiden ja l\u00e4\u00e4kkeiden valmistus",
+    "target": "46 Tukkukauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "value": 2.414
+  },
+  {
+    "source": "21 L\u00e4\u00e4keaineiden ja l\u00e4\u00e4kkeiden valmistus",
+    "target": "47 V\u00e4hitt\u00e4iskauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "value": 2.402
+  },
+  {
+    "source": "22 Kumi- ja muovituotteiden valmistus",
+    "target": "01 Kasvinviljely ja kotiel\u00e4intalous, riistatalous ja niihin liittyv\u00e4t palvelut",
+    "value": 1.92
+  },
+  {
+    "source": "22 Kumi- ja muovituotteiden valmistus",
+    "target": "02 Mets\u00e4talous ja puunkorjuu",
+    "value": 0.497
+  },
+  {
+    "source": "22 Kumi- ja muovituotteiden valmistus",
+    "target": "03 Kalastus ja vesiviljely",
+    "value": 0.018
+  },
+  {
+    "source": "22 Kumi- ja muovituotteiden valmistus",
+    "target": "B Kaivostoiminta ja louhinta (05-09)",
+    "value": 7.949
+  },
+  {
+    "source": "22 Kumi- ja muovituotteiden valmistus",
+    "target": "10-12 Elintarviketeollisuus ym.",
+    "value": 149.911
+  },
+  {
+    "source": "22 Kumi- ja muovituotteiden valmistus",
+    "target": "13-15 Tekstiiliteollisuus",
+    "value": 15.153
+  },
+  {
+    "source": "22 Kumi- ja muovituotteiden valmistus",
+    "target": "16 Sahatavaran sek\u00e4 puu- ja korkkituotteiden valmistus (pl. huonekalut); olki- ja punontatuotteiden valmistus",
+    "value": 46.781
+  },
+  {
+    "source": "22 Kumi- ja muovituotteiden valmistus",
+    "target": "17 Paperin, paperi- ja kartonkituotteiden valmistus",
+    "value": 37.794
+  },
+  {
+    "source": "22 Kumi- ja muovituotteiden valmistus",
+    "target": "18 Painaminen ja tallenteiden j\u00e4ljent\u00e4minen",
+    "value": 4.505
+  },
+  {
+    "source": "22 Kumi- ja muovituotteiden valmistus",
+    "target": "19 Koksin ja jalostettujen \u00f6ljytuotteiden valmistus",
+    "value": 2.402
+  },
+  {
+    "source": "22 Kumi- ja muovituotteiden valmistus",
+    "target": "20 Kemikaalien ja kemiallisten tuotteiden valmistus",
+    "value": 39.972
+  },
+  {
+    "source": "22 Kumi- ja muovituotteiden valmistus",
+    "target": "21 L\u00e4\u00e4keaineiden ja l\u00e4\u00e4kkeiden valmistus",
+    "value": 17.341
+  },
+  {
+    "source": "22 Kumi- ja muovituotteiden valmistus",
+    "target": "22 Kumi- ja muovituotteiden valmistus",
+    "value": 164.28
+  },
+  {
+    "source": "22 Kumi- ja muovituotteiden valmistus",
+    "target": "23 Muiden ei-metallisten mineraalituotteiden valmistus",
+    "value": 18.363
+  },
+  {
+    "source": "22 Kumi- ja muovituotteiden valmistus",
+    "target": "24 Metallien jalostus",
+    "value": 22.002
+  },
+  {
+    "source": "22 Kumi- ja muovituotteiden valmistus",
+    "target": "25 Metallituotteiden valmistus (pl. koneet ja laitteet)",
+    "value": 25.772
+  },
+  {
+    "source": "22 Kumi- ja muovituotteiden valmistus",
+    "target": "26 Tietokoneiden sek\u00e4 elektronisten ja optisten tuotteiden valmistus",
+    "value": 22.466
+  },
+  {
+    "source": "22 Kumi- ja muovituotteiden valmistus",
+    "target": "27 S\u00e4hk\u00f6laitteiden valmistus",
+    "value": 23.822
+  },
+  {
+    "source": "22 Kumi- ja muovituotteiden valmistus",
+    "target": "28 Muiden koneiden ja laitteiden valmistus",
+    "value": 45.447
+  },
+  {
+    "source": "22 Kumi- ja muovituotteiden valmistus",
+    "target": "29 Moottoriajoneuvojen, per\u00e4vaunujen ja puoliper\u00e4vaunujen valmistus",
+    "value": 9.869
+  },
+  {
+    "source": "22 Kumi- ja muovituotteiden valmistus",
+    "target": "30 Muiden kulkuneuvojen valmistus",
+    "value": 14.228
+  },
+  {
+    "source": "22 Kumi- ja muovituotteiden valmistus",
+    "target": "31, 32 Muu valmistus ml. huonekalut",
+    "value": 18.429
+  },
+  {
+    "source": "22 Kumi- ja muovituotteiden valmistus",
+    "target": "33 Koneiden ja laitteiden korjaus, huolto ja asennus",
+    "value": 16.95
+  },
+  {
+    "source": "22 Kumi- ja muovituotteiden valmistus",
+    "target": "35 S\u00e4hk\u00f6-, kaasu- ja l\u00e4mp\u00f6huolto, j\u00e4\u00e4hdytysliiketoiminta",
+    "value": 17.041
+  },
+  {
+    "source": "22 Kumi- ja muovituotteiden valmistus",
+    "target": "36 Veden otto, puhdistus ja jakelu",
+    "value": 1.18
+  },
+  {
+    "source": "22 Kumi- ja muovituotteiden valmistus",
+    "target": "37-39 J\u00e4te- ja j\u00e4tevesihuolto",
+    "value": 4.259
+  },
+  {
+    "source": "22 Kumi- ja muovituotteiden valmistus",
+    "target": "F Rakentaminen (41-43)",
+    "value": 577.525
+  },
+  {
+    "source": "22 Kumi- ja muovituotteiden valmistus",
+    "target": "45 Moottoriajoneuvojen ja moottoripy\u00f6rien tukku- ja v\u00e4hitt\u00e4iskauppa sek\u00e4 korjaus",
+    "value": 9.679
+  },
+  {
+    "source": "22 Kumi- ja muovituotteiden valmistus",
+    "target": "46 Tukkukauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "value": 17.555
+  },
+  {
+    "source": "22 Kumi- ja muovituotteiden valmistus",
+    "target": "47 V\u00e4hitt\u00e4iskauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "value": 5.421
+  },
+  {
+    "source": "23 Muiden ei-metallisten mineraalituotteiden valmistus",
+    "target": "01 Kasvinviljely ja kotiel\u00e4intalous, riistatalous ja niihin liittyv\u00e4t palvelut",
+    "value": 1.425
+  },
+  {
+    "source": "23 Muiden ei-metallisten mineraalituotteiden valmistus",
+    "target": "02 Mets\u00e4talous ja puunkorjuu",
+    "value": 0.205
+  },
+  {
+    "source": "23 Muiden ei-metallisten mineraalituotteiden valmistus",
+    "target": "03 Kalastus ja vesiviljely",
+    "value": 0.008
+  },
+  {
+    "source": "23 Muiden ei-metallisten mineraalituotteiden valmistus",
+    "target": "B Kaivostoiminta ja louhinta (05-09)",
+    "value": 8.469
+  },
+  {
+    "source": "23 Muiden ei-metallisten mineraalituotteiden valmistus",
+    "target": "10-12 Elintarviketeollisuus ym.",
+    "value": 5.259
+  },
+  {
+    "source": "23 Muiden ei-metallisten mineraalituotteiden valmistus",
+    "target": "13-15 Tekstiiliteollisuus",
+    "value": 1.245
+  },
+  {
+    "source": "23 Muiden ei-metallisten mineraalituotteiden valmistus",
+    "target": "16 Sahatavaran sek\u00e4 puu- ja korkkituotteiden valmistus (pl. huonekalut); olki- ja punontatuotteiden valmistus",
+    "value": 58.346
+  },
+  {
+    "source": "23 Muiden ei-metallisten mineraalituotteiden valmistus",
+    "target": "17 Paperin, paperi- ja kartonkituotteiden valmistus",
+    "value": 17.548
+  },
+  {
+    "source": "23 Muiden ei-metallisten mineraalituotteiden valmistus",
+    "target": "18 Painaminen ja tallenteiden j\u00e4ljent\u00e4minen",
+    "value": 3.657
+  },
+  {
+    "source": "23 Muiden ei-metallisten mineraalituotteiden valmistus",
+    "target": "19 Koksin ja jalostettujen \u00f6ljytuotteiden valmistus",
+    "value": 0.675
+  },
+  {
+    "source": "23 Muiden ei-metallisten mineraalituotteiden valmistus",
+    "target": "20 Kemikaalien ja kemiallisten tuotteiden valmistus",
+    "value": 30.085
+  },
+  {
+    "source": "23 Muiden ei-metallisten mineraalituotteiden valmistus",
+    "target": "21 L\u00e4\u00e4keaineiden ja l\u00e4\u00e4kkeiden valmistus",
+    "value": 0.763
+  },
+  {
+    "source": "23 Muiden ei-metallisten mineraalituotteiden valmistus",
+    "target": "22 Kumi- ja muovituotteiden valmistus",
+    "value": 10.282
+  },
+  {
+    "source": "23 Muiden ei-metallisten mineraalituotteiden valmistus",
+    "target": "23 Muiden ei-metallisten mineraalituotteiden valmistus",
+    "value": 370.899
+  },
+  {
+    "source": "23 Muiden ei-metallisten mineraalituotteiden valmistus",
+    "target": "24 Metallien jalostus",
+    "value": 30.608
+  },
+  {
+    "source": "23 Muiden ei-metallisten mineraalituotteiden valmistus",
+    "target": "25 Metallituotteiden valmistus (pl. koneet ja laitteet)",
+    "value": 34.67
+  },
+  {
+    "source": "23 Muiden ei-metallisten mineraalituotteiden valmistus",
+    "target": "26 Tietokoneiden sek\u00e4 elektronisten ja optisten tuotteiden valmistus",
+    "value": 16.516
+  },
+  {
+    "source": "23 Muiden ei-metallisten mineraalituotteiden valmistus",
+    "target": "27 S\u00e4hk\u00f6laitteiden valmistus",
+    "value": 6.839
+  },
+  {
+    "source": "23 Muiden ei-metallisten mineraalituotteiden valmistus",
+    "target": "28 Muiden koneiden ja laitteiden valmistus",
+    "value": 19.986
+  },
+  {
+    "source": "23 Muiden ei-metallisten mineraalituotteiden valmistus",
+    "target": "29 Moottoriajoneuvojen, per\u00e4vaunujen ja puoliper\u00e4vaunujen valmistus",
+    "value": 5.963
+  },
+  {
+    "source": "23 Muiden ei-metallisten mineraalituotteiden valmistus",
+    "target": "30 Muiden kulkuneuvojen valmistus",
+    "value": 11.275
+  },
+  {
+    "source": "23 Muiden ei-metallisten mineraalituotteiden valmistus",
+    "target": "31, 32 Muu valmistus ml. huonekalut",
+    "value": 6.093
+  },
+  {
+    "source": "23 Muiden ei-metallisten mineraalituotteiden valmistus",
+    "target": "33 Koneiden ja laitteiden korjaus, huolto ja asennus",
+    "value": 13.489
+  },
+  {
+    "source": "23 Muiden ei-metallisten mineraalituotteiden valmistus",
+    "target": "35 S\u00e4hk\u00f6-, kaasu- ja l\u00e4mp\u00f6huolto, j\u00e4\u00e4hdytysliiketoiminta",
+    "value": 6.7
+  },
+  {
+    "source": "23 Muiden ei-metallisten mineraalituotteiden valmistus",
+    "target": "36 Veden otto, puhdistus ja jakelu",
+    "value": 0.784
+  },
+  {
+    "source": "23 Muiden ei-metallisten mineraalituotteiden valmistus",
+    "target": "37-39 J\u00e4te- ja j\u00e4tevesihuolto",
+    "value": 2.537
+  },
+  {
+    "source": "23 Muiden ei-metallisten mineraalituotteiden valmistus",
+    "target": "F Rakentaminen (41-43)",
+    "value": 2036.28
+  },
+  {
+    "source": "23 Muiden ei-metallisten mineraalituotteiden valmistus",
+    "target": "45 Moottoriajoneuvojen ja moottoripy\u00f6rien tukku- ja v\u00e4hitt\u00e4iskauppa sek\u00e4 korjaus",
+    "value": 17.621
+  },
+  {
+    "source": "23 Muiden ei-metallisten mineraalituotteiden valmistus",
+    "target": "46 Tukkukauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "value": 13.196
+  },
+  {
+    "source": "23 Muiden ei-metallisten mineraalituotteiden valmistus",
+    "target": "47 V\u00e4hitt\u00e4iskauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "value": 8.624
+  },
+  {
+    "source": "24 Metallien jalostus",
+    "target": "01 Kasvinviljely ja kotiel\u00e4intalous, riistatalous ja niihin liittyv\u00e4t palvelut",
+    "value": 4.829
+  },
+  {
+    "source": "24 Metallien jalostus",
+    "target": "02 Mets\u00e4talous ja puunkorjuu",
+    "value": 0.921
+  },
+  {
+    "source": "24 Metallien jalostus",
+    "target": "03 Kalastus ja vesiviljely",
+    "value": 0.02
+  },
+  {
+    "source": "24 Metallien jalostus",
+    "target": "B Kaivostoiminta ja louhinta (05-09)",
+    "value": 5.493
+  },
+  {
+    "source": "24 Metallien jalostus",
+    "target": "10-12 Elintarviketeollisuus ym.",
+    "value": 26.241
+  },
+  {
+    "source": "24 Metallien jalostus",
+    "target": "13-15 Tekstiiliteollisuus",
+    "value": 2.35
+  },
+  {
+    "source": "24 Metallien jalostus",
+    "target": "16 Sahatavaran sek\u00e4 puu- ja korkkituotteiden valmistus (pl. huonekalut); olki- ja punontatuotteiden valmistus",
+    "value": 27.051
+  },
+  {
+    "source": "24 Metallien jalostus",
+    "target": "17 Paperin, paperi- ja kartonkituotteiden valmistus",
+    "value": 86.476
+  },
+  {
+    "source": "24 Metallien jalostus",
+    "target": "18 Painaminen ja tallenteiden j\u00e4ljent\u00e4minen",
+    "value": 1.268
+  },
+  {
+    "source": "24 Metallien jalostus",
+    "target": "19 Koksin ja jalostettujen \u00f6ljytuotteiden valmistus",
+    "value": 6.204
+  },
+  {
+    "source": "24 Metallien jalostus",
+    "target": "20 Kemikaalien ja kemiallisten tuotteiden valmistus",
+    "value": 135.746
+  },
+  {
+    "source": "24 Metallien jalostus",
+    "target": "21 L\u00e4\u00e4keaineiden ja l\u00e4\u00e4kkeiden valmistus",
+    "value": 2.225
+  },
+  {
+    "source": "24 Metallien jalostus",
+    "target": "22 Kumi- ja muovituotteiden valmistus",
+    "value": 49.12
+  },
+  {
+    "source": "24 Metallien jalostus",
+    "target": "23 Muiden ei-metallisten mineraalituotteiden valmistus",
+    "value": 105.33
+  },
+  {
+    "source": "24 Metallien jalostus",
+    "target": "24 Metallien jalostus",
+    "value": 1831.9
+  },
+  {
+    "source": "24 Metallien jalostus",
+    "target": "25 Metallituotteiden valmistus (pl. koneet ja laitteet)",
+    "value": 1795.46
+  },
+  {
+    "source": "24 Metallien jalostus",
+    "target": "26 Tietokoneiden sek\u00e4 elektronisten ja optisten tuotteiden valmistus",
+    "value": 57.244
+  },
+  {
+    "source": "24 Metallien jalostus",
+    "target": "27 S\u00e4hk\u00f6laitteiden valmistus",
+    "value": 169.521
+  },
+  {
+    "source": "24 Metallien jalostus",
+    "target": "28 Muiden koneiden ja laitteiden valmistus",
+    "value": 301.29
+  },
+  {
+    "source": "24 Metallien jalostus",
+    "target": "29 Moottoriajoneuvojen, per\u00e4vaunujen ja puoliper\u00e4vaunujen valmistus",
+    "value": 63.404
+  },
+  {
+    "source": "24 Metallien jalostus",
+    "target": "30 Muiden kulkuneuvojen valmistus",
+    "value": 91.024
+  },
+  {
+    "source": "24 Metallien jalostus",
+    "target": "31, 32 Muu valmistus ml. huonekalut",
+    "value": 23.07
+  },
+  {
+    "source": "24 Metallien jalostus",
+    "target": "33 Koneiden ja laitteiden korjaus, huolto ja asennus",
+    "value": 28.578
+  },
+  {
+    "source": "24 Metallien jalostus",
+    "target": "35 S\u00e4hk\u00f6-, kaasu- ja l\u00e4mp\u00f6huolto, j\u00e4\u00e4hdytysliiketoiminta",
+    "value": 18.9
+  },
+  {
+    "source": "24 Metallien jalostus",
+    "target": "36 Veden otto, puhdistus ja jakelu",
+    "value": 0.207
+  },
+  {
+    "source": "24 Metallien jalostus",
+    "target": "37-39 J\u00e4te- ja j\u00e4tevesihuolto",
+    "value": 15.531
+  },
+  {
+    "source": "24 Metallien jalostus",
+    "target": "F Rakentaminen (41-43)",
+    "value": 94.684
+  },
+  {
+    "source": "24 Metallien jalostus",
+    "target": "45 Moottoriajoneuvojen ja moottoripy\u00f6rien tukku- ja v\u00e4hitt\u00e4iskauppa sek\u00e4 korjaus",
+    "value": 7.427
+  },
+  {
+    "source": "24 Metallien jalostus",
+    "target": "46 Tukkukauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "value": 28.284
+  },
+  {
+    "source": "24 Metallien jalostus",
+    "target": "47 V\u00e4hitt\u00e4iskauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "value": 32.038
+  },
+  {
+    "source": "25 Metallituotteiden valmistus (pl. koneet ja laitteet)",
+    "target": "01 Kasvinviljely ja kotiel\u00e4intalous, riistatalous ja niihin liittyv\u00e4t palvelut",
+    "value": 4.65
+  },
+  {
+    "source": "25 Metallituotteiden valmistus (pl. koneet ja laitteet)",
+    "target": "02 Mets\u00e4talous ja puunkorjuu",
+    "value": 0.761
+  },
+  {
+    "source": "25 Metallituotteiden valmistus (pl. koneet ja laitteet)",
+    "target": "03 Kalastus ja vesiviljely",
+    "value": 0.289
+  },
+  {
+    "source": "25 Metallituotteiden valmistus (pl. koneet ja laitteet)",
+    "target": "B Kaivostoiminta ja louhinta (05-09)",
+    "value": 10.613
+  },
+  {
+    "source": "25 Metallituotteiden valmistus (pl. koneet ja laitteet)",
+    "target": "10-12 Elintarviketeollisuus ym.",
+    "value": 53.545
+  },
+  {
+    "source": "25 Metallituotteiden valmistus (pl. koneet ja laitteet)",
+    "target": "13-15 Tekstiiliteollisuus",
+    "value": 2.38
+  },
+  {
+    "source": "25 Metallituotteiden valmistus (pl. koneet ja laitteet)",
+    "target": "16 Sahatavaran sek\u00e4 puu- ja korkkituotteiden valmistus (pl. huonekalut); olki- ja punontatuotteiden valmistus",
+    "value": 82.513
+  },
+  {
+    "source": "25 Metallituotteiden valmistus (pl. koneet ja laitteet)",
+    "target": "17 Paperin, paperi- ja kartonkituotteiden valmistus",
+    "value": 40.154
+  },
+  {
+    "source": "25 Metallituotteiden valmistus (pl. koneet ja laitteet)",
+    "target": "18 Painaminen ja tallenteiden j\u00e4ljent\u00e4minen",
+    "value": 1.641
+  },
+  {
+    "source": "25 Metallituotteiden valmistus (pl. koneet ja laitteet)",
+    "target": "19 Koksin ja jalostettujen \u00f6ljytuotteiden valmistus",
+    "value": 9.654
+  },
+  {
+    "source": "25 Metallituotteiden valmistus (pl. koneet ja laitteet)",
+    "target": "20 Kemikaalien ja kemiallisten tuotteiden valmistus",
+    "value": 17.533
+  },
+  {
+    "source": "25 Metallituotteiden valmistus (pl. koneet ja laitteet)",
+    "target": "21 L\u00e4\u00e4keaineiden ja l\u00e4\u00e4kkeiden valmistus",
+    "value": 1.88
+  },
+  {
+    "source": "25 Metallituotteiden valmistus (pl. koneet ja laitteet)",
+    "target": "22 Kumi- ja muovituotteiden valmistus",
+    "value": 30.253
+  },
+  {
+    "source": "25 Metallituotteiden valmistus (pl. koneet ja laitteet)",
+    "target": "23 Muiden ei-metallisten mineraalituotteiden valmistus",
+    "value": 47.612
+  },
+  {
+    "source": "25 Metallituotteiden valmistus (pl. koneet ja laitteet)",
+    "target": "24 Metallien jalostus",
+    "value": 1734.417
+  },
+  {
+    "source": "25 Metallituotteiden valmistus (pl. koneet ja laitteet)",
+    "target": "25 Metallituotteiden valmistus (pl. koneet ja laitteet)",
+    "value": 733.857
+  },
+  {
+    "source": "25 Metallituotteiden valmistus (pl. koneet ja laitteet)",
+    "target": "26 Tietokoneiden sek\u00e4 elektronisten ja optisten tuotteiden valmistus",
+    "value": 45.915
+  },
+  {
+    "source": "25 Metallituotteiden valmistus (pl. koneet ja laitteet)",
+    "target": "27 S\u00e4hk\u00f6laitteiden valmistus",
+    "value": 185.263
+  },
+  {
+    "source": "25 Metallituotteiden valmistus (pl. koneet ja laitteet)",
+    "target": "28 Muiden koneiden ja laitteiden valmistus",
+    "value": 1309.144
+  },
+  {
+    "source": "25 Metallituotteiden valmistus (pl. koneet ja laitteet)",
+    "target": "29 Moottoriajoneuvojen, per\u00e4vaunujen ja puoliper\u00e4vaunujen valmistus",
+    "value": 29.925
+  },
+  {
+    "source": "25 Metallituotteiden valmistus (pl. koneet ja laitteet)",
+    "target": "30 Muiden kulkuneuvojen valmistus",
+    "value": 149.895
+  },
+  {
+    "source": "25 Metallituotteiden valmistus (pl. koneet ja laitteet)",
+    "target": "31, 32 Muu valmistus ml. huonekalut",
+    "value": 35.942
+  },
+  {
+    "source": "25 Metallituotteiden valmistus (pl. koneet ja laitteet)",
+    "target": "33 Koneiden ja laitteiden korjaus, huolto ja asennus",
+    "value": 113.99
+  },
+  {
+    "source": "25 Metallituotteiden valmistus (pl. koneet ja laitteet)",
+    "target": "35 S\u00e4hk\u00f6-, kaasu- ja l\u00e4mp\u00f6huolto, j\u00e4\u00e4hdytysliiketoiminta",
+    "value": 67.33
+  },
+  {
+    "source": "25 Metallituotteiden valmistus (pl. koneet ja laitteet)",
+    "target": "36 Veden otto, puhdistus ja jakelu",
+    "value": 15.134
+  },
+  {
+    "source": "25 Metallituotteiden valmistus (pl. koneet ja laitteet)",
+    "target": "37-39 J\u00e4te- ja j\u00e4tevesihuolto",
+    "value": 26.867
+  },
+  {
+    "source": "25 Metallituotteiden valmistus (pl. koneet ja laitteet)",
+    "target": "F Rakentaminen (41-43)",
+    "value": 1832.935
+  },
+  {
+    "source": "25 Metallituotteiden valmistus (pl. koneet ja laitteet)",
+    "target": "45 Moottoriajoneuvojen ja moottoripy\u00f6rien tukku- ja v\u00e4hitt\u00e4iskauppa sek\u00e4 korjaus",
+    "value": 6.486
+  },
+  {
+    "source": "25 Metallituotteiden valmistus (pl. koneet ja laitteet)",
+    "target": "46 Tukkukauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "value": 49.193
+  },
+  {
+    "source": "25 Metallituotteiden valmistus (pl. koneet ja laitteet)",
+    "target": "47 V\u00e4hitt\u00e4iskauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "value": 28.161
+  },
+  {
+    "source": "26 Tietokoneiden sek\u00e4 elektronisten ja optisten tuotteiden valmistus",
+    "target": "01 Kasvinviljely ja kotiel\u00e4intalous, riistatalous ja niihin liittyv\u00e4t palvelut",
+    "value": 10.368
+  },
+  {
+    "source": "26 Tietokoneiden sek\u00e4 elektronisten ja optisten tuotteiden valmistus",
+    "target": "02 Mets\u00e4talous ja puunkorjuu",
+    "value": 3.301
+  },
+  {
+    "source": "26 Tietokoneiden sek\u00e4 elektronisten ja optisten tuotteiden valmistus",
+    "target": "03 Kalastus ja vesiviljely",
+    "value": 0.16
+  },
+  {
+    "source": "26 Tietokoneiden sek\u00e4 elektronisten ja optisten tuotteiden valmistus",
+    "target": "B Kaivostoiminta ja louhinta (05-09)",
+    "value": 12.544
+  },
+  {
+    "source": "26 Tietokoneiden sek\u00e4 elektronisten ja optisten tuotteiden valmistus",
+    "target": "10-12 Elintarviketeollisuus ym.",
+    "value": 69.763
+  },
+  {
+    "source": "26 Tietokoneiden sek\u00e4 elektronisten ja optisten tuotteiden valmistus",
+    "target": "13-15 Tekstiiliteollisuus",
+    "value": 8.505
+  },
+  {
+    "source": "26 Tietokoneiden sek\u00e4 elektronisten ja optisten tuotteiden valmistus",
+    "target": "16 Sahatavaran sek\u00e4 puu- ja korkkituotteiden valmistus (pl. huonekalut); olki- ja punontatuotteiden valmistus",
+    "value": 77.142
+  },
+  {
+    "source": "26 Tietokoneiden sek\u00e4 elektronisten ja optisten tuotteiden valmistus",
+    "target": "17 Paperin, paperi- ja kartonkituotteiden valmistus",
+    "value": 106.294
+  },
+  {
+    "source": "26 Tietokoneiden sek\u00e4 elektronisten ja optisten tuotteiden valmistus",
+    "target": "18 Painaminen ja tallenteiden j\u00e4ljent\u00e4minen",
+    "value": 7.959
+  },
+  {
+    "source": "26 Tietokoneiden sek\u00e4 elektronisten ja optisten tuotteiden valmistus",
+    "target": "19 Koksin ja jalostettujen \u00f6ljytuotteiden valmistus",
+    "value": 18.791
+  },
+  {
+    "source": "26 Tietokoneiden sek\u00e4 elektronisten ja optisten tuotteiden valmistus",
+    "target": "20 Kemikaalien ja kemiallisten tuotteiden valmistus",
+    "value": 73.598
+  },
+  {
+    "source": "26 Tietokoneiden sek\u00e4 elektronisten ja optisten tuotteiden valmistus",
+    "target": "21 L\u00e4\u00e4keaineiden ja l\u00e4\u00e4kkeiden valmistus",
+    "value": 9.25
+  },
+  {
+    "source": "26 Tietokoneiden sek\u00e4 elektronisten ja optisten tuotteiden valmistus",
+    "target": "22 Kumi- ja muovituotteiden valmistus",
+    "value": 26.44
+  },
+  {
+    "source": "26 Tietokoneiden sek\u00e4 elektronisten ja optisten tuotteiden valmistus",
+    "target": "23 Muiden ei-metallisten mineraalituotteiden valmistus",
+    "value": 30.399
+  },
+  {
+    "source": "26 Tietokoneiden sek\u00e4 elektronisten ja optisten tuotteiden valmistus",
+    "target": "24 Metallien jalostus",
+    "value": 80.697
+  },
+  {
+    "source": "26 Tietokoneiden sek\u00e4 elektronisten ja optisten tuotteiden valmistus",
+    "target": "25 Metallituotteiden valmistus (pl. koneet ja laitteet)",
+    "value": 62.022
+  },
+  {
+    "source": "26 Tietokoneiden sek\u00e4 elektronisten ja optisten tuotteiden valmistus",
+    "target": "26 Tietokoneiden sek\u00e4 elektronisten ja optisten tuotteiden valmistus",
+    "value": 496.511
+  },
+  {
+    "source": "26 Tietokoneiden sek\u00e4 elektronisten ja optisten tuotteiden valmistus",
+    "target": "27 S\u00e4hk\u00f6laitteiden valmistus",
+    "value": 72.762
+  },
+  {
+    "source": "26 Tietokoneiden sek\u00e4 elektronisten ja optisten tuotteiden valmistus",
+    "target": "28 Muiden koneiden ja laitteiden valmistus",
+    "value": 186.126
+  },
+  {
+    "source": "26 Tietokoneiden sek\u00e4 elektronisten ja optisten tuotteiden valmistus",
+    "target": "29 Moottoriajoneuvojen, per\u00e4vaunujen ja puoliper\u00e4vaunujen valmistus",
+    "value": 25.456
+  },
+  {
+    "source": "26 Tietokoneiden sek\u00e4 elektronisten ja optisten tuotteiden valmistus",
+    "target": "30 Muiden kulkuneuvojen valmistus",
+    "value": 30.266
+  },
+  {
+    "source": "26 Tietokoneiden sek\u00e4 elektronisten ja optisten tuotteiden valmistus",
+    "target": "31, 32 Muu valmistus ml. huonekalut",
+    "value": 14.721
+  },
+  {
+    "source": "26 Tietokoneiden sek\u00e4 elektronisten ja optisten tuotteiden valmistus",
+    "target": "33 Koneiden ja laitteiden korjaus, huolto ja asennus",
+    "value": 51.699
+  },
+  {
+    "source": "26 Tietokoneiden sek\u00e4 elektronisten ja optisten tuotteiden valmistus",
+    "target": "35 S\u00e4hk\u00f6-, kaasu- ja l\u00e4mp\u00f6huolto, j\u00e4\u00e4hdytysliiketoiminta",
+    "value": 68.32
+  },
+  {
+    "source": "26 Tietokoneiden sek\u00e4 elektronisten ja optisten tuotteiden valmistus",
+    "target": "36 Veden otto, puhdistus ja jakelu",
+    "value": 2.73
+  },
+  {
+    "source": "26 Tietokoneiden sek\u00e4 elektronisten ja optisten tuotteiden valmistus",
+    "target": "37-39 J\u00e4te- ja j\u00e4tevesihuolto",
+    "value": 19.405
+  },
+  {
+    "source": "26 Tietokoneiden sek\u00e4 elektronisten ja optisten tuotteiden valmistus",
+    "target": "F Rakentaminen (41-43)",
+    "value": 234.447
+  },
+  {
+    "source": "26 Tietokoneiden sek\u00e4 elektronisten ja optisten tuotteiden valmistus",
+    "target": "45 Moottoriajoneuvojen ja moottoripy\u00f6rien tukku- ja v\u00e4hitt\u00e4iskauppa sek\u00e4 korjaus",
+    "value": 43.542
+  },
+  {
+    "source": "26 Tietokoneiden sek\u00e4 elektronisten ja optisten tuotteiden valmistus",
+    "target": "46 Tukkukauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "value": 163.414
+  },
+  {
+    "source": "26 Tietokoneiden sek\u00e4 elektronisten ja optisten tuotteiden valmistus",
+    "target": "47 V\u00e4hitt\u00e4iskauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "value": 107.011
+  },
+  {
+    "source": "27 S\u00e4hk\u00f6laitteiden valmistus",
+    "target": "01 Kasvinviljely ja kotiel\u00e4intalous, riistatalous ja niihin liittyv\u00e4t palvelut",
+    "value": 0.978
+  },
+  {
+    "source": "27 S\u00e4hk\u00f6laitteiden valmistus",
+    "target": "02 Mets\u00e4talous ja puunkorjuu",
+    "value": 0.416
+  },
+  {
+    "source": "27 S\u00e4hk\u00f6laitteiden valmistus",
+    "target": "03 Kalastus ja vesiviljely",
+    "value": 0.018
+  },
+  {
+    "source": "27 S\u00e4hk\u00f6laitteiden valmistus",
+    "target": "B Kaivostoiminta ja louhinta (05-09)",
+    "value": 3.992
+  },
+  {
+    "source": "27 S\u00e4hk\u00f6laitteiden valmistus",
+    "target": "10-12 Elintarviketeollisuus ym.",
+    "value": 10.944
+  },
+  {
+    "source": "27 S\u00e4hk\u00f6laitteiden valmistus",
+    "target": "13-15 Tekstiiliteollisuus",
+    "value": 0.957
+  },
+  {
+    "source": "27 S\u00e4hk\u00f6laitteiden valmistus",
+    "target": "16 Sahatavaran sek\u00e4 puu- ja korkkituotteiden valmistus (pl. huonekalut); olki- ja punontatuotteiden valmistus",
+    "value": 10.446
+  },
+  {
+    "source": "27 S\u00e4hk\u00f6laitteiden valmistus",
+    "target": "17 Paperin, paperi- ja kartonkituotteiden valmistus",
+    "value": 14.516
+  },
+  {
+    "source": "27 S\u00e4hk\u00f6laitteiden valmistus",
+    "target": "18 Painaminen ja tallenteiden j\u00e4ljent\u00e4minen",
+    "value": 1.423
+  },
+  {
+    "source": "27 S\u00e4hk\u00f6laitteiden valmistus",
+    "target": "19 Koksin ja jalostettujen \u00f6ljytuotteiden valmistus",
+    "value": 3.26
+  },
+  {
+    "source": "27 S\u00e4hk\u00f6laitteiden valmistus",
+    "target": "20 Kemikaalien ja kemiallisten tuotteiden valmistus",
+    "value": 8.237
+  },
+  {
+    "source": "27 S\u00e4hk\u00f6laitteiden valmistus",
+    "target": "21 L\u00e4\u00e4keaineiden ja l\u00e4\u00e4kkeiden valmistus",
+    "value": 1.552
+  },
+  {
+    "source": "27 S\u00e4hk\u00f6laitteiden valmistus",
+    "target": "22 Kumi- ja muovituotteiden valmistus",
+    "value": 9.083
+  },
+  {
+    "source": "27 S\u00e4hk\u00f6laitteiden valmistus",
+    "target": "23 Muiden ei-metallisten mineraalituotteiden valmistus",
+    "value": 10.288
+  },
+  {
+    "source": "27 S\u00e4hk\u00f6laitteiden valmistus",
+    "target": "24 Metallien jalostus",
+    "value": 21.081
+  },
+  {
+    "source": "27 S\u00e4hk\u00f6laitteiden valmistus",
+    "target": "25 Metallituotteiden valmistus (pl. koneet ja laitteet)",
+    "value": 17.264
+  },
+  {
+    "source": "27 S\u00e4hk\u00f6laitteiden valmistus",
+    "target": "26 Tietokoneiden sek\u00e4 elektronisten ja optisten tuotteiden valmistus",
+    "value": 89.361
+  },
+  {
+    "source": "27 S\u00e4hk\u00f6laitteiden valmistus",
+    "target": "27 S\u00e4hk\u00f6laitteiden valmistus",
+    "value": 531.366
+  },
+  {
+    "source": "27 S\u00e4hk\u00f6laitteiden valmistus",
+    "target": "28 Muiden koneiden ja laitteiden valmistus",
+    "value": 205.995
+  },
+  {
+    "source": "27 S\u00e4hk\u00f6laitteiden valmistus",
+    "target": "29 Moottoriajoneuvojen, per\u00e4vaunujen ja puoliper\u00e4vaunujen valmistus",
+    "value": 21.006
+  },
+  {
+    "source": "27 S\u00e4hk\u00f6laitteiden valmistus",
+    "target": "30 Muiden kulkuneuvojen valmistus",
+    "value": 51.056
+  },
+  {
+    "source": "27 S\u00e4hk\u00f6laitteiden valmistus",
+    "target": "31, 32 Muu valmistus ml. huonekalut",
+    "value": 6.257
+  },
+  {
+    "source": "27 S\u00e4hk\u00f6laitteiden valmistus",
+    "target": "33 Koneiden ja laitteiden korjaus, huolto ja asennus",
+    "value": 71.842
+  },
+  {
+    "source": "27 S\u00e4hk\u00f6laitteiden valmistus",
+    "target": "35 S\u00e4hk\u00f6-, kaasu- ja l\u00e4mp\u00f6huolto, j\u00e4\u00e4hdytysliiketoiminta",
+    "value": 120.556
+  },
+  {
+    "source": "27 S\u00e4hk\u00f6laitteiden valmistus",
+    "target": "36 Veden otto, puhdistus ja jakelu",
+    "value": 3.206
+  },
+  {
+    "source": "27 S\u00e4hk\u00f6laitteiden valmistus",
+    "target": "37-39 J\u00e4te- ja j\u00e4tevesihuolto",
+    "value": 13.574
+  },
+  {
+    "source": "27 S\u00e4hk\u00f6laitteiden valmistus",
+    "target": "F Rakentaminen (41-43)",
+    "value": 308.792
+  },
+  {
+    "source": "27 S\u00e4hk\u00f6laitteiden valmistus",
+    "target": "45 Moottoriajoneuvojen ja moottoripy\u00f6rien tukku- ja v\u00e4hitt\u00e4iskauppa sek\u00e4 korjaus",
+    "value": 5.778
+  },
+  {
+    "source": "27 S\u00e4hk\u00f6laitteiden valmistus",
+    "target": "46 Tukkukauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "value": 23.444
+  },
+  {
+    "source": "27 S\u00e4hk\u00f6laitteiden valmistus",
+    "target": "47 V\u00e4hitt\u00e4iskauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "value": 20.384
+  },
+  {
+    "source": "28 Muiden koneiden ja laitteiden valmistus",
+    "target": "01 Kasvinviljely ja kotiel\u00e4intalous, riistatalous ja niihin liittyv\u00e4t palvelut",
+    "value": 19.71
+  },
+  {
+    "source": "28 Muiden koneiden ja laitteiden valmistus",
+    "target": "02 Mets\u00e4talous ja puunkorjuu",
+    "value": 2.732
+  },
+  {
+    "source": "28 Muiden koneiden ja laitteiden valmistus",
+    "target": "03 Kalastus ja vesiviljely",
+    "value": 0.222
+  },
+  {
+    "source": "28 Muiden koneiden ja laitteiden valmistus",
+    "target": "B Kaivostoiminta ja louhinta (05-09)",
+    "value": 80.621
+  },
+  {
+    "source": "28 Muiden koneiden ja laitteiden valmistus",
+    "target": "10-12 Elintarviketeollisuus ym.",
+    "value": 81.099
+  },
+  {
+    "source": "28 Muiden koneiden ja laitteiden valmistus",
+    "target": "13-15 Tekstiiliteollisuus",
+    "value": 5.571
+  },
+  {
+    "source": "28 Muiden koneiden ja laitteiden valmistus",
+    "target": "16 Sahatavaran sek\u00e4 puu- ja korkkituotteiden valmistus (pl. huonekalut); olki- ja punontatuotteiden valmistus",
+    "value": 83.717
+  },
+  {
+    "source": "28 Muiden koneiden ja laitteiden valmistus",
+    "target": "17 Paperin, paperi- ja kartonkituotteiden valmistus",
+    "value": 338.687
+  },
+  {
+    "source": "28 Muiden koneiden ja laitteiden valmistus",
+    "target": "18 Painaminen ja tallenteiden j\u00e4ljent\u00e4minen",
+    "value": 4.623
+  },
+  {
+    "source": "28 Muiden koneiden ja laitteiden valmistus",
+    "target": "19 Koksin ja jalostettujen \u00f6ljytuotteiden valmistus",
+    "value": 130.817
+  },
+  {
+    "source": "28 Muiden koneiden ja laitteiden valmistus",
+    "target": "20 Kemikaalien ja kemiallisten tuotteiden valmistus",
+    "value": 55.687
+  },
+  {
+    "source": "28 Muiden koneiden ja laitteiden valmistus",
+    "target": "21 L\u00e4\u00e4keaineiden ja l\u00e4\u00e4kkeiden valmistus",
+    "value": 7.296
+  },
+  {
+    "source": "28 Muiden koneiden ja laitteiden valmistus",
+    "target": "22 Kumi- ja muovituotteiden valmistus",
+    "value": 27.412
+  },
+  {
+    "source": "28 Muiden koneiden ja laitteiden valmistus",
+    "target": "23 Muiden ei-metallisten mineraalituotteiden valmistus",
+    "value": 32.659
+  },
+  {
+    "source": "28 Muiden koneiden ja laitteiden valmistus",
+    "target": "24 Metallien jalostus",
+    "value": 155.792
+  },
+  {
+    "source": "28 Muiden koneiden ja laitteiden valmistus",
+    "target": "25 Metallituotteiden valmistus (pl. koneet ja laitteet)",
+    "value": 117.69
+  },
+  {
+    "source": "28 Muiden koneiden ja laitteiden valmistus",
+    "target": "26 Tietokoneiden sek\u00e4 elektronisten ja optisten tuotteiden valmistus",
+    "value": 164.417
+  },
+  {
+    "source": "28 Muiden koneiden ja laitteiden valmistus",
+    "target": "27 S\u00e4hk\u00f6laitteiden valmistus",
+    "value": 72.346
+  },
+  {
+    "source": "28 Muiden koneiden ja laitteiden valmistus",
+    "target": "28 Muiden koneiden ja laitteiden valmistus",
+    "value": 1076.5
+  },
+  {
+    "source": "28 Muiden koneiden ja laitteiden valmistus",
+    "target": "29 Moottoriajoneuvojen, per\u00e4vaunujen ja puoliper\u00e4vaunujen valmistus",
+    "value": 57.692
+  },
+  {
+    "source": "28 Muiden koneiden ja laitteiden valmistus",
+    "target": "30 Muiden kulkuneuvojen valmistus",
+    "value": 143.274
+  },
+  {
+    "source": "28 Muiden koneiden ja laitteiden valmistus",
+    "target": "31, 32 Muu valmistus ml. huonekalut",
+    "value": 20.259
+  },
+  {
+    "source": "28 Muiden koneiden ja laitteiden valmistus",
+    "target": "33 Koneiden ja laitteiden korjaus, huolto ja asennus",
+    "value": 188.868
+  },
+  {
+    "source": "28 Muiden koneiden ja laitteiden valmistus",
+    "target": "35 S\u00e4hk\u00f6-, kaasu- ja l\u00e4mp\u00f6huolto, j\u00e4\u00e4hdytysliiketoiminta",
+    "value": 205.259
+  },
+  {
+    "source": "28 Muiden koneiden ja laitteiden valmistus",
+    "target": "36 Veden otto, puhdistus ja jakelu",
+    "value": 44.472
+  },
+  {
+    "source": "28 Muiden koneiden ja laitteiden valmistus",
+    "target": "37-39 J\u00e4te- ja j\u00e4tevesihuolto",
+    "value": 40.066
+  },
+  {
+    "source": "28 Muiden koneiden ja laitteiden valmistus",
+    "target": "F Rakentaminen (41-43)",
+    "value": 512.011
+  },
+  {
+    "source": "28 Muiden koneiden ja laitteiden valmistus",
+    "target": "45 Moottoriajoneuvojen ja moottoripy\u00f6rien tukku- ja v\u00e4hitt\u00e4iskauppa sek\u00e4 korjaus",
+    "value": 19.719
+  },
+  {
+    "source": "28 Muiden koneiden ja laitteiden valmistus",
+    "target": "46 Tukkukauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "value": 135.844
+  },
+  {
+    "source": "28 Muiden koneiden ja laitteiden valmistus",
+    "target": "47 V\u00e4hitt\u00e4iskauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "value": 82.54
+  },
+  {
+    "source": "29 Moottoriajoneuvojen, per\u00e4vaunujen ja puoliper\u00e4vaunujen valmistus",
+    "target": "01 Kasvinviljely ja kotiel\u00e4intalous, riistatalous ja niihin liittyv\u00e4t palvelut",
+    "value": 0.441
+  },
+  {
+    "source": "29 Moottoriajoneuvojen, per\u00e4vaunujen ja puoliper\u00e4vaunujen valmistus",
+    "target": "02 Mets\u00e4talous ja puunkorjuu",
+    "value": 0.124
+  },
+  {
+    "source": "29 Moottoriajoneuvojen, per\u00e4vaunujen ja puoliper\u00e4vaunujen valmistus",
+    "target": "03 Kalastus ja vesiviljely",
+    "value": 0.006
+  },
+  {
+    "source": "29 Moottoriajoneuvojen, per\u00e4vaunujen ja puoliper\u00e4vaunujen valmistus",
+    "target": "B Kaivostoiminta ja louhinta (05-09)",
+    "value": 0.327
+  },
+  {
+    "source": "29 Moottoriajoneuvojen, per\u00e4vaunujen ja puoliper\u00e4vaunujen valmistus",
+    "target": "10-12 Elintarviketeollisuus ym.",
+    "value": 2.464
+  },
+  {
+    "source": "29 Moottoriajoneuvojen, per\u00e4vaunujen ja puoliper\u00e4vaunujen valmistus",
+    "target": "13-15 Tekstiiliteollisuus",
+    "value": 0.266
+  },
+  {
+    "source": "29 Moottoriajoneuvojen, per\u00e4vaunujen ja puoliper\u00e4vaunujen valmistus",
+    "target": "16 Sahatavaran sek\u00e4 puu- ja korkkituotteiden valmistus (pl. huonekalut); olki- ja punontatuotteiden valmistus",
+    "value": 3.182
+  },
+  {
+    "source": "29 Moottoriajoneuvojen, per\u00e4vaunujen ja puoliper\u00e4vaunujen valmistus",
+    "target": "17 Paperin, paperi- ja kartonkituotteiden valmistus",
+    "value": 3.429
+  },
+  {
+    "source": "29 Moottoriajoneuvojen, per\u00e4vaunujen ja puoliper\u00e4vaunujen valmistus",
+    "target": "18 Painaminen ja tallenteiden j\u00e4ljent\u00e4minen",
+    "value": 0.186
+  },
+  {
+    "source": "29 Moottoriajoneuvojen, per\u00e4vaunujen ja puoliper\u00e4vaunujen valmistus",
+    "target": "19 Koksin ja jalostettujen \u00f6ljytuotteiden valmistus",
+    "value": 0.658
+  },
+  {
+    "source": "29 Moottoriajoneuvojen, per\u00e4vaunujen ja puoliper\u00e4vaunujen valmistus",
+    "target": "20 Kemikaalien ja kemiallisten tuotteiden valmistus",
+    "value": 1.351
+  },
+  {
+    "source": "29 Moottoriajoneuvojen, per\u00e4vaunujen ja puoliper\u00e4vaunujen valmistus",
+    "target": "21 L\u00e4\u00e4keaineiden ja l\u00e4\u00e4kkeiden valmistus",
+    "value": 0.264
+  },
+  {
+    "source": "29 Moottoriajoneuvojen, per\u00e4vaunujen ja puoliper\u00e4vaunujen valmistus",
+    "target": "22 Kumi- ja muovituotteiden valmistus",
+    "value": 0.914
+  },
+  {
+    "source": "29 Moottoriajoneuvojen, per\u00e4vaunujen ja puoliper\u00e4vaunujen valmistus",
+    "target": "23 Muiden ei-metallisten mineraalituotteiden valmistus",
+    "value": 0.75
+  },
+  {
+    "source": "29 Moottoriajoneuvojen, per\u00e4vaunujen ja puoliper\u00e4vaunujen valmistus",
+    "target": "24 Metallien jalostus",
+    "value": 7.611
+  },
+  {
+    "source": "29 Moottoriajoneuvojen, per\u00e4vaunujen ja puoliper\u00e4vaunujen valmistus",
+    "target": "25 Metallituotteiden valmistus (pl. koneet ja laitteet)",
+    "value": 3.687
+  },
+  {
+    "source": "29 Moottoriajoneuvojen, per\u00e4vaunujen ja puoliper\u00e4vaunujen valmistus",
+    "target": "26 Tietokoneiden sek\u00e4 elektronisten ja optisten tuotteiden valmistus",
+    "value": 4.248
+  },
+  {
+    "source": "29 Moottoriajoneuvojen, per\u00e4vaunujen ja puoliper\u00e4vaunujen valmistus",
+    "target": "27 S\u00e4hk\u00f6laitteiden valmistus",
+    "value": 4.36
+  },
+  {
+    "source": "29 Moottoriajoneuvojen, per\u00e4vaunujen ja puoliper\u00e4vaunujen valmistus",
+    "target": "28 Muiden koneiden ja laitteiden valmistus",
+    "value": 331.143
+  },
+  {
+    "source": "29 Moottoriajoneuvojen, per\u00e4vaunujen ja puoliper\u00e4vaunujen valmistus",
+    "target": "29 Moottoriajoneuvojen, per\u00e4vaunujen ja puoliper\u00e4vaunujen valmistus",
+    "value": 53.856
+  },
+  {
+    "source": "29 Moottoriajoneuvojen, per\u00e4vaunujen ja puoliper\u00e4vaunujen valmistus",
+    "target": "30 Muiden kulkuneuvojen valmistus",
+    "value": 7.003
+  },
+  {
+    "source": "29 Moottoriajoneuvojen, per\u00e4vaunujen ja puoliper\u00e4vaunujen valmistus",
+    "target": "31, 32 Muu valmistus ml. huonekalut",
+    "value": 0.633
+  },
+  {
+    "source": "29 Moottoriajoneuvojen, per\u00e4vaunujen ja puoliper\u00e4vaunujen valmistus",
+    "target": "33 Koneiden ja laitteiden korjaus, huolto ja asennus",
+    "value": 3.15
+  },
+  {
+    "source": "29 Moottoriajoneuvojen, per\u00e4vaunujen ja puoliper\u00e4vaunujen valmistus",
+    "target": "35 S\u00e4hk\u00f6-, kaasu- ja l\u00e4mp\u00f6huolto, j\u00e4\u00e4hdytysliiketoiminta",
+    "value": 2.718
+  },
+  {
+    "source": "29 Moottoriajoneuvojen, per\u00e4vaunujen ja puoliper\u00e4vaunujen valmistus",
+    "target": "36 Veden otto, puhdistus ja jakelu",
+    "value": 0.057
+  },
+  {
+    "source": "29 Moottoriajoneuvojen, per\u00e4vaunujen ja puoliper\u00e4vaunujen valmistus",
+    "target": "37-39 J\u00e4te- ja j\u00e4tevesihuolto",
+    "value": 0.45
+  },
+  {
+    "source": "29 Moottoriajoneuvojen, per\u00e4vaunujen ja puoliper\u00e4vaunujen valmistus",
+    "target": "F Rakentaminen (41-43)",
+    "value": 18.661
+  },
+  {
+    "source": "29 Moottoriajoneuvojen, per\u00e4vaunujen ja puoliper\u00e4vaunujen valmistus",
+    "target": "45 Moottoriajoneuvojen ja moottoripy\u00f6rien tukku- ja v\u00e4hitt\u00e4iskauppa sek\u00e4 korjaus",
+    "value": 4.039
+  },
+  {
+    "source": "29 Moottoriajoneuvojen, per\u00e4vaunujen ja puoliper\u00e4vaunujen valmistus",
+    "target": "46 Tukkukauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "value": 2.275
+  },
+  {
+    "source": "29 Moottoriajoneuvojen, per\u00e4vaunujen ja puoliper\u00e4vaunujen valmistus",
+    "target": "47 V\u00e4hitt\u00e4iskauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "value": 2.579
+  },
+  {
+    "source": "30 Muiden kulkuneuvojen valmistus",
+    "target": "01 Kasvinviljely ja kotiel\u00e4intalous, riistatalous ja niihin liittyv\u00e4t palvelut",
+    "value": 0.003
+  },
+  {
+    "source": "30 Muiden kulkuneuvojen valmistus",
+    "target": "02 Mets\u00e4talous ja puunkorjuu",
+    "value": 0.03
+  },
+  {
+    "source": "30 Muiden kulkuneuvojen valmistus",
+    "target": "03 Kalastus ja vesiviljely",
+    "value": 0.086
+  },
+  {
+    "source": "30 Muiden kulkuneuvojen valmistus",
+    "target": "B Kaivostoiminta ja louhinta (05-09)",
+    "value": 0.503
+  },
+  {
+    "source": "30 Muiden kulkuneuvojen valmistus",
+    "target": "10-12 Elintarviketeollisuus ym.",
+    "value": 0.982
+  },
+  {
+    "source": "30 Muiden kulkuneuvojen valmistus",
+    "target": "13-15 Tekstiiliteollisuus",
+    "value": 0.214
+  },
+  {
+    "source": "30 Muiden kulkuneuvojen valmistus",
+    "target": "16 Sahatavaran sek\u00e4 puu- ja korkkituotteiden valmistus (pl. huonekalut); olki- ja punontatuotteiden valmistus",
+    "value": 1.186
+  },
+  {
+    "source": "30 Muiden kulkuneuvojen valmistus",
+    "target": "17 Paperin, paperi- ja kartonkituotteiden valmistus",
+    "value": 2.045
+  },
+  {
+    "source": "30 Muiden kulkuneuvojen valmistus",
+    "target": "18 Painaminen ja tallenteiden j\u00e4ljent\u00e4minen",
+    "value": 0.094
+  },
+  {
+    "source": "30 Muiden kulkuneuvojen valmistus",
+    "target": "19 Koksin ja jalostettujen \u00f6ljytuotteiden valmistus",
+    "value": 3.138
+  },
+  {
+    "source": "30 Muiden kulkuneuvojen valmistus",
+    "target": "20 Kemikaalien ja kemiallisten tuotteiden valmistus",
+    "value": 0.717
+  },
+  {
+    "source": "30 Muiden kulkuneuvojen valmistus",
+    "target": "21 L\u00e4\u00e4keaineiden ja l\u00e4\u00e4kkeiden valmistus",
+    "value": 0.233
+  },
+  {
+    "source": "30 Muiden kulkuneuvojen valmistus",
+    "target": "22 Kumi- ja muovituotteiden valmistus",
+    "value": 2.268
+  },
+  {
+    "source": "30 Muiden kulkuneuvojen valmistus",
+    "target": "23 Muiden ei-metallisten mineraalituotteiden valmistus",
+    "value": 0.56
+  },
+  {
+    "source": "30 Muiden kulkuneuvojen valmistus",
+    "target": "24 Metallien jalostus",
+    "value": 2.891
+  },
+  {
+    "source": "30 Muiden kulkuneuvojen valmistus",
+    "target": "25 Metallituotteiden valmistus (pl. koneet ja laitteet)",
+    "value": 23.165
+  },
+  {
+    "source": "30 Muiden kulkuneuvojen valmistus",
+    "target": "26 Tietokoneiden sek\u00e4 elektronisten ja optisten tuotteiden valmistus",
+    "value": 3.662
+  },
+  {
+    "source": "30 Muiden kulkuneuvojen valmistus",
+    "target": "27 S\u00e4hk\u00f6laitteiden valmistus",
+    "value": 3.21
+  },
+  {
+    "source": "30 Muiden kulkuneuvojen valmistus",
+    "target": "28 Muiden koneiden ja laitteiden valmistus",
+    "value": 5.801
+  },
+  {
+    "source": "30 Muiden kulkuneuvojen valmistus",
+    "target": "29 Moottoriajoneuvojen, per\u00e4vaunujen ja puoliper\u00e4vaunujen valmistus",
+    "value": 0.604
+  },
+  {
+    "source": "30 Muiden kulkuneuvojen valmistus",
+    "target": "30 Muiden kulkuneuvojen valmistus",
+    "value": 448.264
+  },
+  {
+    "source": "30 Muiden kulkuneuvojen valmistus",
+    "target": "31, 32 Muu valmistus ml. huonekalut",
+    "value": 1.867
+  },
+  {
+    "source": "30 Muiden kulkuneuvojen valmistus",
+    "target": "33 Koneiden ja laitteiden korjaus, huolto ja asennus",
+    "value": 1.199
+  },
+  {
+    "source": "30 Muiden kulkuneuvojen valmistus",
+    "target": "35 S\u00e4hk\u00f6-, kaasu- ja l\u00e4mp\u00f6huolto, j\u00e4\u00e4hdytysliiketoiminta",
+    "value": 0.861
+  },
+  {
+    "source": "30 Muiden kulkuneuvojen valmistus",
+    "target": "36 Veden otto, puhdistus ja jakelu",
+    "value": 0.012
+  },
+  {
+    "source": "30 Muiden kulkuneuvojen valmistus",
+    "target": "37-39 J\u00e4te- ja j\u00e4tevesihuolto",
+    "value": 0.107
+  },
+  {
+    "source": "30 Muiden kulkuneuvojen valmistus",
+    "target": "F Rakentaminen (41-43)",
+    "value": 26.731
+  },
+  {
+    "source": "30 Muiden kulkuneuvojen valmistus",
+    "target": "45 Moottoriajoneuvojen ja moottoripy\u00f6rien tukku- ja v\u00e4hitt\u00e4iskauppa sek\u00e4 korjaus",
+    "value": 0.59
+  },
+  {
+    "source": "30 Muiden kulkuneuvojen valmistus",
+    "target": "46 Tukkukauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "value": 2.576
+  },
+  {
+    "source": "30 Muiden kulkuneuvojen valmistus",
+    "target": "47 V\u00e4hitt\u00e4iskauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "value": 2.34
+  },
+  {
+    "source": "31, 32 Muu valmistus ml. huonekalut",
+    "target": "01 Kasvinviljely ja kotiel\u00e4intalous, riistatalous ja niihin liittyv\u00e4t palvelut",
+    "value": 0.765
+  },
+  {
+    "source": "31, 32 Muu valmistus ml. huonekalut",
+    "target": "02 Mets\u00e4talous ja puunkorjuu",
+    "value": 0.284
+  },
+  {
+    "source": "31, 32 Muu valmistus ml. huonekalut",
+    "target": "03 Kalastus ja vesiviljely",
+    "value": 0.011
+  },
+  {
+    "source": "31, 32 Muu valmistus ml. huonekalut",
+    "target": "B Kaivostoiminta ja louhinta (05-09)",
+    "value": 1.125
+  },
+  {
+    "source": "31, 32 Muu valmistus ml. huonekalut",
+    "target": "10-12 Elintarviketeollisuus ym.",
+    "value": 6.27
+  },
+  {
+    "source": "31, 32 Muu valmistus ml. huonekalut",
+    "target": "13-15 Tekstiiliteollisuus",
+    "value": 0.868
+  },
+  {
+    "source": "31, 32 Muu valmistus ml. huonekalut",
+    "target": "16 Sahatavaran sek\u00e4 puu- ja korkkituotteiden valmistus (pl. huonekalut); olki- ja punontatuotteiden valmistus",
+    "value": 10.15
+  },
+  {
+    "source": "31, 32 Muu valmistus ml. huonekalut",
+    "target": "17 Paperin, paperi- ja kartonkituotteiden valmistus",
+    "value": 5.825
+  },
+  {
+    "source": "31, 32 Muu valmistus ml. huonekalut",
+    "target": "18 Painaminen ja tallenteiden j\u00e4ljent\u00e4minen",
+    "value": 0.508
+  },
+  {
+    "source": "31, 32 Muu valmistus ml. huonekalut",
+    "target": "19 Koksin ja jalostettujen \u00f6ljytuotteiden valmistus",
+    "value": 0.971
+  },
+  {
+    "source": "31, 32 Muu valmistus ml. huonekalut",
+    "target": "20 Kemikaalien ja kemiallisten tuotteiden valmistus",
+    "value": 2.628
+  },
+  {
+    "source": "31, 32 Muu valmistus ml. huonekalut",
+    "target": "21 L\u00e4\u00e4keaineiden ja l\u00e4\u00e4kkeiden valmistus",
+    "value": 0.724
+  },
+  {
+    "source": "31, 32 Muu valmistus ml. huonekalut",
+    "target": "22 Kumi- ja muovituotteiden valmistus",
+    "value": 2.325
+  },
+  {
+    "source": "31, 32 Muu valmistus ml. huonekalut",
+    "target": "23 Muiden ei-metallisten mineraalituotteiden valmistus",
+    "value": 1.514
+  },
+  {
+    "source": "31, 32 Muu valmistus ml. huonekalut",
+    "target": "24 Metallien jalostus",
+    "value": 9.898
+  },
+  {
+    "source": "31, 32 Muu valmistus ml. huonekalut",
+    "target": "25 Metallituotteiden valmistus (pl. koneet ja laitteet)",
+    "value": 6.263
+  },
+  {
+    "source": "31, 32 Muu valmistus ml. huonekalut",
+    "target": "26 Tietokoneiden sek\u00e4 elektronisten ja optisten tuotteiden valmistus",
+    "value": 7.998
+  },
+  {
+    "source": "31, 32 Muu valmistus ml. huonekalut",
+    "target": "27 S\u00e4hk\u00f6laitteiden valmistus",
+    "value": 3.584
+  },
+  {
+    "source": "31, 32 Muu valmistus ml. huonekalut",
+    "target": "28 Muiden koneiden ja laitteiden valmistus",
+    "value": 8.108
+  },
+  {
+    "source": "31, 32 Muu valmistus ml. huonekalut",
+    "target": "29 Moottoriajoneuvojen, per\u00e4vaunujen ja puoliper\u00e4vaunujen valmistus",
+    "value": 1.075
+  },
+  {
+    "source": "31, 32 Muu valmistus ml. huonekalut",
+    "target": "30 Muiden kulkuneuvojen valmistus",
+    "value": 68.18
+  },
+  {
+    "source": "31, 32 Muu valmistus ml. huonekalut",
+    "target": "31, 32 Muu valmistus ml. huonekalut",
+    "value": 94.51
+  },
+  {
+    "source": "31, 32 Muu valmistus ml. huonekalut",
+    "target": "33 Koneiden ja laitteiden korjaus, huolto ja asennus",
+    "value": 3.725
+  },
+  {
+    "source": "31, 32 Muu valmistus ml. huonekalut",
+    "target": "35 S\u00e4hk\u00f6-, kaasu- ja l\u00e4mp\u00f6huolto, j\u00e4\u00e4hdytysliiketoiminta",
+    "value": 5.584
+  },
+  {
+    "source": "31, 32 Muu valmistus ml. huonekalut",
+    "target": "36 Veden otto, puhdistus ja jakelu",
+    "value": 0.385
+  },
+  {
+    "source": "31, 32 Muu valmistus ml. huonekalut",
+    "target": "37-39 J\u00e4te- ja j\u00e4tevesihuolto",
+    "value": 6.406
+  },
+  {
+    "source": "31, 32 Muu valmistus ml. huonekalut",
+    "target": "F Rakentaminen (41-43)",
+    "value": 247.043
+  },
+  {
+    "source": "31, 32 Muu valmistus ml. huonekalut",
+    "target": "45 Moottoriajoneuvojen ja moottoripy\u00f6rien tukku- ja v\u00e4hitt\u00e4iskauppa sek\u00e4 korjaus",
+    "value": 7.138
+  },
+  {
+    "source": "31, 32 Muu valmistus ml. huonekalut",
+    "target": "46 Tukkukauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "value": 6.576
+  },
+  {
+    "source": "31, 32 Muu valmistus ml. huonekalut",
+    "target": "47 V\u00e4hitt\u00e4iskauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "value": 6.501
+  },
+  {
+    "source": "33 Koneiden ja laitteiden korjaus, huolto ja asennus",
+    "target": "01 Kasvinviljely ja kotiel\u00e4intalous, riistatalous ja niihin liittyv\u00e4t palvelut",
+    "value": 40.12
+  },
+  {
+    "source": "33 Koneiden ja laitteiden korjaus, huolto ja asennus",
+    "target": "02 Mets\u00e4talous ja puunkorjuu",
+    "value": 0.558
+  },
+  {
+    "source": "33 Koneiden ja laitteiden korjaus, huolto ja asennus",
+    "target": "03 Kalastus ja vesiviljely",
+    "value": 2.3
+  },
+  {
+    "source": "33 Koneiden ja laitteiden korjaus, huolto ja asennus",
+    "target": "B Kaivostoiminta ja louhinta (05-09)",
+    "value": 44.569
+  },
+  {
+    "source": "33 Koneiden ja laitteiden korjaus, huolto ja asennus",
+    "target": "10-12 Elintarviketeollisuus ym.",
+    "value": 56.17
+  },
+  {
+    "source": "33 Koneiden ja laitteiden korjaus, huolto ja asennus",
+    "target": "13-15 Tekstiiliteollisuus",
+    "value": 9.34
+  },
+  {
+    "source": "33 Koneiden ja laitteiden korjaus, huolto ja asennus",
+    "target": "16 Sahatavaran sek\u00e4 puu- ja korkkituotteiden valmistus (pl. huonekalut); olki- ja punontatuotteiden valmistus",
+    "value": 51.738
+  },
+  {
+    "source": "33 Koneiden ja laitteiden korjaus, huolto ja asennus",
+    "target": "17 Paperin, paperi- ja kartonkituotteiden valmistus",
+    "value": 192.012
+  },
+  {
+    "source": "33 Koneiden ja laitteiden korjaus, huolto ja asennus",
+    "target": "18 Painaminen ja tallenteiden j\u00e4ljent\u00e4minen",
+    "value": 3.846
+  },
+  {
+    "source": "33 Koneiden ja laitteiden korjaus, huolto ja asennus",
+    "target": "19 Koksin ja jalostettujen \u00f6ljytuotteiden valmistus",
+    "value": 100.012
+  },
+  {
+    "source": "33 Koneiden ja laitteiden korjaus, huolto ja asennus",
+    "target": "20 Kemikaalien ja kemiallisten tuotteiden valmistus",
+    "value": 39.173
+  },
+  {
+    "source": "33 Koneiden ja laitteiden korjaus, huolto ja asennus",
+    "target": "21 L\u00e4\u00e4keaineiden ja l\u00e4\u00e4kkeiden valmistus",
+    "value": 3.395
+  },
+  {
+    "source": "33 Koneiden ja laitteiden korjaus, huolto ja asennus",
+    "target": "22 Kumi- ja muovituotteiden valmistus",
+    "value": 7.653
+  },
+  {
+    "source": "33 Koneiden ja laitteiden korjaus, huolto ja asennus",
+    "target": "23 Muiden ei-metallisten mineraalituotteiden valmistus",
+    "value": 20.544
+  },
+  {
+    "source": "33 Koneiden ja laitteiden korjaus, huolto ja asennus",
+    "target": "24 Metallien jalostus",
+    "value": 53.925
+  },
+  {
+    "source": "33 Koneiden ja laitteiden korjaus, huolto ja asennus",
+    "target": "25 Metallituotteiden valmistus (pl. koneet ja laitteet)",
+    "value": 57.572
+  },
+  {
+    "source": "33 Koneiden ja laitteiden korjaus, huolto ja asennus",
+    "target": "26 Tietokoneiden sek\u00e4 elektronisten ja optisten tuotteiden valmistus",
+    "value": 91.526
+  },
+  {
+    "source": "33 Koneiden ja laitteiden korjaus, huolto ja asennus",
+    "target": "27 S\u00e4hk\u00f6laitteiden valmistus",
+    "value": 18.548
+  },
+  {
+    "source": "33 Koneiden ja laitteiden korjaus, huolto ja asennus",
+    "target": "28 Muiden koneiden ja laitteiden valmistus",
+    "value": 153.251
+  },
+  {
+    "source": "33 Koneiden ja laitteiden korjaus, huolto ja asennus",
+    "target": "29 Moottoriajoneuvojen, per\u00e4vaunujen ja puoliper\u00e4vaunujen valmistus",
+    "value": 7.621
+  },
+  {
+    "source": "33 Koneiden ja laitteiden korjaus, huolto ja asennus",
+    "target": "30 Muiden kulkuneuvojen valmistus",
+    "value": 82.193
+  },
+  {
+    "source": "33 Koneiden ja laitteiden korjaus, huolto ja asennus",
+    "target": "31, 32 Muu valmistus ml. huonekalut",
+    "value": 14.654
+  },
+  {
+    "source": "33 Koneiden ja laitteiden korjaus, huolto ja asennus",
+    "target": "33 Koneiden ja laitteiden korjaus, huolto ja asennus",
+    "value": 287.434
+  },
+  {
+    "source": "33 Koneiden ja laitteiden korjaus, huolto ja asennus",
+    "target": "35 S\u00e4hk\u00f6-, kaasu- ja l\u00e4mp\u00f6huolto, j\u00e4\u00e4hdytysliiketoiminta",
+    "value": 239.839
+  },
+  {
+    "source": "33 Koneiden ja laitteiden korjaus, huolto ja asennus",
+    "target": "36 Veden otto, puhdistus ja jakelu",
+    "value": 74.261
+  },
+  {
+    "source": "33 Koneiden ja laitteiden korjaus, huolto ja asennus",
+    "target": "37-39 J\u00e4te- ja j\u00e4tevesihuolto",
+    "value": 103.944
+  },
+  {
+    "source": "33 Koneiden ja laitteiden korjaus, huolto ja asennus",
+    "target": "F Rakentaminen (41-43)",
+    "value": 223.578
+  },
+  {
+    "source": "33 Koneiden ja laitteiden korjaus, huolto ja asennus",
+    "target": "45 Moottoriajoneuvojen ja moottoripy\u00f6rien tukku- ja v\u00e4hitt\u00e4iskauppa sek\u00e4 korjaus",
+    "value": 3.912
+  },
+  {
+    "source": "33 Koneiden ja laitteiden korjaus, huolto ja asennus",
+    "target": "46 Tukkukauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "value": 83.513
+  },
+  {
+    "source": "33 Koneiden ja laitteiden korjaus, huolto ja asennus",
+    "target": "47 V\u00e4hitt\u00e4iskauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "value": 44.978
+  },
+  {
+    "source": "35 S\u00e4hk\u00f6-, kaasu- ja l\u00e4mp\u00f6huolto, j\u00e4\u00e4hdytysliiketoiminta",
+    "target": "01 Kasvinviljely ja kotiel\u00e4intalous, riistatalous ja niihin liittyv\u00e4t palvelut",
+    "value": 103.495
+  },
+  {
+    "source": "35 S\u00e4hk\u00f6-, kaasu- ja l\u00e4mp\u00f6huolto, j\u00e4\u00e4hdytysliiketoiminta",
+    "target": "02 Mets\u00e4talous ja puunkorjuu",
+    "value": 44.271
+  },
+  {
+    "source": "35 S\u00e4hk\u00f6-, kaasu- ja l\u00e4mp\u00f6huolto, j\u00e4\u00e4hdytysliiketoiminta",
+    "target": "03 Kalastus ja vesiviljely",
+    "value": 4.34
+  },
+  {
+    "source": "35 S\u00e4hk\u00f6-, kaasu- ja l\u00e4mp\u00f6huolto, j\u00e4\u00e4hdytysliiketoiminta",
+    "target": "B Kaivostoiminta ja louhinta (05-09)",
+    "value": 195.682
+  },
+  {
+    "source": "35 S\u00e4hk\u00f6-, kaasu- ja l\u00e4mp\u00f6huolto, j\u00e4\u00e4hdytysliiketoiminta",
+    "target": "10-12 Elintarviketeollisuus ym.",
+    "value": 270.667
+  },
+  {
+    "source": "35 S\u00e4hk\u00f6-, kaasu- ja l\u00e4mp\u00f6huolto, j\u00e4\u00e4hdytysliiketoiminta",
+    "target": "13-15 Tekstiiliteollisuus",
+    "value": 36.336
+  },
+  {
+    "source": "35 S\u00e4hk\u00f6-, kaasu- ja l\u00e4mp\u00f6huolto, j\u00e4\u00e4hdytysliiketoiminta",
+    "target": "16 Sahatavaran sek\u00e4 puu- ja korkkituotteiden valmistus (pl. huonekalut); olki- ja punontatuotteiden valmistus",
+    "value": 262.356
+  },
+  {
+    "source": "35 S\u00e4hk\u00f6-, kaasu- ja l\u00e4mp\u00f6huolto, j\u00e4\u00e4hdytysliiketoiminta",
+    "target": "17 Paperin, paperi- ja kartonkituotteiden valmistus",
+    "value": 1175.418
+  },
+  {
+    "source": "35 S\u00e4hk\u00f6-, kaasu- ja l\u00e4mp\u00f6huolto, j\u00e4\u00e4hdytysliiketoiminta",
+    "target": "18 Painaminen ja tallenteiden j\u00e4ljent\u00e4minen",
+    "value": 17.043
+  },
+  {
+    "source": "35 S\u00e4hk\u00f6-, kaasu- ja l\u00e4mp\u00f6huolto, j\u00e4\u00e4hdytysliiketoiminta",
+    "target": "19 Koksin ja jalostettujen \u00f6ljytuotteiden valmistus",
+    "value": 44.979
+  },
+  {
+    "source": "35 S\u00e4hk\u00f6-, kaasu- ja l\u00e4mp\u00f6huolto, j\u00e4\u00e4hdytysliiketoiminta",
+    "target": "20 Kemikaalien ja kemiallisten tuotteiden valmistus",
+    "value": 323.208
+  },
+  {
+    "source": "35 S\u00e4hk\u00f6-, kaasu- ja l\u00e4mp\u00f6huolto, j\u00e4\u00e4hdytysliiketoiminta",
+    "target": "21 L\u00e4\u00e4keaineiden ja l\u00e4\u00e4kkeiden valmistus",
+    "value": 16.86
+  },
+  {
+    "source": "35 S\u00e4hk\u00f6-, kaasu- ja l\u00e4mp\u00f6huolto, j\u00e4\u00e4hdytysliiketoiminta",
+    "target": "22 Kumi- ja muovituotteiden valmistus",
+    "value": 107.34
+  },
+  {
+    "source": "35 S\u00e4hk\u00f6-, kaasu- ja l\u00e4mp\u00f6huolto, j\u00e4\u00e4hdytysliiketoiminta",
+    "target": "23 Muiden ei-metallisten mineraalituotteiden valmistus",
+    "value": 115.241
+  },
+  {
+    "source": "35 S\u00e4hk\u00f6-, kaasu- ja l\u00e4mp\u00f6huolto, j\u00e4\u00e4hdytysliiketoiminta",
+    "target": "24 Metallien jalostus",
+    "value": 439.479
+  },
+  {
+    "source": "35 S\u00e4hk\u00f6-, kaasu- ja l\u00e4mp\u00f6huolto, j\u00e4\u00e4hdytysliiketoiminta",
+    "target": "25 Metallituotteiden valmistus (pl. koneet ja laitteet)",
+    "value": 99.611
+  },
+  {
+    "source": "35 S\u00e4hk\u00f6-, kaasu- ja l\u00e4mp\u00f6huolto, j\u00e4\u00e4hdytysliiketoiminta",
+    "target": "26 Tietokoneiden sek\u00e4 elektronisten ja optisten tuotteiden valmistus",
+    "value": 100.921
+  },
+  {
+    "source": "35 S\u00e4hk\u00f6-, kaasu- ja l\u00e4mp\u00f6huolto, j\u00e4\u00e4hdytysliiketoiminta",
+    "target": "27 S\u00e4hk\u00f6laitteiden valmistus",
+    "value": 34.054
+  },
+  {
+    "source": "35 S\u00e4hk\u00f6-, kaasu- ja l\u00e4mp\u00f6huolto, j\u00e4\u00e4hdytysliiketoiminta",
+    "target": "28 Muiden koneiden ja laitteiden valmistus",
+    "value": 107.698
+  },
+  {
+    "source": "35 S\u00e4hk\u00f6-, kaasu- ja l\u00e4mp\u00f6huolto, j\u00e4\u00e4hdytysliiketoiminta",
+    "target": "29 Moottoriajoneuvojen, per\u00e4vaunujen ja puoliper\u00e4vaunujen valmistus",
+    "value": 24.905
+  },
+  {
+    "source": "35 S\u00e4hk\u00f6-, kaasu- ja l\u00e4mp\u00f6huolto, j\u00e4\u00e4hdytysliiketoiminta",
+    "target": "30 Muiden kulkuneuvojen valmistus",
+    "value": 26.103
+  },
+  {
+    "source": "35 S\u00e4hk\u00f6-, kaasu- ja l\u00e4mp\u00f6huolto, j\u00e4\u00e4hdytysliiketoiminta",
+    "target": "31, 32 Muu valmistus ml. huonekalut",
+    "value": 13.862
+  },
+  {
+    "source": "35 S\u00e4hk\u00f6-, kaasu- ja l\u00e4mp\u00f6huolto, j\u00e4\u00e4hdytysliiketoiminta",
+    "target": "33 Koneiden ja laitteiden korjaus, huolto ja asennus",
+    "value": 51.679
+  },
+  {
+    "source": "35 S\u00e4hk\u00f6-, kaasu- ja l\u00e4mp\u00f6huolto, j\u00e4\u00e4hdytysliiketoiminta",
+    "target": "35 S\u00e4hk\u00f6-, kaasu- ja l\u00e4mp\u00f6huolto, j\u00e4\u00e4hdytysliiketoiminta",
+    "value": 350.93
+  },
+  {
+    "source": "35 S\u00e4hk\u00f6-, kaasu- ja l\u00e4mp\u00f6huolto, j\u00e4\u00e4hdytysliiketoiminta",
+    "target": "36 Veden otto, puhdistus ja jakelu",
+    "value": 23.977
+  },
+  {
+    "source": "35 S\u00e4hk\u00f6-, kaasu- ja l\u00e4mp\u00f6huolto, j\u00e4\u00e4hdytysliiketoiminta",
+    "target": "37-39 J\u00e4te- ja j\u00e4tevesihuolto",
+    "value": 107.025
+  },
+  {
+    "source": "35 S\u00e4hk\u00f6-, kaasu- ja l\u00e4mp\u00f6huolto, j\u00e4\u00e4hdytysliiketoiminta",
+    "target": "F Rakentaminen (41-43)",
+    "value": 222.416
+  },
+  {
+    "source": "35 S\u00e4hk\u00f6-, kaasu- ja l\u00e4mp\u00f6huolto, j\u00e4\u00e4hdytysliiketoiminta",
+    "target": "45 Moottoriajoneuvojen ja moottoripy\u00f6rien tukku- ja v\u00e4hitt\u00e4iskauppa sek\u00e4 korjaus",
+    "value": 72.004
+  },
+  {
+    "source": "35 S\u00e4hk\u00f6-, kaasu- ja l\u00e4mp\u00f6huolto, j\u00e4\u00e4hdytysliiketoiminta",
+    "target": "46 Tukkukauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "value": 208.337
+  },
+  {
+    "source": "35 S\u00e4hk\u00f6-, kaasu- ja l\u00e4mp\u00f6huolto, j\u00e4\u00e4hdytysliiketoiminta",
+    "target": "47 V\u00e4hitt\u00e4iskauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "value": 386.08
+  },
+  {
+    "source": "36 Veden otto, puhdistus ja jakelu",
+    "target": "01 Kasvinviljely ja kotiel\u00e4intalous, riistatalous ja niihin liittyv\u00e4t palvelut",
+    "value": 0.004
+  },
+  {
+    "source": "36 Veden otto, puhdistus ja jakelu",
+    "target": "02 Mets\u00e4talous ja puunkorjuu",
+    "value": 0.108
+  },
+  {
+    "source": "36 Veden otto, puhdistus ja jakelu",
+    "target": "03 Kalastus ja vesiviljely",
+    "value": 0.002
+  },
+  {
+    "source": "36 Veden otto, puhdistus ja jakelu",
+    "target": "B Kaivostoiminta ja louhinta (05-09)",
+    "value": 10.652
+  },
+  {
+    "source": "36 Veden otto, puhdistus ja jakelu",
+    "target": "10-12 Elintarviketeollisuus ym.",
+    "value": 30.056
+  },
+  {
+    "source": "36 Veden otto, puhdistus ja jakelu",
+    "target": "13-15 Tekstiiliteollisuus",
+    "value": 1.968
+  },
+  {
+    "source": "36 Veden otto, puhdistus ja jakelu",
+    "target": "16 Sahatavaran sek\u00e4 puu- ja korkkituotteiden valmistus (pl. huonekalut); olki- ja punontatuotteiden valmistus",
+    "value": 3.232
+  },
+  {
+    "source": "36 Veden otto, puhdistus ja jakelu",
+    "target": "17 Paperin, paperi- ja kartonkituotteiden valmistus",
+    "value": 6.048
+  },
+  {
+    "source": "36 Veden otto, puhdistus ja jakelu",
+    "target": "18 Painaminen ja tallenteiden j\u00e4ljent\u00e4minen",
+    "value": 1.728
+  },
+  {
+    "source": "36 Veden otto, puhdistus ja jakelu",
+    "target": "19 Koksin ja jalostettujen \u00f6ljytuotteiden valmistus",
+    "value": 5.513
+  },
+  {
+    "source": "36 Veden otto, puhdistus ja jakelu",
+    "target": "20 Kemikaalien ja kemiallisten tuotteiden valmistus",
+    "value": 9.328
+  },
+  {
+    "source": "36 Veden otto, puhdistus ja jakelu",
+    "target": "21 L\u00e4\u00e4keaineiden ja l\u00e4\u00e4kkeiden valmistus",
+    "value": 1.716
+  },
+  {
+    "source": "36 Veden otto, puhdistus ja jakelu",
+    "target": "22 Kumi- ja muovituotteiden valmistus",
+    "value": 2.014
+  },
+  {
+    "source": "36 Veden otto, puhdistus ja jakelu",
+    "target": "23 Muiden ei-metallisten mineraalituotteiden valmistus",
+    "value": 5.071
+  },
+  {
+    "source": "36 Veden otto, puhdistus ja jakelu",
+    "target": "24 Metallien jalostus",
+    "value": 12.462
+  },
+  {
+    "source": "36 Veden otto, puhdistus ja jakelu",
+    "target": "25 Metallituotteiden valmistus (pl. koneet ja laitteet)",
+    "value": 9.667
+  },
+  {
+    "source": "36 Veden otto, puhdistus ja jakelu",
+    "target": "26 Tietokoneiden sek\u00e4 elektronisten ja optisten tuotteiden valmistus",
+    "value": 17.139
+  },
+  {
+    "source": "36 Veden otto, puhdistus ja jakelu",
+    "target": "27 S\u00e4hk\u00f6laitteiden valmistus",
+    "value": 1.487
+  },
+  {
+    "source": "36 Veden otto, puhdistus ja jakelu",
+    "target": "28 Muiden koneiden ja laitteiden valmistus",
+    "value": 12.47
+  },
+  {
+    "source": "36 Veden otto, puhdistus ja jakelu",
+    "target": "29 Moottoriajoneuvojen, per\u00e4vaunujen ja puoliper\u00e4vaunujen valmistus",
+    "value": 0.573
+  },
+  {
+    "source": "36 Veden otto, puhdistus ja jakelu",
+    "target": "30 Muiden kulkuneuvojen valmistus",
+    "value": 1.629
+  },
+  {
+    "source": "36 Veden otto, puhdistus ja jakelu",
+    "target": "31, 32 Muu valmistus ml. huonekalut",
+    "value": 1.301
+  },
+  {
+    "source": "36 Veden otto, puhdistus ja jakelu",
+    "target": "33 Koneiden ja laitteiden korjaus, huolto ja asennus",
+    "value": 2.738
+  },
+  {
+    "source": "36 Veden otto, puhdistus ja jakelu",
+    "target": "35 S\u00e4hk\u00f6-, kaasu- ja l\u00e4mp\u00f6huolto, j\u00e4\u00e4hdytysliiketoiminta",
+    "value": 8.286
+  },
+  {
+    "source": "36 Veden otto, puhdistus ja jakelu",
+    "target": "36 Veden otto, puhdistus ja jakelu",
+    "value": 0.042
+  },
+  {
+    "source": "36 Veden otto, puhdistus ja jakelu",
+    "target": "37-39 J\u00e4te- ja j\u00e4tevesihuolto",
+    "value": 3.89
+  },
+  {
+    "source": "36 Veden otto, puhdistus ja jakelu",
+    "target": "F Rakentaminen (41-43)",
+    "value": 49.961
+  },
+  {
+    "source": "36 Veden otto, puhdistus ja jakelu",
+    "target": "45 Moottoriajoneuvojen ja moottoripy\u00f6rien tukku- ja v\u00e4hitt\u00e4iskauppa sek\u00e4 korjaus",
+    "value": 4.116
+  },
+  {
+    "source": "36 Veden otto, puhdistus ja jakelu",
+    "target": "46 Tukkukauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "value": 12.41
+  },
+  {
+    "source": "36 Veden otto, puhdistus ja jakelu",
+    "target": "47 V\u00e4hitt\u00e4iskauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "value": 13.869
+  },
+  {
+    "source": "37-39 J\u00e4te- ja j\u00e4tevesihuolto",
+    "target": "01 Kasvinviljely ja kotiel\u00e4intalous, riistatalous ja niihin liittyv\u00e4t palvelut",
+    "value": 0.153
+  },
+  {
+    "source": "37-39 J\u00e4te- ja j\u00e4tevesihuolto",
+    "target": "02 Mets\u00e4talous ja puunkorjuu",
+    "value": 0.138
+  },
+  {
+    "source": "37-39 J\u00e4te- ja j\u00e4tevesihuolto",
+    "target": "03 Kalastus ja vesiviljely",
+    "value": 0.005
+  },
+  {
+    "source": "37-39 J\u00e4te- ja j\u00e4tevesihuolto",
+    "target": "B Kaivostoiminta ja louhinta (05-09)",
+    "value": 45.726
+  },
+  {
+    "source": "37-39 J\u00e4te- ja j\u00e4tevesihuolto",
+    "target": "10-12 Elintarviketeollisuus ym.",
+    "value": 62.444
+  },
+  {
+    "source": "37-39 J\u00e4te- ja j\u00e4tevesihuolto",
+    "target": "13-15 Tekstiiliteollisuus",
+    "value": 3.97
+  },
+  {
+    "source": "37-39 J\u00e4te- ja j\u00e4tevesihuolto",
+    "target": "16 Sahatavaran sek\u00e4 puu- ja korkkituotteiden valmistus (pl. huonekalut); olki- ja punontatuotteiden valmistus",
+    "value": 11.205
+  },
+  {
+    "source": "37-39 J\u00e4te- ja j\u00e4tevesihuolto",
+    "target": "17 Paperin, paperi- ja kartonkituotteiden valmistus",
+    "value": 35.878
+  },
+  {
+    "source": "37-39 J\u00e4te- ja j\u00e4tevesihuolto",
+    "target": "18 Painaminen ja tallenteiden j\u00e4ljent\u00e4minen",
+    "value": 3.014
+  },
+  {
+    "source": "37-39 J\u00e4te- ja j\u00e4tevesihuolto",
+    "target": "19 Koksin ja jalostettujen \u00f6ljytuotteiden valmistus",
+    "value": 4.798
+  },
+  {
+    "source": "37-39 J\u00e4te- ja j\u00e4tevesihuolto",
+    "target": "20 Kemikaalien ja kemiallisten tuotteiden valmistus",
+    "value": 29.047
+  },
+  {
+    "source": "37-39 J\u00e4te- ja j\u00e4tevesihuolto",
+    "target": "21 L\u00e4\u00e4keaineiden ja l\u00e4\u00e4kkeiden valmistus",
+    "value": 3.267
+  },
+  {
+    "source": "37-39 J\u00e4te- ja j\u00e4tevesihuolto",
+    "target": "22 Kumi- ja muovituotteiden valmistus",
+    "value": 7.589
+  },
+  {
+    "source": "37-39 J\u00e4te- ja j\u00e4tevesihuolto",
+    "target": "23 Muiden ei-metallisten mineraalituotteiden valmistus",
+    "value": 12.952
+  },
+  {
+    "source": "37-39 J\u00e4te- ja j\u00e4tevesihuolto",
+    "target": "24 Metallien jalostus",
+    "value": 239.658
+  },
+  {
+    "source": "37-39 J\u00e4te- ja j\u00e4tevesihuolto",
+    "target": "25 Metallituotteiden valmistus (pl. koneet ja laitteet)",
+    "value": 43.218
+  },
+  {
+    "source": "37-39 J\u00e4te- ja j\u00e4tevesihuolto",
+    "target": "26 Tietokoneiden sek\u00e4 elektronisten ja optisten tuotteiden valmistus",
+    "value": 43.41
+  },
+  {
+    "source": "37-39 J\u00e4te- ja j\u00e4tevesihuolto",
+    "target": "27 S\u00e4hk\u00f6laitteiden valmistus",
+    "value": 9.136
+  },
+  {
+    "source": "37-39 J\u00e4te- ja j\u00e4tevesihuolto",
+    "target": "28 Muiden koneiden ja laitteiden valmistus",
+    "value": 58.114
+  },
+  {
+    "source": "37-39 J\u00e4te- ja j\u00e4tevesihuolto",
+    "target": "29 Moottoriajoneuvojen, per\u00e4vaunujen ja puoliper\u00e4vaunujen valmistus",
+    "value": 4.291
+  },
+  {
+    "source": "37-39 J\u00e4te- ja j\u00e4tevesihuolto",
+    "target": "30 Muiden kulkuneuvojen valmistus",
+    "value": 5.767
+  },
+  {
+    "source": "37-39 J\u00e4te- ja j\u00e4tevesihuolto",
+    "target": "31, 32 Muu valmistus ml. huonekalut",
+    "value": 2.943
+  },
+  {
+    "source": "37-39 J\u00e4te- ja j\u00e4tevesihuolto",
+    "target": "33 Koneiden ja laitteiden korjaus, huolto ja asennus",
+    "value": 9.462
+  },
+  {
+    "source": "37-39 J\u00e4te- ja j\u00e4tevesihuolto",
+    "target": "35 S\u00e4hk\u00f6-, kaasu- ja l\u00e4mp\u00f6huolto, j\u00e4\u00e4hdytysliiketoiminta",
+    "value": 461.313
+  },
+  {
+    "source": "37-39 J\u00e4te- ja j\u00e4tevesihuolto",
+    "target": "36 Veden otto, puhdistus ja jakelu",
+    "value": 2.263
+  },
+  {
+    "source": "37-39 J\u00e4te- ja j\u00e4tevesihuolto",
+    "target": "37-39 J\u00e4te- ja j\u00e4tevesihuolto",
+    "value": 710.602
+  },
+  {
+    "source": "37-39 J\u00e4te- ja j\u00e4tevesihuolto",
+    "target": "F Rakentaminen (41-43)",
+    "value": 183.089
+  },
+  {
+    "source": "37-39 J\u00e4te- ja j\u00e4tevesihuolto",
+    "target": "45 Moottoriajoneuvojen ja moottoripy\u00f6rien tukku- ja v\u00e4hitt\u00e4iskauppa sek\u00e4 korjaus",
+    "value": 10.098
+  },
+  {
+    "source": "37-39 J\u00e4te- ja j\u00e4tevesihuolto",
+    "target": "46 Tukkukauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "value": 38.829
+  },
+  {
+    "source": "37-39 J\u00e4te- ja j\u00e4tevesihuolto",
+    "target": "47 V\u00e4hitt\u00e4iskauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "value": 107.303
+  },
+  {
+    "source": "F Rakentaminen (41-43)",
+    "target": "01 Kasvinviljely ja kotiel\u00e4intalous, riistatalous ja niihin liittyv\u00e4t palvelut",
+    "value": 142.506
+  },
+  {
+    "source": "F Rakentaminen (41-43)",
+    "target": "02 Mets\u00e4talous ja puunkorjuu",
+    "value": 0.963
+  },
+  {
+    "source": "F Rakentaminen (41-43)",
+    "target": "03 Kalastus ja vesiviljely",
+    "value": 0.019
+  },
+  {
+    "source": "F Rakentaminen (41-43)",
+    "target": "B Kaivostoiminta ja louhinta (05-09)",
+    "value": 29.218
+  },
+  {
+    "source": "F Rakentaminen (41-43)",
+    "target": "10-12 Elintarviketeollisuus ym.",
+    "value": 34.825
+  },
+  {
+    "source": "F Rakentaminen (41-43)",
+    "target": "13-15 Tekstiiliteollisuus",
+    "value": 3.123
+  },
+  {
+    "source": "F Rakentaminen (41-43)",
+    "target": "16 Sahatavaran sek\u00e4 puu- ja korkkituotteiden valmistus (pl. huonekalut); olki- ja punontatuotteiden valmistus",
+    "value": 12.652
+  },
+  {
+    "source": "F Rakentaminen (41-43)",
+    "target": "17 Paperin, paperi- ja kartonkituotteiden valmistus",
+    "value": 25.577
+  },
+  {
+    "source": "F Rakentaminen (41-43)",
+    "target": "18 Painaminen ja tallenteiden j\u00e4ljent\u00e4minen",
+    "value": 2.566
+  },
+  {
+    "source": "F Rakentaminen (41-43)",
+    "target": "19 Koksin ja jalostettujen \u00f6ljytuotteiden valmistus",
+    "value": 17.408
+  },
+  {
+    "source": "F Rakentaminen (41-43)",
+    "target": "20 Kemikaalien ja kemiallisten tuotteiden valmistus",
+    "value": 21.02
+  },
+  {
+    "source": "F Rakentaminen (41-43)",
+    "target": "21 L\u00e4\u00e4keaineiden ja l\u00e4\u00e4kkeiden valmistus",
+    "value": 1.606
+  },
+  {
+    "source": "F Rakentaminen (41-43)",
+    "target": "22 Kumi- ja muovituotteiden valmistus",
+    "value": 10.376
+  },
+  {
+    "source": "F Rakentaminen (41-43)",
+    "target": "23 Muiden ei-metallisten mineraalituotteiden valmistus",
+    "value": 10.75
+  },
+  {
+    "source": "F Rakentaminen (41-43)",
+    "target": "24 Metallien jalostus",
+    "value": 30.759
+  },
+  {
+    "source": "F Rakentaminen (41-43)",
+    "target": "25 Metallituotteiden valmistus (pl. koneet ja laitteet)",
+    "value": 11.765
+  },
+  {
+    "source": "F Rakentaminen (41-43)",
+    "target": "26 Tietokoneiden sek\u00e4 elektronisten ja optisten tuotteiden valmistus",
+    "value": 24.783
+  },
+  {
+    "source": "F Rakentaminen (41-43)",
+    "target": "27 S\u00e4hk\u00f6laitteiden valmistus",
+    "value": 6.855
+  },
+  {
+    "source": "F Rakentaminen (41-43)",
+    "target": "28 Muiden koneiden ja laitteiden valmistus",
+    "value": 41.16
+  },
+  {
+    "source": "F Rakentaminen (41-43)",
+    "target": "29 Moottoriajoneuvojen, per\u00e4vaunujen ja puoliper\u00e4vaunujen valmistus",
+    "value": 1.678
+  },
+  {
+    "source": "F Rakentaminen (41-43)",
+    "target": "30 Muiden kulkuneuvojen valmistus",
+    "value": 1.988
+  },
+  {
+    "source": "F Rakentaminen (41-43)",
+    "target": "31, 32 Muu valmistus ml. huonekalut",
+    "value": 8.788
+  },
+  {
+    "source": "F Rakentaminen (41-43)",
+    "target": "33 Koneiden ja laitteiden korjaus, huolto ja asennus",
+    "value": 16.862
+  },
+  {
+    "source": "F Rakentaminen (41-43)",
+    "target": "35 S\u00e4hk\u00f6-, kaasu- ja l\u00e4mp\u00f6huolto, j\u00e4\u00e4hdytysliiketoiminta",
+    "value": 598.423
+  },
+  {
+    "source": "F Rakentaminen (41-43)",
+    "target": "36 Veden otto, puhdistus ja jakelu",
+    "value": 108.173
+  },
+  {
+    "source": "F Rakentaminen (41-43)",
+    "target": "37-39 J\u00e4te- ja j\u00e4tevesihuolto",
+    "value": 216.792
+  },
+  {
+    "source": "F Rakentaminen (41-43)",
+    "target": "F Rakentaminen (41-43)",
+    "value": 4594.628
+  },
+  {
+    "source": "F Rakentaminen (41-43)",
+    "target": "45 Moottoriajoneuvojen ja moottoripy\u00f6rien tukku- ja v\u00e4hitt\u00e4iskauppa sek\u00e4 korjaus",
+    "value": 15.256
+  },
+  {
+    "source": "F Rakentaminen (41-43)",
+    "target": "46 Tukkukauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "value": 175.797
+  },
+  {
+    "source": "F Rakentaminen (41-43)",
+    "target": "47 V\u00e4hitt\u00e4iskauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "value": 113.81
+  },
+  {
+    "source": "45 Moottoriajoneuvojen ja moottoripy\u00f6rien tukku- ja v\u00e4hitt\u00e4iskauppa sek\u00e4 korjaus",
+    "target": "01 Kasvinviljely ja kotiel\u00e4intalous, riistatalous ja niihin liittyv\u00e4t palvelut",
+    "value": 99.824
+  },
+  {
+    "source": "45 Moottoriajoneuvojen ja moottoripy\u00f6rien tukku- ja v\u00e4hitt\u00e4iskauppa sek\u00e4 korjaus",
+    "target": "02 Mets\u00e4talous ja puunkorjuu",
+    "value": 44.131
+  },
+  {
+    "source": "45 Moottoriajoneuvojen ja moottoripy\u00f6rien tukku- ja v\u00e4hitt\u00e4iskauppa sek\u00e4 korjaus",
+    "target": "03 Kalastus ja vesiviljely",
+    "value": 0.007
+  },
+  {
+    "source": "45 Moottoriajoneuvojen ja moottoripy\u00f6rien tukku- ja v\u00e4hitt\u00e4iskauppa sek\u00e4 korjaus",
+    "target": "B Kaivostoiminta ja louhinta (05-09)",
+    "value": 0.483
+  },
+  {
+    "source": "45 Moottoriajoneuvojen ja moottoripy\u00f6rien tukku- ja v\u00e4hitt\u00e4iskauppa sek\u00e4 korjaus",
+    "target": "10-12 Elintarviketeollisuus ym.",
+    "value": 5.673
+  },
+  {
+    "source": "45 Moottoriajoneuvojen ja moottoripy\u00f6rien tukku- ja v\u00e4hitt\u00e4iskauppa sek\u00e4 korjaus",
+    "target": "13-15 Tekstiiliteollisuus",
+    "value": 0.486
+  },
+  {
+    "source": "45 Moottoriajoneuvojen ja moottoripy\u00f6rien tukku- ja v\u00e4hitt\u00e4iskauppa sek\u00e4 korjaus",
+    "target": "16 Sahatavaran sek\u00e4 puu- ja korkkituotteiden valmistus (pl. huonekalut); olki- ja punontatuotteiden valmistus",
+    "value": 23.566
+  },
+  {
+    "source": "45 Moottoriajoneuvojen ja moottoripy\u00f6rien tukku- ja v\u00e4hitt\u00e4iskauppa sek\u00e4 korjaus",
+    "target": "17 Paperin, paperi- ja kartonkituotteiden valmistus",
+    "value": 5.281
+  },
+  {
+    "source": "45 Moottoriajoneuvojen ja moottoripy\u00f6rien tukku- ja v\u00e4hitt\u00e4iskauppa sek\u00e4 korjaus",
+    "target": "18 Painaminen ja tallenteiden j\u00e4ljent\u00e4minen",
+    "value": 0.467
+  },
+  {
+    "source": "45 Moottoriajoneuvojen ja moottoripy\u00f6rien tukku- ja v\u00e4hitt\u00e4iskauppa sek\u00e4 korjaus",
+    "target": "19 Koksin ja jalostettujen \u00f6ljytuotteiden valmistus",
+    "value": 0.369
+  },
+  {
+    "source": "45 Moottoriajoneuvojen ja moottoripy\u00f6rien tukku- ja v\u00e4hitt\u00e4iskauppa sek\u00e4 korjaus",
+    "target": "20 Kemikaalien ja kemiallisten tuotteiden valmistus",
+    "value": 3.247
+  },
+  {
+    "source": "45 Moottoriajoneuvojen ja moottoripy\u00f6rien tukku- ja v\u00e4hitt\u00e4iskauppa sek\u00e4 korjaus",
+    "target": "21 L\u00e4\u00e4keaineiden ja l\u00e4\u00e4kkeiden valmistus",
+    "value": 0.603
+  },
+  {
+    "source": "45 Moottoriajoneuvojen ja moottoripy\u00f6rien tukku- ja v\u00e4hitt\u00e4iskauppa sek\u00e4 korjaus",
+    "target": "22 Kumi- ja muovituotteiden valmistus",
+    "value": 22.912
+  },
+  {
+    "source": "45 Moottoriajoneuvojen ja moottoripy\u00f6rien tukku- ja v\u00e4hitt\u00e4iskauppa sek\u00e4 korjaus",
+    "target": "23 Muiden ei-metallisten mineraalituotteiden valmistus",
+    "value": 5.827
+  },
+  {
+    "source": "45 Moottoriajoneuvojen ja moottoripy\u00f6rien tukku- ja v\u00e4hitt\u00e4iskauppa sek\u00e4 korjaus",
+    "target": "24 Metallien jalostus",
+    "value": 11.237
+  },
+  {
+    "source": "45 Moottoriajoneuvojen ja moottoripy\u00f6rien tukku- ja v\u00e4hitt\u00e4iskauppa sek\u00e4 korjaus",
+    "target": "25 Metallituotteiden valmistus (pl. koneet ja laitteet)",
+    "value": 3.982
+  },
+  {
+    "source": "45 Moottoriajoneuvojen ja moottoripy\u00f6rien tukku- ja v\u00e4hitt\u00e4iskauppa sek\u00e4 korjaus",
+    "target": "26 Tietokoneiden sek\u00e4 elektronisten ja optisten tuotteiden valmistus",
+    "value": 15.806
+  },
+  {
+    "source": "45 Moottoriajoneuvojen ja moottoripy\u00f6rien tukku- ja v\u00e4hitt\u00e4iskauppa sek\u00e4 korjaus",
+    "target": "27 S\u00e4hk\u00f6laitteiden valmistus",
+    "value": 8.658
+  },
+  {
+    "source": "45 Moottoriajoneuvojen ja moottoripy\u00f6rien tukku- ja v\u00e4hitt\u00e4iskauppa sek\u00e4 korjaus",
+    "target": "28 Muiden koneiden ja laitteiden valmistus",
+    "value": 88.027
+  },
+  {
+    "source": "45 Moottoriajoneuvojen ja moottoripy\u00f6rien tukku- ja v\u00e4hitt\u00e4iskauppa sek\u00e4 korjaus",
+    "target": "29 Moottoriajoneuvojen, per\u00e4vaunujen ja puoliper\u00e4vaunujen valmistus",
+    "value": 0.399
+  },
+  {
+    "source": "45 Moottoriajoneuvojen ja moottoripy\u00f6rien tukku- ja v\u00e4hitt\u00e4iskauppa sek\u00e4 korjaus",
+    "target": "30 Muiden kulkuneuvojen valmistus",
+    "value": 3.789
+  },
+  {
+    "source": "45 Moottoriajoneuvojen ja moottoripy\u00f6rien tukku- ja v\u00e4hitt\u00e4iskauppa sek\u00e4 korjaus",
+    "target": "31, 32 Muu valmistus ml. huonekalut",
+    "value": 3.097
+  },
+  {
+    "source": "45 Moottoriajoneuvojen ja moottoripy\u00f6rien tukku- ja v\u00e4hitt\u00e4iskauppa sek\u00e4 korjaus",
+    "target": "33 Koneiden ja laitteiden korjaus, huolto ja asennus",
+    "value": 4.205
+  },
+  {
+    "source": "45 Moottoriajoneuvojen ja moottoripy\u00f6rien tukku- ja v\u00e4hitt\u00e4iskauppa sek\u00e4 korjaus",
+    "target": "35 S\u00e4hk\u00f6-, kaasu- ja l\u00e4mp\u00f6huolto, j\u00e4\u00e4hdytysliiketoiminta",
+    "value": 3.638
+  },
+  {
+    "source": "45 Moottoriajoneuvojen ja moottoripy\u00f6rien tukku- ja v\u00e4hitt\u00e4iskauppa sek\u00e4 korjaus",
+    "target": "36 Veden otto, puhdistus ja jakelu",
+    "value": 0.118
+  },
+  {
+    "source": "45 Moottoriajoneuvojen ja moottoripy\u00f6rien tukku- ja v\u00e4hitt\u00e4iskauppa sek\u00e4 korjaus",
+    "target": "37-39 J\u00e4te- ja j\u00e4tevesihuolto",
+    "value": 7.059
+  },
+  {
+    "source": "45 Moottoriajoneuvojen ja moottoripy\u00f6rien tukku- ja v\u00e4hitt\u00e4iskauppa sek\u00e4 korjaus",
+    "target": "F Rakentaminen (41-43)",
+    "value": 46.606
+  },
+  {
+    "source": "45 Moottoriajoneuvojen ja moottoripy\u00f6rien tukku- ja v\u00e4hitt\u00e4iskauppa sek\u00e4 korjaus",
+    "target": "45 Moottoriajoneuvojen ja moottoripy\u00f6rien tukku- ja v\u00e4hitt\u00e4iskauppa sek\u00e4 korjaus",
+    "value": 932.918
+  },
+  {
+    "source": "45 Moottoriajoneuvojen ja moottoripy\u00f6rien tukku- ja v\u00e4hitt\u00e4iskauppa sek\u00e4 korjaus",
+    "target": "46 Tukkukauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "value": 113.501
+  },
+  {
+    "source": "45 Moottoriajoneuvojen ja moottoripy\u00f6rien tukku- ja v\u00e4hitt\u00e4iskauppa sek\u00e4 korjaus",
+    "target": "47 V\u00e4hitt\u00e4iskauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "value": 27.132
+  },
+  {
+    "source": "46 Tukkukauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "target": "01 Kasvinviljely ja kotiel\u00e4intalous, riistatalous ja niihin liittyv\u00e4t palvelut",
+    "value": 123.341
+  },
+  {
+    "source": "46 Tukkukauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "target": "02 Mets\u00e4talous ja puunkorjuu",
+    "value": 48.155
+  },
+  {
+    "source": "46 Tukkukauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "target": "03 Kalastus ja vesiviljely",
+    "value": 2.642
+  },
+  {
+    "source": "46 Tukkukauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "target": "B Kaivostoiminta ja louhinta (05-09)",
+    "value": 42.75
+  },
+  {
+    "source": "46 Tukkukauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "target": "10-12 Elintarviketeollisuus ym.",
+    "value": 273.549
+  },
+  {
+    "source": "46 Tukkukauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "target": "13-15 Tekstiiliteollisuus",
+    "value": 46.277
+  },
+  {
+    "source": "46 Tukkukauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "target": "16 Sahatavaran sek\u00e4 puu- ja korkkituotteiden valmistus (pl. huonekalut); olki- ja punontatuotteiden valmistus",
+    "value": 577.055
+  },
+  {
+    "source": "46 Tukkukauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "target": "17 Paperin, paperi- ja kartonkituotteiden valmistus",
+    "value": 599.178
+  },
+  {
+    "source": "46 Tukkukauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "target": "18 Painaminen ja tallenteiden j\u00e4ljent\u00e4minen",
+    "value": 33.522
+  },
+  {
+    "source": "46 Tukkukauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "target": "19 Koksin ja jalostettujen \u00f6ljytuotteiden valmistus",
+    "value": 122.027
+  },
+  {
+    "source": "46 Tukkukauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "target": "20 Kemikaalien ja kemiallisten tuotteiden valmistus",
+    "value": 126.459
+  },
+  {
+    "source": "46 Tukkukauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "target": "21 L\u00e4\u00e4keaineiden ja l\u00e4\u00e4kkeiden valmistus",
+    "value": 24.095
+  },
+  {
+    "source": "46 Tukkukauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "target": "22 Kumi- ja muovituotteiden valmistus",
+    "value": 63.122
+  },
+  {
+    "source": "46 Tukkukauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "target": "23 Muiden ei-metallisten mineraalituotteiden valmistus",
+    "value": 89.289
+  },
+  {
+    "source": "46 Tukkukauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "target": "24 Metallien jalostus",
+    "value": 455.205
+  },
+  {
+    "source": "46 Tukkukauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "target": "25 Metallituotteiden valmistus (pl. koneet ja laitteet)",
+    "value": 110.539
+  },
+  {
+    "source": "46 Tukkukauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "target": "26 Tietokoneiden sek\u00e4 elektronisten ja optisten tuotteiden valmistus",
+    "value": 161.08
+  },
+  {
+    "source": "46 Tukkukauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "target": "27 S\u00e4hk\u00f6laitteiden valmistus",
+    "value": 237.985
+  },
+  {
+    "source": "46 Tukkukauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "target": "28 Muiden koneiden ja laitteiden valmistus",
+    "value": 426.668
+  },
+  {
+    "source": "46 Tukkukauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "target": "29 Moottoriajoneuvojen, per\u00e4vaunujen ja puoliper\u00e4vaunujen valmistus",
+    "value": 87.367
+  },
+  {
+    "source": "46 Tukkukauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "target": "30 Muiden kulkuneuvojen valmistus",
+    "value": 121.677
+  },
+  {
+    "source": "46 Tukkukauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "target": "31, 32 Muu valmistus ml. huonekalut",
+    "value": 72.287
+  },
+  {
+    "source": "46 Tukkukauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "target": "33 Koneiden ja laitteiden korjaus, huolto ja asennus",
+    "value": 114.542
+  },
+  {
+    "source": "46 Tukkukauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "target": "35 S\u00e4hk\u00f6-, kaasu- ja l\u00e4mp\u00f6huolto, j\u00e4\u00e4hdytysliiketoiminta",
+    "value": 327.552
+  },
+  {
+    "source": "46 Tukkukauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "target": "36 Veden otto, puhdistus ja jakelu",
+    "value": 12.432
+  },
+  {
+    "source": "46 Tukkukauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "target": "37-39 J\u00e4te- ja j\u00e4tevesihuolto",
+    "value": 96.513
+  },
+  {
+    "source": "46 Tukkukauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "target": "F Rakentaminen (41-43)",
+    "value": 1603.45
+  },
+  {
+    "source": "46 Tukkukauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "target": "45 Moottoriajoneuvojen ja moottoripy\u00f6rien tukku- ja v\u00e4hitt\u00e4iskauppa sek\u00e4 korjaus",
+    "value": 81.206
+  },
+  {
+    "source": "46 Tukkukauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "target": "46 Tukkukauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "value": 177.838
+  },
+  {
+    "source": "46 Tukkukauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "target": "47 V\u00e4hitt\u00e4iskauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "value": 147.772
+  },
+  {
+    "source": "47 V\u00e4hitt\u00e4iskauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "target": "01 Kasvinviljely ja kotiel\u00e4intalous, riistatalous ja niihin liittyv\u00e4t palvelut",
+    "value": 12.766
+  },
+  {
+    "source": "47 V\u00e4hitt\u00e4iskauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "target": "02 Mets\u00e4talous ja puunkorjuu",
+    "value": 21.46
+  },
+  {
+    "source": "47 V\u00e4hitt\u00e4iskauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "target": "03 Kalastus ja vesiviljely",
+    "value": 1.156
+  },
+  {
+    "source": "47 V\u00e4hitt\u00e4iskauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "target": "B Kaivostoiminta ja louhinta (05-09)",
+    "value": 14.201
+  },
+  {
+    "source": "47 V\u00e4hitt\u00e4iskauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "target": "10-12 Elintarviketeollisuus ym.",
+    "value": 26.573
+  },
+  {
+    "source": "47 V\u00e4hitt\u00e4iskauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "target": "13-15 Tekstiiliteollisuus",
+    "value": 2.008
+  },
+  {
+    "source": "47 V\u00e4hitt\u00e4iskauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "target": "16 Sahatavaran sek\u00e4 puu- ja korkkituotteiden valmistus (pl. huonekalut); olki- ja punontatuotteiden valmistus",
+    "value": 12.3
+  },
+  {
+    "source": "47 V\u00e4hitt\u00e4iskauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "target": "17 Paperin, paperi- ja kartonkituotteiden valmistus",
+    "value": 22.663
+  },
+  {
+    "source": "47 V\u00e4hitt\u00e4iskauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "target": "18 Painaminen ja tallenteiden j\u00e4ljent\u00e4minen",
+    "value": 2.339
+  },
+  {
+    "source": "47 V\u00e4hitt\u00e4iskauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "target": "19 Koksin ja jalostettujen \u00f6ljytuotteiden valmistus",
+    "value": 1.575
+  },
+  {
+    "source": "47 V\u00e4hitt\u00e4iskauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "target": "20 Kemikaalien ja kemiallisten tuotteiden valmistus",
+    "value": 15.528
+  },
+  {
+    "source": "47 V\u00e4hitt\u00e4iskauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "target": "21 L\u00e4\u00e4keaineiden ja l\u00e4\u00e4kkeiden valmistus",
+    "value": 2.995
+  },
+  {
+    "source": "47 V\u00e4hitt\u00e4iskauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "target": "22 Kumi- ja muovituotteiden valmistus",
+    "value": 5.474
+  },
+  {
+    "source": "47 V\u00e4hitt\u00e4iskauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "target": "23 Muiden ei-metallisten mineraalituotteiden valmistus",
+    "value": 5.111
+  },
+  {
+    "source": "47 V\u00e4hitt\u00e4iskauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "target": "24 Metallien jalostus",
+    "value": 47.991
+  },
+  {
+    "source": "47 V\u00e4hitt\u00e4iskauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "target": "25 Metallituotteiden valmistus (pl. koneet ja laitteet)",
+    "value": 10.112
+  },
+  {
+    "source": "47 V\u00e4hitt\u00e4iskauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "target": "26 Tietokoneiden sek\u00e4 elektronisten ja optisten tuotteiden valmistus",
+    "value": 69.005
+  },
+  {
+    "source": "47 V\u00e4hitt\u00e4iskauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "target": "27 S\u00e4hk\u00f6laitteiden valmistus",
+    "value": 6.423
+  },
+  {
+    "source": "47 V\u00e4hitt\u00e4iskauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "target": "28 Muiden koneiden ja laitteiden valmistus",
+    "value": 22.697
+  },
+  {
+    "source": "47 V\u00e4hitt\u00e4iskauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "target": "29 Moottoriajoneuvojen, per\u00e4vaunujen ja puoliper\u00e4vaunujen valmistus",
+    "value": 1.707
+  },
+  {
+    "source": "47 V\u00e4hitt\u00e4iskauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "target": "30 Muiden kulkuneuvojen valmistus",
+    "value": 2.345
+  },
+  {
+    "source": "47 V\u00e4hitt\u00e4iskauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "target": "31, 32 Muu valmistus ml. huonekalut",
+    "value": 4.027
+  },
+  {
+    "source": "47 V\u00e4hitt\u00e4iskauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "target": "33 Koneiden ja laitteiden korjaus, huolto ja asennus",
+    "value": 5.378
+  },
+  {
+    "source": "47 V\u00e4hitt\u00e4iskauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "target": "35 S\u00e4hk\u00f6-, kaasu- ja l\u00e4mp\u00f6huolto, j\u00e4\u00e4hdytysliiketoiminta",
+    "value": 14.327
+  },
+  {
+    "source": "47 V\u00e4hitt\u00e4iskauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "target": "36 Veden otto, puhdistus ja jakelu",
+    "value": 0.484
+  },
+  {
+    "source": "47 V\u00e4hitt\u00e4iskauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "target": "37-39 J\u00e4te- ja j\u00e4tevesihuolto",
+    "value": 1.319
+  },
+  {
+    "source": "47 V\u00e4hitt\u00e4iskauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "target": "F Rakentaminen (41-43)",
+    "value": 287.808
+  },
+  {
+    "source": "47 V\u00e4hitt\u00e4iskauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "target": "45 Moottoriajoneuvojen ja moottoripy\u00f6rien tukku- ja v\u00e4hitt\u00e4iskauppa sek\u00e4 korjaus",
+    "value": 22.46
+  },
+  {
+    "source": "47 V\u00e4hitt\u00e4iskauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "target": "46 Tukkukauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "value": 102.526
+  },
+  {
+    "source": "47 V\u00e4hitt\u00e4iskauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "target": "47 V\u00e4hitt\u00e4iskauppa (pl. moottoriajoneuvojen ja moottoripy\u00f6rien kauppa)",
+    "value": 87.738
+  }
+]
