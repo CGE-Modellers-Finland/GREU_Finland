@@ -1,0 +1,5 @@
+$env:GAMS = "C:\Program Files\GAMS\studio\studio.exe"
+venv lisätty
+
+venv tehty executableksi
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
