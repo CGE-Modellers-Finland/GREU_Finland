@@ -11,13 +11,14 @@ $Group+ calibration_endogenous - nonexisting; # Remove any non-existing elements
 # ------------------------------------------------------------------------------
 set_time_periods(%calibration_year%, %calibration_year%);
 
-# Set starting values for main_endogenous variables if no other value is given
-$LOOP calibration_endogenous:
+# Set starting values for calibration_endogenous variables if no other value is given in the modules
+$Group default_starting_values calibration_endogenous, - non_default_starting_values;
+$LOOP default_starting_values:
   {name}.l{sets}$({conditions} and {name}.l{sets} = 0) = 0.99;
 $ENDLOOP
 
-# For negative variables (specifically dInstCost2dKLag_k_i), they are reset to 0.99, so we manually fix this here
-dInstCost2dKLag_k_i.l[k,i,t]$(t1.val <= t.val and t.val <= tEnd.val and d1K_k_i[k,i,t]) = dInstCost2dKLag_k_i.l[k,i,t0];
+# Module-specific starting values specified in the modules are loaded
+factor_demand_calibration_starting_values
 
 # If installation costs are disabled (if fInstCost_k_i is zero, installation costs are zero)
 # we manually set relevant installation cost variables to zero
@@ -75,15 +76,6 @@ $ENDLOOP
 # Set starting values for endogenous variables value in t1
 $LOOP calibration_endogenous: 
 	{name}.l{sets}$({conditions} and {name}.l{sets} = 0) = {name}.l{sets}{$}[<t>t1];
-	{name}.l{sets}$({conditions} and {name}.l{sets} = 0) = 0.99;
-$ENDLOOP
-
-# For negative variables (specifically dInstCost2dKLag_k_i), they are reset to 0.99, so we manually fix this here
-dInstCost2dKLag_k_i.l[k,i,t]$(t1.val <= t.val and t.val <= tEnd.val and d1K_k_i[k,i,t]) = dInstCost2dKLag_k_i.l[k,i,t0];
-
-# Same procedure for the dynamic calibration
-$LOOP instcost_variables:
-	{name}.l{sets}$({conditions} and fInstCost_k_i.l[k,i] = 0) = 0;
 $ENDLOOP
 
 $FIX all_variables; $UNFIX calibration_endogenous;

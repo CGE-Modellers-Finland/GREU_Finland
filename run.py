@@ -46,7 +46,8 @@ os.environ["GAMS"] = os.environ.get("GAMS") or _load_gams_from_user_config(root)
 ## Set working directory
 os.chdir(fr"{root}/model")
 
-# ## Create data.gdx based on GreenREFORM-DK data 
+## Create data.gdx based on GreenREFORM-DK data 
+import data.Modules.financial_accounts.financial_accounts_data
 dt.gamY.run("../data/data_from_GR.gms")
 
 ## Run the base CGE model - creating main_CGE.gdx

@@ -14,3 +14,5 @@ fin-data/*
 
 user-specific-configs/*
 !user-specific-configs/*template.*
+
+/model/saved
