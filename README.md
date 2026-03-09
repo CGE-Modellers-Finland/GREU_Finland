@@ -12,6 +12,12 @@ The upstream repository's (DREAM-DK/GREU) README-file:
 The source code defining all the model equations can be found in the [model subdirectory](model).
 The run.py shows the order in which the files are usually run.
 
+
+## Project structure
+Strict separation of executable code and user data. All PATH variables or other information that varies along users must be put to 'user-specific-configs' folder. All executable codes find the necessary variables and API keys etc. from here.
+All files in the folder 'user-specific-configs' are not recordd by git unless they have the string "template." in the name. These files should be copied without the template and filled the entries for the program to run.
+
+
 ## Module structure
 The entire code base can be thought of as a matrix structure, with phases as rows and submodels as columns.
 The phases are:

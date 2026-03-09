@@ -11,3 +11,6 @@
 
 fin-data/*
 !fin-data/.data-instructions.txt
+
+user-specific-configs/*
+!user-specific-configs/*template.*
