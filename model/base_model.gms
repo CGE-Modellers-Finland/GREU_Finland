@@ -15,7 +15,7 @@ $IMPORT sets/production.sets.gms
 $IMPORT sets/households.sets.gms
 $IMPORT sets/emissions.sets.gms
 $IMPORT sets/energy_taxes_and_emissions.sets.gms
-$IMPORT sets/abatement.sets.gms
+$IMPORT sets/energy_technology.sets.gms
 $IMPORT sets/subsets.sets.gms
 $IMPORT sets/energy_outputs.sets.gms
 
@@ -27,8 +27,9 @@ set_time_periods(%first_data_year%, %terminal_year%);
 # This function imports modules at different stages of model construction
 # - variables: Import variable declarations
 # - equations: Import equation definitions  
-# - calibration: Import calibration-specific logic
 # - exogenous_values: Import exogenous data
+# - starting_values: Import starting values for calibration
+# - calibration: Import calibration-specific logic
 # - tests: Import test procedures
 
 #A zero in the second column means that the equations and endogenous variables of the module in question are neither 
@@ -58,15 +59,15 @@ $FUNCTION import_from_modules({stage_key}):
     ## GREEN TRANSITION MODULES
     ("modules/emissions.gms" , 1),
     ("modules/energy_markets.gms" , 1),
-    ("modules/energy_and_emissions_taxes.gms" , 1),
     ("modules/non_energy_markets.gms", 1),
     ("modules/production_CES_energydemand.gms", 1),
     ("modules/production.gms" , 1),
+    ("modules/energy_and_emissions_taxes.gms" , 1),
     ("modules/production_CET.gms", 1),
     ("modules/factor_demand_energy.gms", 1),
     ("modules/consumption_disaggregated_energy.gms", 1),
     ("modules/exports_energy.gms", 1),
-    ("modules/abatement.gms", 1),
+    ("modules/energy_technology.gms", 1),
 
     ## REPORTING MODULES
     ("Report/All.Report.gms", 1),     
@@ -109,6 +110,7 @@ main.optfile=1;
 # =============================================================================
 @import_from_modules("exogenous_values")
 @inf_growth_adjust()
+$GROUP data_covered_variables data_covered_variables$(tDataEnd[t]);
 @set(data_covered_variables, _data, .l) # Save values of data covered variables prior to calibration
 
 @update_exist_dummies()
@@ -116,7 +118,9 @@ main.optfile=1;
 # =============================================================================
 # CALIBRATION
 # =============================================================================
-d1switch_abatement[t] = 0; # We turn the abatement model off while calibrating the CGE-model
+d1switch_energy_technology = 0; # We turn the energy technology model off while calibrating the CGE-model
+
+@import_from_modules("starting_values")
 
 $Group calibration_endogenous ;
 @import_from_modules("calibration")
@@ -128,7 +132,9 @@ $IMPORT calibration.gms
 # =============================================================================
 $IF %test_CGE%:
 
+@import_from_modules("tests_baseline")
 @import_from_modules("tests")
+
 # Data check  -  Abort if any data covered variables have been changed by the calibration
 # @assert_no_difference(data_covered_variables, 1e-6, _data, .l, "data_covered_variables was changed by calibration.");
 

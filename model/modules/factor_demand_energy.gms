@@ -6,15 +6,15 @@ $IF %stage% == "variables":
 $SetGroup+ SG_flat_after_last_data_year
   d1E_re_i[re,i,t] "Dummy. Does industry i use energy inputs for purpose re?"
   d1E_i[i,t] "Dummy. Does industry i use energy inputs?"
+  d1Invt_ene_i[i,t] "Dummy. Does industry i use energy inputs for inventory investments?"
 ;
 
 $Group+ all_variables
-  qInvt_ene_i[i,t] "Net real inventory investments in energy by industry."
-  vInvt_ene_i[i,t] "Net inventory investments in energy by industry."
+  qInvt_ene_i[i,t]$(d1Invt_ene_i[i,t]) "Net real inventory investments in energy by industry."
+  vInvt_ene_i[i,t]$(d1Invt_ene_i[i,t]) "Net inventory investments in energy by industry."
 
-  jDelta_qESK[k,i,t]$(d1K_k_i[k,i,t] and sameas[k,'iM']) "Additional investments from abatement model (endogenized by abatement module)."
-
-  qInvt_ene2qY_i[i,t] "Inventory investment in energy to output ration by industry"
+  qInvt_ene2qY_i[i,t]$(d1Invt_ene_i[i,t]) "Inventory investment in energy to output ration by industry"
+ 
   qE2qY_re_i[re,i,t]$(d1E_re_i[re,i,t]) "Demand for intermediate energy inputs to output ratio by industry."
   pE_re_i[re,i,t]$(d1E_re_i[re,i,t]) "Price index of energy inputs, by industry."
   qE_re_i[re,i,t]$(d1E_re_i[re,i,t]) "Real energy inputs by industry."
@@ -75,10 +75,27 @@ $Group+ data_covered_variables factor_demand_energy_data_variables$(t.val <= %ca
 
 d1E_re_i[re,i,t] = abs(qE_re_i.l[re,i,t]) > 1e-9;
 d1E_i[i,t]       = yes$(sum(re, d1E_re_i[re,i,t]));
+d1Invt_ene_i[i,t]= abs(qInvt_ene_i.l[i,t]) > 1e-9;
+
 
 pE_re_i.l[re,i,t]$d1E_re_i[re,i,t] = fpt[t];
 
 $ENDIF # exogenous_values
+
+# ------------------------------------------------------------------------------
+# Starting values
+# ------------------------------------------------------------------------------
+$IF %stage% == "starting_values":
+
+set_time_periods(%calibration_year%, %calibration_year%);
+
+$Group non_default_starting_values
+  # Variables that require custom starting values
+;
+
+# Set custom starting values for the variables in non_default_starting_values here
+
+$ENDIF # starting_values
 
 # ------------------------------------------------------------------------------
 # Calibration
@@ -108,12 +125,6 @@ $Group+ G_flat_after_last_data_year
   qInvt_ene2qY_i[i,t]
 ;
 
-# These are excluded from default_starting_values in calibration.gms
-$Group non_default_starting_values
-;
-
-# Macro to set custom starting values for the variables in non_default_starting_values (called from calibration.gms)
-$MACRO factor_demand_energy_calibration_starting_values
 
 $ENDIF # calibration
 

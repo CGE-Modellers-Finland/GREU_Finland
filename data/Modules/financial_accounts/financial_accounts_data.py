@@ -4,6 +4,9 @@ import pandas as pd
 import gamspy as gp
 import eurostat 
 import os
+import time
+import importlib.util
+
 
 ## SETTINGS
 geo_list = ['DK']
@@ -15,8 +18,8 @@ n = gp.Container()
 pd.set_option("mode.copy_on_write", True)
 
 data_sets = {}
-# Sector set: Corp, Gov, Hh, RoW
-data_sets['sector'] = ['Corp', 'Gov', 'Hh', 'RoW']
+# Sector set: FinCorp, NonFinCorp, Gov, Hh, RoW
+data_sets['sector'] = ['FinCorp', 'NonFinCorp', 'Gov', 'Hh', 'RoW']
 
 # Insert sets into container
 t_list = [year for year in range(1980, 2100)] # List of model years
@@ -36,15 +39,43 @@ filter_pars_financial_accounts = {
     'na_item': ['F','F1','F11','F2','F3','F4','F5','F51','F6','F7','F8'],
     'co_nco': 'CO'
 }
-data_financial_accounts = eurostat.get_data_df(code_financial_accounts, filter_pars=filter_pars_financial_accounts)
+#Get Eurostat from API or cache
+CACHE_DIR = "../data/Modules/financial_accounts/cache"
+os.makedirs(CACHE_DIR, exist_ok=True)
+MAX_AGE = 31 * 24 * 3600  # If data is older than one month, reobtain cache
+
+def get_eurostat_cached_safe(code, filters, cache_name):
+    cache_path = os.path.join(CACHE_DIR, f"{cache_name}.parquet")
+
+    # Try API first
+    try:
+        print("Trying Eurostat...")
+        df = eurostat.get_data_df(code, filter_pars=filters)
+        if not (os.path.exists(cache_path) and os.path.getmtime(cache_path) > time.time() - MAX_AGE):
+            if importlib.util.find_spec("pyarrow") is not None:
+                print('Backup either does not exist or is deprecated, updating cache')
+                df.to_parquet(cache_path)
+        return df
+
+    except Exception as e:
+        print("API failed:", e)
+
+        # Fallback to cache
+        if os.path.exists(cache_path):
+            print("Falling back to cached data")
+            return pd.read_parquet(cache_path)
+
+        raise RuntimeError("No cache available and API failed")
+
+
+data_financial_accounts = get_eurostat_cached_safe(code_financial_accounts, filters=filter_pars_financial_accounts, cache_name='financial_accounts_data')
 data_financial_accounts = pd.melt(data_financial_accounts, id_vars=['sector','finpos','na_item'], value_vars=list(map(str, range(year_start, year_end + 1))), var_name='year', value_name='level')
 data_financial_accounts['level'] = data_financial_accounts['level']/1000
 
 # Helper function to process financial data (filter, aggregate, calculate net) and return only net values
 def process_financial_data(df, na_items):
     result = (df[df["na_item"].isin(na_items)].groupby(["sector", "finpos", "year"], as_index=False).agg(level=("level", "sum"))
-              .replace({"sector": {"S11": "Corp", "S12": "Corp", "S13": "Gov", "S14": "Hh", "S15": "Hh", "S2": "RoW"},"finpos": {"ASS": "as", "LIAB": "li"}})
-              .groupby(["sector", "finpos", "year"], as_index=False).agg({"level": "sum"}))
+              .replace({"sector": {"S11": "NonFinCorp", "S12": "FinCorp", "S13": "Gov", "S14": "Hh", "S15": "Hh", "S2": "RoW"},"finpos": {"ASS": "as", "LIAB": "li"}})              .groupby(["sector", "finpos", "year"], as_index=False).agg({"level": "sum"}))
     
     return (result.pivot(index=["sector", "year"], columns="finpos", values="level")
             .assign(level=lambda x: x["as"] - x["li"]).reset_index().rename(columns={'year': 't'})
@@ -55,6 +86,8 @@ def process_financial_data_minus_F11(df, na_items):
     base = process_financial_data(df, na_items)
     f11 = process_financial_data(df, ['F11'])
     return (base.merge(f11, on=['sector', 't'], suffixes=('_base', '_F11'), how='outer').fillna(0).assign(level=lambda x: x['level_base'] - x['level_F11'])[['sector', 't', 'level']])
+
+
 
 # Debt instruments = 
 # + F1  Monetary gold and special drawing rights (SDRs)
@@ -79,7 +112,7 @@ financial_assets = financial_assets[financial_assets['sector'] != 'RoW'].copy()
 debt_instruments = debt_instruments[debt_instruments['sector'] != 'RoW'].copy()
 equity_instruments = equity_instruments[equity_instruments['sector'] != 'RoW'].copy()
 
-# For each time period, RoW = -sum(Hh, Corp, Gov)
+# For each time period, RoW = -sum(Hh, FinCorp, NonFinCorp, Gov)
 row_finassets_list = []
 row_debt_list = []
 row_equity_list = []

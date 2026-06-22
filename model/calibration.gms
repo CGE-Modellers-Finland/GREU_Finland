@@ -17,15 +17,6 @@ $LOOP default_starting_values:
   {name}.l{sets}$({conditions} and {name}.l{sets} = 0) = 0.99;
 $ENDLOOP
 
-# Module-specific starting values specified in the modules are loaded
-factor_demand_calibration_starting_values
-
-# If installation costs are disabled (if fInstCost_k_i is zero, installation costs are zero)
-# we manually set relevant installation cost variables to zero
-$LOOP instcost_variables:
-	{name}.l{sets}$({conditions} and fInstCost_k_i.l[k,i] = 0) = 0;
-$ENDLOOP
-
 $FIX all_variables; $UNFIX calibration_endogenous;
 
 execute_unload 'Output/static_calibration_pre.gdx';
@@ -88,5 +79,17 @@ solve calibration using CNS;
 # @set_difference_parameters(data_covered_variables, _difference);    #This one sets the difference parameters to the difference between the current values and the values loaded from data
 # @load_previous_difference(data_covered_variables, _difference);     #This one loads previous differences from the previous_calibration.gdx file
 # @assert_no_difference(data_covered_variables, 1e-6, _difference, _previous_difference, "data_covered_variables does not change more than previously done so by calibration.");
-# @assert_no_difference(data_covered_variables, 1e-6, _data,.l, "data_covered_variables does not change more than previously done so by calibration."); #Ideally this check should be done rather than "diff-in-diff" above
 execute_unloaddi "Output/calibration.gdx";
+$GROUP G_test_data_covered_variables 
+	data_covered_variables, 
+	-vtY_i_d[i,d_ene,t], #When energy is turned on the distribution (i x d_ene changes). The total is still tested in bottom of "energy_and_emissions.gms" 
+	-vtM_i_d[i,d_ene,t], #When energy is turned on the distribution (i x d_ene changes). The total is still tested in bottom of "energy_and_emissions.gms" 
+	-vY_i_d[i,d_ene,t],  #When energy is turned on the distribution (i x d_ene changes). The total is still tested in bottom of "energy_and_emissions.gms"
+	-vM_i_d[i,d_ene,t],  #When energy is turned on the distribution (i x d_ene changes). The total is still tested in bottom of "energy_and_emissions.gms"
+	-qD[d_ene,t], #Not data, but calibrated
+	-qD[k],  #Not data, but calibrated
+	-pProd #Not data, but calibrated
+	-vNetFinAssets #?
+	-vNetDebtInstruments
+; 
+@assert_no_difference(G_test_data_covered_variables, 1e-6, _data,.l, "data_covered_variables does not change more than previously done so by calibration."); #Ideally this check should be done rather than "diff-in-diff" above

@@ -434,9 +434,7 @@ $PGROUP PG_GREU_data
   vtE_vat[es,e,d,t]  "VAT-revenue on energy by energy-service, energy-good and demand component"
   qEpj[es,e,d,t] "Energy consumption by energy-service, energy-good and demand component"
   qEpj_own[es,e,d,t] "Energy consumption from own-production by energy-service, energy-good and demand component"
-  vWMA[es,e,d,t] "Margins on wholesale of energy by energy-service, energy-good and demand component"
-  vCMA[es,e,d,t] "Margins on energy sold from car-dealerships, by energy-service, energy-good and demand component"
-  vRMA[es,e,d,t] "Margins on energy sold reatil, by energy-service, energy-good and demand component"
+  vE_margins[es,e,d,i,t] "Margins on energy sold by energy-service, energy-good, demand component and industry"
   qEmmE_BU[em,es,e,d,t] "Energy-related emissions by emission-type, energy-service, energy-good, and demand component"
   qEmmxE[em,d,t] "Non-energy related emissions by emission-type and demand component"
   tCO2_Emarg[em,es,e,d,t] "Marginal carbon taxes by emission-type, energy-service, energy-good, and demand component"  
@@ -462,7 +460,7 @@ $PGROUP PG_GREU_data
   qProd[factors_of_production,i,t] "Factors of production, value"
   pProd[factors_of_production,i,t] "Factors of production, price"
 
-  # Abatement
+  # Energy technology
   #theta_load[l,es,i,e,t] "Potential, technology."
   #uTE_load[l,es,i,e,t] "Energy use, technology."
   #uTK_load[l,es,i,e,t] "Capital use, technology."
@@ -527,10 +525,10 @@ pM_CET['out_other',i,t]$qM_CET['out_other',i,t] = 1;
 #Energy and emissions.
   pEpj_base[es,e,d,t]$(sum(demand_transaction_temp, Energybalance['PJ',demand_transaction_temp,d,es,e,t])) = sum(demand_transaction_temp, Energybalance['BASE',demand_transaction_temp,d,es,e,t])/sum(demand_transaction_temp, Energybalance['PJ',demand_transaction_temp,d,es,e,t]);
   qEpj[es,e,d,t] = sum(demand_transaction_temp, Energybalance['PJ',demand_transaction_temp,d,es,e,t]);
-
-  vWMA[es,e,d,t] = sum(demand_transaction_temp, Energybalance['EAV',demand_transaction_temp,d,es,e,t]);
-  vCMA[es,e,d,t] = sum(demand_transaction_temp, Energybalance['CAV',demand_transaction_temp,d,es,e,t]);
-  vRMA[es,e,d,t] = sum(demand_transaction_temp, Energybalance['DAV',demand_transaction_temp,d,es,e,t]);
+ 
+  vE_margins[es,e,d,i,t]$(sameas[i,'46000']) = sum(demand_transaction_temp, Energybalance['EAV',demand_transaction_temp,d,es,e,t]); 
+  vE_margins[es,e,d,i,t]$(sameas[i,'45000']) = sum(demand_transaction_temp, Energybalance['CAV',demand_transaction_temp,d,es,e,t]); 
+  vE_margins[es,e,d,i,t]$(sameas[i,'47000']) = sum(demand_transaction_temp, Energybalance['DAV',demand_transaction_temp,d,es,e,t]); 
 
   #Own-consumption is handled relatively ad hoc
   qY_CETgross[e,i,t] = sum(es, Energybalance['PJ','production',i,es,e,t]);
@@ -577,6 +575,9 @@ pM_CET['out_other',i,t]$qM_CET['out_other',i,t] = 1;
 
 
   qEmmTot[em,em_accounts,t] = sum((es,e,d), qEmmE_BU[em,es,e,d,t]) + sum(d, qEmmxE[em,d,t]);
+
+  parameter test_qEmmCO2eData[t]; 
+  test_qEmmCO2eData[t]=qEmmTot['co2e','gna',t];
 
   qEmmBunkering[em,t] = sum((demand_transaction_temp,es,d,e)$(eBunkering[e]), Energybalance[em,demand_transaction_temp,d,es,e,t]);
 
@@ -636,9 +637,9 @@ pM_CET['out_other',i,t]$qM_CET['out_other',i,t] = 1;
   vtE_duty[etaxes,es,e,d,t] = sum(demand_transaction_temp, Energybalance[etaxes,demand_transaction_temp,d,es,e,t]);
   vtE_vat[es,e,d,t]          = sum(demand_transaction_temp, Energybalance['VAT',demand_transaction_temp,d,es,e,t]);
 
-  # Abatement
-  # Create calibrated abatement data that matches historical energy use
-  $import Abatement_data/calib_abatement_techs.gms
+  # Energy technology
+  # Create calibrated energy technology data that matches historical energy use
+  $import Energy_technology_data/Generic_dummy_data/calib_energy_technologies.gms
 
 
 ###  F) Unload gdx with data in parameters with same names as model-variables, to be read into model
